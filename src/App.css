@@ -32,7 +32,29 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  /* overflow-y: scroll; */
+  /* cursor: none; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#canvas {
+  background-color: #2c343f;
+  width: 100%;
+  height: 100vh;
 }
