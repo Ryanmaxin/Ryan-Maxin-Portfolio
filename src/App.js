@@ -1,13 +1,20 @@
-import Nodes from './nodes'
 import './App.css';
-import FacePlate from './facePlate/facePlate';
+import { BrowserRouter as Router, Route, Routes, Redirect } from 'react-router-dom'
+import HomePage from './homePage/homePage';
+import Projects from './projects/projects';
+import About from './about/about';
 
 function App() {
   return (
-    <div id="App">
-      <Nodes />
-      <FacePlate />
-    </div>
+    <Router>
+      <div id="App">
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/projects" element={<Projects />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

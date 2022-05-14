@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import './nodes.css'
 
 const Nodes = () => {
     let canvas, ctx, points, mouse, width, height
@@ -166,10 +167,10 @@ const Nodes = () => {
                     const thisLarge = this.radius >= 50
                     const targetLarge = points[i].radius >= 50
                     let lineWidth = 1
-                    if (thisMed && (targetMed || targetLarge)) {
+                    if ((thisMed || thisLarge) && (targetMed || targetLarge)) {
                         lineWidth = 6
                     }
-                    else if (thisLarge && targetLarge) {
+                    else if (thisLarge && (targetLarge)) {
                         lineWidth = 10
                     }
 
