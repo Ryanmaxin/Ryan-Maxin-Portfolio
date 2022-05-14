@@ -1,0 +1,11 @@
+#facePlate {
+  position: absolute;
+  top: 50%;
+  width: 90%;
+  left: 5%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  z-index: 999;
+}

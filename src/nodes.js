@@ -1,12 +1,15 @@
-const nodes = () => {
-    let canvas, ctx, points, mouse, masterCircle, width, height
-    let animateHeader = true
+import { useEffect } from "react"
 
+const Nodes = () => {
+    let canvas, ctx, points, mouse, width, height
+    let animateHeader = true
+    useEffect(() => {
+        initialize();
+        animate()
+        addListeners();
+    }, [])
     let connectingDistance = 50
-    // Main
-    initialize();
-    animate()
-    addListeners();
+    // // Main
 
     function initialize() {
         height = window.innerHeight;
@@ -39,13 +42,13 @@ const nodes = () => {
                 dx = getRandom(-0.15, 0.15)
                 dy = getRandom(-0.15, 0.15)
             }
-            let x = Math.random() * (innerWidth - (radius * 2)) + radius
-            let y = Math.random() * (innerHeight - (radius * 2)) + radius
+            let x = Math.random() * (width - (radius * 2)) + radius
+            let y = Math.random() * (height - (radius * 2)) + radius
             if (i !== 0) {
                 for (let j = 0; j < points.length; j++) {
                     if ((getDistance({ x: x, y: y }, points[j].pos) - radius) - points[j].radius < 0) { //|| (getDistance({ x: x, y: y }, masterCircle.pos) - radius) - masterCircle.radius < 0
-                        x = Math.random() * (innerWidth - (radius * 2)) + radius
-                        y = Math.random() * (innerHeight - (radius * 2)) + radius
+                        x = Math.random() * (width - (radius * 2)) + radius
+                        y = Math.random() * (height - (radius * 2)) + radius
                         j = - 1
                     }
 
@@ -124,7 +127,7 @@ const nodes = () => {
         requestAnimationFrame(animate);
     }
 
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     function Circle(pos, color, radius, dx, dy) {
 
         this.pos = pos
@@ -145,20 +148,35 @@ const nodes = () => {
             ctx.fill();
         };
         this.update = points => {
-            if (this.pos.x + this.radius >= innerWidth || this.pos.x - this.radius <= 0) {
+            if (this.pos.x + this.radius >= width || this.pos.x - this.radius <= 0) {
                 this.velocity.x = -this.velocity.x
             }
-            if (this.pos.y + this.radius >= innerHeight || this.pos.y - this.radius <= 0) {
+            if (this.pos.y + this.radius >= height || this.pos.y - this.radius <= 0) {
                 this.velocity.y = -this.velocity.y
             }
 
 
             for (let i = points.indexOf(this); i < points.length; i++) {
                 if (this !== points[i]) {
+                    const distance = getDistance(this.pos, points[i].pos) - this.radius - points[i].radius
+                    const thisSmall = (this.radius < 20)
+                    const targetSmall = (points[i].radius < 20)
+                    const thisMed = (this.radius >= 20 && this.radius < 30)
+                    const targetMed = ((points[i].radius >= 20) && (points[i].radius < 30))
+                    const thisLarge = this.radius >= 50
+                    const targetLarge = points[i].radius >= 50
+                    let lineWidth = 1
+                    if (thisMed && (targetMed || targetLarge)) {
+                        lineWidth = 6
+                    }
+                    else if (thisLarge && targetLarge) {
+                        lineWidth = 10
+                    }
+
                     if ((getDistance(this.pos, points[i].pos) - this.radius) - points[i].radius < 0) { //|| (getDistance(this.pos, masterCircle.pos) - this.radius) - masterCircle.radius < 0
                         resolveCollision(this, points[i])
                     }
-                    else if (((this.radius < 20) && ((points[i].radius < 20) || (points[i].radius >= 20 && points[i].radius < 30))) && (getDistance(this.pos, points[i].pos) - this.radius) - points[i].radius <= 50 * (width / 1920)) {
+                    else if ((thisSmall && (targetSmall || targetMed)) && distance <= 50) {
                         ctx.beginPath();
                         ctx.moveTo(this.pos.x, this.pos.y);
                         ctx.lineTo(points[i].pos.x, points[i].pos.y);
@@ -177,11 +195,11 @@ const nodes = () => {
                         // }
                         this.lineActive = (1 / Math.pow(Math.abs(getDistance(mouse, { x: (points[i].pos.x + this.pos.x) / 2, y: (points[i].pos.y + this.pos.y) / 2 }) / 100), 2)) - 0.1
                         ctx.strokeStyle = `rgb(81, 162, 233, ${this.lineActive})`;
-                        ctx.lineWidth = 1
+                        ctx.lineWidth = lineWidth
                         ctx.stroke();
                         ctx.closePath();
                     }
-                    else if (((this.radius >= 20 && this.radius < 30) && ((points[i].radius >= 20 && points[i].radius < 30) || (points[i].radius >= 50))) && (getDistance(this.pos, points[i].pos) - this.radius) - points[i].radius <= 100 * (width / 1920)) {
+                    else if ((thisMed && (targetSmall || targetMed || targetLarge)) && distance <= 100) {
                         ctx.beginPath();
                         ctx.moveTo(this.pos.x, this.pos.y);
                         ctx.lineTo(points[i].pos.x, points[i].pos.y);
@@ -200,11 +218,11 @@ const nodes = () => {
                         // }
                         this.lineActive = (1 / Math.pow(Math.abs(getDistance(mouse, { x: (points[i].pos.x + this.pos.x) / 2, y: (points[i].pos.y + this.pos.y) / 2 }) / 100), 2)) - 0.1
                         ctx.strokeStyle = `rgb(81, 162, 233, ${this.lineActive})`;
-                        ctx.lineWidth = 6
+                        ctx.lineWidth = lineWidth
                         ctx.stroke();
                         ctx.closePath();
                     }
-                    else if (this.radius >= 50 && points[i].radius >= 50 && (getDistance(this.pos, points[i].pos) - this.radius) - points[i].radius <= 200 * (width / 1920)) {
+                    else if ((thisLarge && (targetLarge || targetMed)) && distance <= 200) {
                         ctx.beginPath();
                         ctx.moveTo(this.pos.x, this.pos.y);
                         ctx.lineTo(points[i].pos.x, points[i].pos.y);
@@ -223,7 +241,7 @@ const nodes = () => {
                         // }
                         this.lineActive = (1 / Math.pow(Math.abs(getDistance(mouse, { x: (points[i].pos.x + this.pos.x) / 2, y: (points[i].pos.y + this.pos.y) / 2 }) / 100), 2)) - 0.1
                         ctx.strokeStyle = `rgb(81, 162, 233, ${this.lineActive})`;
-                        ctx.lineWidth = 10
+                        ctx.lineWidth = lineWidth
                         ctx.stroke();
                         ctx.closePath();
                     }
@@ -238,7 +256,7 @@ const nodes = () => {
 
     }
 
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Event handling
     function addListeners() {
         if (!('ontouchstart' in window)) {
@@ -273,7 +291,7 @@ const nodes = () => {
         mouse.x = posx;
         mouse.y = posy;
     }
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // Util
     function getDistance(p1, p2) {
@@ -329,4 +347,9 @@ const nodes = () => {
             otherParticle.velocity.y = vFinal2.y;
         }
     }
+    return (
+        <canvas id="canvas"></canvas>
+    );
 }
+
+export default Nodes

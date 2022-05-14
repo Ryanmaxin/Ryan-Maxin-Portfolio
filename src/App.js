@@ -1,12 +1,12 @@
-import nodes from './nodes'
+import Nodes from './nodes'
 import './App.css';
+import FacePlate from './facePlate/facePlate';
 
 function App() {
-
-  nodes()
   return (
-    <div className="App">
-      <canvas id="canvas"></canvas>
+    <div id="App">
+      <Nodes />
+      <FacePlate />
     </div>
   );
 }
