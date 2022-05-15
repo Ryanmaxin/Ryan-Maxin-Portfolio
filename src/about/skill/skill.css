@@ -1,0 +1,31 @@
+.skills {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 5vw;
+  row-gap: 10%
+}
+
+.skill {
+  width: 20vw;
+  height: 20vw;
+  flex-basis: auto;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.skill svg {
+  padding: 2vw 2vw 0 2vw;
+  height: 16vw
+}
+
+.skill h4 {
+  height: 4vw;
+}
+
+
+.skillName {
+  text-align: center;
+}
