@@ -56,7 +56,7 @@ const Nodes = () => {
                 }
             }
 
-            points.push(new Circle({ x: x, y: y }, 'rgba(255,255,255,0.3)', radius, dx, dy))
+            points.push(new Circle({ x: x, y: y }, radius, dx, dy))
 
         }
 
@@ -117,7 +117,7 @@ const Nodes = () => {
                 //     point.update(points)
                 //     // point.circle.active = 0;
                 // }
-                point.active = (1 / Math.pow(Math.abs(getDistance(mouse, point.pos) / 100), 2)) - 0.03
+                point.active = (1 / Math.pow(Math.abs(getDistance(mouse, point.pos) / 100), 2)) - 0.04
                 // point.lineActive = (1 / Math.pow(Math.abs(getDistance(mouse, point.pos) / 50), 2)) - 0.05
                 point.update(points)
 
@@ -129,23 +129,22 @@ const Nodes = () => {
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    function Circle(pos, color, radius, dx, dy) {
+    function Circle(pos, radius, dx, dy) {
 
         this.pos = pos
         this.radius = radius
         this.velocity = { x: dx, y: dy }
-        this.color = color
         this.mass = 1 / radius
 
         this.draw = function () {
             if (this.active <= 0) return;
             ctx.beginPath();
             ctx.arc(this.pos.x, this.pos.y, this.radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = '#2c343f';
+            ctx.fillStyle = '#272727';
             ctx.fill();
             ctx.closePath()
             ctx.arc(this.pos.x, this.pos.y, this.radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = 'rgba(81, 162, 233,' + this.active + ')';
+            ctx.fillStyle = `rgba(55, 114, 255,${this.active})`;
             ctx.fill();
         };
         this.update = points => {
@@ -195,7 +194,7 @@ const Nodes = () => {
                         //     distanceRatio = 0;
                         // }
                         this.lineActive = (1 / Math.pow(Math.abs(getDistance(mouse, { x: (points[i].pos.x + this.pos.x) / 2, y: (points[i].pos.y + this.pos.y) / 2 }) / 100), 2)) - 0.1
-                        ctx.strokeStyle = `rgb(81, 162, 233, ${this.lineActive})`;
+                        ctx.strokeStyle = `rgba(55, 114, 255, ${this.lineActive})`;
                         ctx.lineWidth = lineWidth
                         ctx.stroke();
                         ctx.closePath();
@@ -218,7 +217,7 @@ const Nodes = () => {
                         //     distanceRatio = 0;
                         // }
                         this.lineActive = (1 / Math.pow(Math.abs(getDistance(mouse, { x: (points[i].pos.x + this.pos.x) / 2, y: (points[i].pos.y + this.pos.y) / 2 }) / 100), 2)) - 0.1
-                        ctx.strokeStyle = `rgb(81, 162, 233, ${this.lineActive})`;
+                        ctx.strokeStyle = `rgba(55, 114, 255, ${this.lineActive})`;
                         ctx.lineWidth = lineWidth
                         ctx.stroke();
                         ctx.closePath();
@@ -241,7 +240,7 @@ const Nodes = () => {
                         //     distanceRatio = 0;
                         // }
                         this.lineActive = (1 / Math.pow(Math.abs(getDistance(mouse, { x: (points[i].pos.x + this.pos.x) / 2, y: (points[i].pos.y + this.pos.y) / 2 }) / 100), 2)) - 0.1
-                        ctx.strokeStyle = `rgb(81, 162, 233, ${this.lineActive})`;
+                        ctx.strokeStyle = `rgba(55, 114, 255, ${this.lineActive})`;
                         ctx.lineWidth = lineWidth
                         ctx.stroke();
                         ctx.closePath();

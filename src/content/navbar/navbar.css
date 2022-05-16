@@ -1,0 +1,12 @@
+#navbar {
+  margin: auto;
+  width: 30%;
+}
+
+#left {
+  border-radius: 0 0 0 1rem;
+}
+
+#right {
+  border-radius: 0 0 1rem 0;
+}

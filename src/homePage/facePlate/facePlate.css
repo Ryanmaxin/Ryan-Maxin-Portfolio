@@ -1,6 +1,6 @@
 #facePlate {
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: 90%;
   left: 5%;
   justify-content: center;
@@ -8,4 +8,12 @@
   display: flex;
   flex-flow: column wrap;
   z-index: 999;
+}
+
+.faceplateText {
+  color: #f2f4f3;
+}
+
+#emphasis {
+  color: #df2935
 }

@@ -1,10 +1,9 @@
-import Navbar from "../navbar/navbar";
+import Navbar from "../content/navbar/navbar";
 import Skill from "./skill/skill";
 import './about.css'
 const About = () => {
   return (
     <div id="about">
-      <Navbar />
       <h1>About Me</h1>
       <section>
         <h3>Hello, I am Ryan Maxin! &#128075;</h3>

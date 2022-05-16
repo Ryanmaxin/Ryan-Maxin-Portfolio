@@ -1,28 +1,24 @@
 .skills {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  column-gap: 5vw;
-  row-gap: 10%
+  column-gap: 5%;
+  row-gap: 2.5vh
 }
 
 .skill {
-  width: 20vw;
-  height: 20vw;
   flex-basis: auto;
-  border: 0.1rem solid black;
-  border-radius: 1rem;
+  border: 0.3rem solid black;
+  border-radius: 4rem;
   padding: 0.5rem;
+  max-width: 30%;
+  width: 30%;
+  flex: 1 1 auto
 }
 
 .skill svg {
   padding: 2vw 2vw 0 2vw;
-  height: 16vw
-}
-
-.skill h4 {
-  height: 4vw;
 }
 
 

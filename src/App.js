@@ -1,8 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Redirect } from 'react-router-dom'
 import HomePage from './homePage/homePage';
-import Projects from './projects/projects';
-import About from './about/about';
+import Content from './content/content';
 
 function App() {
   return (
@@ -10,8 +9,7 @@ function App() {
       <div id="App">
         <Routes>
           <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/content" element={<Content />} />
         </Routes>
       </div>
     </Router>

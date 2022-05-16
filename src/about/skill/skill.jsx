@@ -27,6 +27,10 @@ const Skill = ({ type }) => {
       return (
         <div className="skills">
           <div className="skill">
+            <JS />
+            <h4 className="skillName">Javascript</h4>
+          </div>
+          <div className="skill">
             <C />
             <h4 className="skillName">C</h4>
           </div>
@@ -47,16 +51,8 @@ const Skill = ({ type }) => {
             <h4 className="skillName">Java</h4>
           </div>
           <div className="skill">
-            <JS />
-            <h4 className="skillName">Javascript</h4>
-          </div>
-          <div className="skill">
             <Python />
             <h4 className="skillName">Python</h4>
-          </div>
-          <div className="skill">
-            <ReactIcon />
-            <h4 className="skillName">React</h4>
           </div>
           <div className="skill">
             <SASS />
@@ -64,9 +60,12 @@ const Skill = ({ type }) => {
           </div>
         </div>
       );
-      break;
     case 'framework':
       return (<div className="skills">
+        <div className="skill">
+          <ReactIcon />
+          <h4 className="skillName">React</h4>
+        </div>
         <div className="skill">
           <Bootstrap />
           <h4 className="skillName">Bootstrap</h4>
@@ -84,7 +83,6 @@ const Skill = ({ type }) => {
           <h4 className="skillName">Google Earth Engine</h4>
         </div>
       </div>)
-      break;
     case 'tool':
       return (<div className="skills">
         <div className="skill">
@@ -116,7 +114,6 @@ const Skill = ({ type }) => {
           <h4 className="skillName">Command Line</h4>
         </div>
       </div>)
-      break;
     default:
       break;
   }

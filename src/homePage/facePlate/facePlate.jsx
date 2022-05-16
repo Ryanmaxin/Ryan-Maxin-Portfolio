@@ -1,14 +1,18 @@
 import './facePlate.css'
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from "react-router-hash-link"
 const FacePlate = () => {
   return (
     <div id="facePlate">
-      <h1>Hi! I'm Ryan,</h1>
-      <h1>Welcome to my portfolio!</h1>
-      <Link to="/projects"><Button>View my work</Button></Link>
-      <Link to="/about"><Button>About me</Button></Link>
+      <h1 className="faceplateText">Hi, I'm <span id="emphasis">Ryan</span>.</h1>
+      <h1 className="faceplateText">Welcome to my portfolio!</h1>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <Link className="btn btn-outline-primary"
+          role="button" to="/content">About me</Link>
+        <Link className="btn btn-outline-primary"
+          role="button" to="/content#projects">View my work</Link>
+      </div>
     </div>
   );
 }

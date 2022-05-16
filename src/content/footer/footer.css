@@ -1,0 +1,51 @@
+#footer {
+  text-align: center;
+  background-color: brown;
+}
+
+#footer svg {
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  transition: all 0.5s;
+  top: 1rem
+}
+
+#footer svg:hover {
+  height: 4rem;
+  width: 4rem;
+}
+
+#gh,
+#li {
+  position: relative;
+}
+
+#gh svg {
+  left: 43%
+}
+
+#li svg {
+  right: 43%
+}
+
+#gh svg:hover {
+  left: calc(43% - 0.5rem);
+  top: 0.5rem
+}
+
+#li svg:hover {
+  right: calc(43% - 0.5rem);
+  top: 0.5rem
+}
+
+#copyright {
+  padding: 0 0 1rem 0;
+  height: 3rem;
+}
+
+#placeholder {
+  height: 5rem;
+  width: 4rem;
+  margin: auto;
+}

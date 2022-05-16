@@ -2,12 +2,12 @@
 
 html {
   font-family: 'Open-Sans', sans-serif;
-  font-size: 16px
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
@@ -18,4 +18,24 @@ body {
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+.btn-outline-primary,
+.btn-outline-primary:visited {
+  color: #DF2935 !important;
+  border-color: #DF2935 !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+  background-color: #DF2935 !important;
+  color: #F2F4F3 !important;
+  box-shadow: 0 0 0.5rem rgba(223, 41, 53, 0.5) !important;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary:after {
+  box-shadow: 0 0 0.6rem rgba(223, 41, 53, 0.5) !important;
+  background-color: #DF2935 !important;
+  color: #F2F4F3 !important;
 }
