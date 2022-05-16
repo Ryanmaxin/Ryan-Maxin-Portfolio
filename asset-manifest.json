@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Ryan-Maxin-Portfolio/static/css/main.648eb9a2.css",
+    "main.js": "/Ryan-Maxin-Portfolio/static/js/main.539237d5.js",
+    "static/media/RealmTunes.png": "/Ryan-Maxin-Portfolio/static/media/RealmTunes.4416a87d6c0397f848c3.png",
+    "static/media/Sorting.png": "/Ryan-Maxin-Portfolio/static/media/Sorting.23ed33f790f1c6ab9966.png",
+    "static/media/SYDE.png": "/Ryan-Maxin-Portfolio/static/media/SYDE.89aa988d58dc9048e254.png",
+    "static/media/Dino.png": "/Ryan-Maxin-Portfolio/static/media/Dino.623b1bc790ea9bf229dd.png",
+    "static/media/gee.svg": "/Ryan-Maxin-Portfolio/static/media/gee.db0749fefbdc2bcfb5604f9a0cadb615.svg",
+    "static/media/mongodb.svg": "/Ryan-Maxin-Portfolio/static/media/mongodb.416baad2a16190de2ad81ad547b71fd8.svg",
+    "static/media/sass.svg": "/Ryan-Maxin-Portfolio/static/media/sass.c5cd6f68f5b9eebb4cec33efc11a0a12.svg",
+    "static/media/react.svg": "/Ryan-Maxin-Portfolio/static/media/react.7098e2714733fed1ce8cdb90d51c4289.svg",
+    "static/media/reactrouter.svg": "/Ryan-Maxin-Portfolio/static/media/reactrouter.81fa787362aa3de3cf30e25e49a5e025.svg",
+    "static/media/nodejs.svg": "/Ryan-Maxin-Portfolio/static/media/nodejs.ca7d509723af4bcecb79debeba809532.svg",
+    "static/media/java.svg": "/Ryan-Maxin-Portfolio/static/media/java.6cf9b95610c3b03023e9535e590945e3.svg",
+    "static/media/python.svg": "/Ryan-Maxin-Portfolio/static/media/python.597b2f1fa71fa923d54bc299b76743db.svg",
+    "static/media/chartjs.svg": "/Ryan-Maxin-Portfolio/static/media/chartjs.edd5d626380294945bc8c02f2b12143c.svg",
+    "static/media/bootstrap.svg": "/Ryan-Maxin-Portfolio/static/media/bootstrap.333f5e43f07c0838ca3c160adb53e877.svg",
+    "static/media/css.svg": "/Ryan-Maxin-Portfolio/static/media/css.b3c0acbf83dd5d6e5ab455b9de967ab9.svg",
+    "static/media/firebase.svg": "/Ryan-Maxin-Portfolio/static/media/firebase.c6dd7ad8989dec7b97624e89fd991c81.svg",
+    "static/media/linkedin.svg": "/Ryan-Maxin-Portfolio/static/media/linkedin.3cd755e2ab001c51453c0a60c73efee7.svg",
+    "static/media/html.svg": "/Ryan-Maxin-Portfolio/static/media/html.8c11e1a8364b520a311ac9bf8b5d2fbf.svg",
+    "static/media/express.svg": "/Ryan-Maxin-Portfolio/static/media/express.415f9b1f32da3ccac61b1658edfc01fe.svg",
+    "static/media/github.svg": "/Ryan-Maxin-Portfolio/static/media/github.25dca3f3d32e8ad67fdd36baa7c88f8f.svg",
+    "static/media/cpp.svg": "/Ryan-Maxin-Portfolio/static/media/cpp.d0813025afe6513c2d3d5ff7861fddfc.svg",
+    "index.html": "/Ryan-Maxin-Portfolio/index.html",
+    "static/media/arrow.svg": "/Ryan-Maxin-Portfolio/static/media/arrow.3cb848e013087040405b3d375fa81b82.svg",
+    "static/media/cmd.svg": "/Ryan-Maxin-Portfolio/static/media/cmd.da4af08aef668021bd02df3049957862.svg",
+    "static/media/js.svg": "/Ryan-Maxin-Portfolio/static/media/js.b13c588f7b6ab9417b2771a4790ea460.svg",
+    "static/media/git.svg": "/Ryan-Maxin-Portfolio/static/media/git.45c85edfccc9a3b6bedd9badfac27e7c.svg",
+    "static/media/c.svg": "/Ryan-Maxin-Portfolio/static/media/c.ac1d78d764a07eb04050b182e4166929.svg",
+    "static/media/mui.svg": "/Ryan-Maxin-Portfolio/static/media/mui.ac365d916d0d5a3c7cbefb520e9fc440.svg",
+    "static/media/mail.svg": "/Ryan-Maxin-Portfolio/static/media/mail.d2668a915b3d9b349ea3b51fabae0e82.svg",
+    "main.648eb9a2.css.map": "/Ryan-Maxin-Portfolio/static/css/main.648eb9a2.css.map",
+    "main.539237d5.js.map": "/Ryan-Maxin-Portfolio/static/js/main.539237d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.648eb9a2.css",
+    "static/js/main.539237d5.js"
+  ]
+}
