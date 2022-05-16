@@ -17,25 +17,39 @@
 }
 
 #gh,
-#li {
+#li,
+#ma {
   position: relative;
 }
 
+#ma svg:hover {
+  top: 0.5rem;
+  left: -0.09rem
+}
+
+#ma svg {
+  left: 0.5rem
+}
+
+#ma {
+  margin: auto
+}
+
 #gh svg {
-  left: calc(46vw - 3rem)
+  left: calc(41vw - 4rem)
 }
 
 #li svg {
-  right: calc(46vw - 3rem)
+  right: calc(41vw - 4rem)
 }
 
 #gh svg:hover {
-  left: calc(46vw - 3.5rem);
+  left: calc(41vw - 4.5rem);
   top: 0.5rem
 }
 
 #li svg:hover {
-  right: calc(46vw - 3.5rem);
+  right: calc(41vw - 4.5rem);
   top: 0.5rem
 }
 

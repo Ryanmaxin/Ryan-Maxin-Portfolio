@@ -7,7 +7,7 @@ const FacePlate = () => {
     <div id="facePlate">
       <h1 className="faceplateText">Hi, I'm <span className="emphasis">Ryan</span>.</h1>
       <h1 className="faceplateText">Welcome to my portfolio!</h1>
-      <div class="btn-group" role="group" aria-label="Basic example">
+      <div className="btn-group" role="group" aria-label="Basic example">
         <Link className="btn btn-outline-primary" id="faceplatebutton"
           role="button" to="/content">About me</Link>
         <Link className="btn btn-outline-primary"

@@ -1,24 +1,37 @@
-import { useEffect } from "react"
 import './nodes.css'
+import { useEffect } from 'react'
 
 const Nodes = () => {
-    let canvas, ctx, points, mouse, width, height
+    let canvas, ctx, points, mouse, width, height, scalar
     let animateHeader = true
+    let resetter = false
     useEffect(() => {
-        initialize();
-        animate()
-        addListeners();
-    }, [])
-    let connectingDistance = 50
+        if (!resetter) {
+            initialize();
+            addListeners();
+        }
+        else {
+            window.location.reload(false);
+        }
+    })
+    animate()
     // // Main
-
     function initialize() {
+
         height = window.innerHeight;
         width = window.innerWidth;
         mouse = { x: width / 2, y: height / 2 };
         canvas = document.getElementById('canvas');
         canvas.width = width;
         canvas.height = height;
+        if (width <= 800) {
+            animateHeader = false
+            return
+        }
+        else {
+            animateHeader = true
+        }
+        scalar = width / 1920
         ctx = canvas.getContext('2d');
         // masterBox = new Circle({ x: width / 2, y: height / 2 }, 1, width / 5, 0, 0)
         // masterCircle.active = 1
@@ -30,18 +43,18 @@ const Nodes = () => {
             let radius, dx, dy
             if (decider > 34) {
                 radius = getRandom(50, 75)
-                dx = getRandom(-0.05, 0.05)
-                dy = getRandom(-0.05, 0.05)
+                dx = getRandom(-0.05, 0.05) * scalar
+                dy = getRandom(-0.05, 0.05) * scalar
             }
             else if (decider > 30 && decider <= 34) {
                 radius = getRandom(20, 30)
-                dx = getRandom(-0.10, 0.10)
-                dy = getRandom(-0.10, 0.10)
+                dx = getRandom(-0.10, 0.10) * scalar
+                dy = getRandom(-0.10, 0.10) * scalar
             }
             else if (decider <= 30) {
                 radius = getRandom(2, 5)
-                dx = getRandom(-0.15, 0.15)
-                dy = getRandom(-0.15, 0.15)
+                dx = getRandom(-0.15, 0.15) * scalar
+                dy = getRandom(-0.15, 0.15) * scalar
             }
             let x = Math.random() * (width - (radius * 2)) + radius
             let y = Math.random() * (height - (radius * 2)) + radius
@@ -87,7 +100,7 @@ const Nodes = () => {
     }
 
     function animate() {
-        if (animateHeader) {
+        if (animateHeader && (canvas)) {
             ctx.clearRect(0, 0, width, height);
             points.forEach(point => {
                 //detect points in range
@@ -176,7 +189,7 @@ const Nodes = () => {
                     if ((getDistance(this.pos, points[i].pos) - this.radius) - points[i].radius < 0) { //|| (getDistance(this.pos, masterCircle.pos) - this.radius) - masterCircle.radius < 0
                         resolveCollision(this, points[i])
                     }
-                    else if ((thisSmall && (targetSmall || targetMed)) && distance <= 50) {
+                    else if ((thisSmall && (targetSmall || targetMed)) && distance <= 50 * Math.sqrt(scalar)) {
                         ctx.beginPath();
                         ctx.moveTo(this.pos.x, this.pos.y);
                         ctx.lineTo(points[i].pos.x, points[i].pos.y);
@@ -199,7 +212,7 @@ const Nodes = () => {
                         ctx.stroke();
                         ctx.closePath();
                     }
-                    else if ((thisMed && (targetSmall || targetMed || targetLarge)) && distance <= 100) {
+                    else if ((thisMed && (targetSmall || targetMed || targetLarge)) && distance <= 100 * Math.sqrt(scalar)) {
                         ctx.beginPath();
                         ctx.moveTo(this.pos.x, this.pos.y);
                         ctx.lineTo(points[i].pos.x, points[i].pos.y);
@@ -222,7 +235,7 @@ const Nodes = () => {
                         ctx.stroke();
                         ctx.closePath();
                     }
-                    else if ((thisLarge && (targetLarge || targetMed)) && distance <= 200) {
+                    else if ((thisLarge && (targetLarge || targetMed)) && distance <= 200 * Math.sqrt(scalar)) {
                         ctx.beginPath();
                         ctx.moveTo(this.pos.x, this.pos.y);
                         ctx.lineTo(points[i].pos.x, points[i].pos.y);

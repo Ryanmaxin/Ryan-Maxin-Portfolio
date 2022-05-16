@@ -1,3 +1,83 @@
 .projectTile img {
   width: 100%;
+  padding: 0.25rem
+}
+
+.projectTile {
+  margin-bottom: 3rem
+}
+
+.projectInfo {
+  background-color: #35353a;
+}
+
+.description {
+  padding: 0.5rem;
+}
+
+.description p {
+  margin: 0
+}
+
+.tagholder {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 1vh;
+  margin-bottom: 1vh;
+  column-gap: 2%;
+  row-gap: 1vh;
+  justify-content: center;
+}
+
+.tag {
+  border: 1px solid #DF2935;
+  background-color: #DF2935;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  cursor: default
+}
+
+/* .tag:nth-child(odd) {
+  border: 1px solid #357ded;
+  background-color: #357ded;
+} */
+
+.tag p {
+  margin: 0;
+}
+
+.outlier a {
+  background:
+    linear-gradient(#35353a, #35353a) padding-box,
+    linear-gradient(235deg, rgba(223, 41, 53, 1) 0%, rgba(53, 125, 237, 1) 100%)border-box !important;
+  border-radius: calc(3vw + 0.5rem) !important;
+  border: 0.3rem solid transparent !important;
+  color: #f2f4f3 !important;
+}
+
+.outlier a:hover,
+.outlier a:focus,
+.outlier a:active {
+  background:
+    linear-gradient(235deg, rgba(223, 41, 53, 1) 0%, rgba(53, 125, 237, 1) 100%) padding-box,
+    linear-gradient(235deg, rgba(223, 41, 53, 1) 0%, rgba(53, 125, 237, 1) 100%)border-box !important;
+  border-radius: calc(3vw + 0.5rem) !important;
+  border: 0.3rem solid transparent !important;
+  box-shadow: none !important;
+}
+
+.outlier {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-around;
+  padding-top: 1vh;
+  padding-bottom: 1vh
+}
+
+.outlier a h4 {
+  margin: 0
+}
+
+.outlier a {
+  padding: 0.8rem
 }

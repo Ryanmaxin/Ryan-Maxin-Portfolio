@@ -13,7 +13,7 @@
   border: 0.3rem solid black;
   border-radius: calc(3vw + 0.5rem);
   padding: 0rem;
-  width: 15%;
+  width: 20%;
   /* flex: 1 1 auto */
   background:
     linear-gradient(#272727, #272727) padding-box,
@@ -86,7 +86,7 @@
 /* Extra big screen devices (1200px and above) */
 @media only screen and (min-width: 1200px) {
   .skill {
-    width: 15%;
+    width: 20%;
     /* flex: 1 1 auto */
   }
 
