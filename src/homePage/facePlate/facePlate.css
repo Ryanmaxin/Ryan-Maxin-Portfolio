@@ -14,6 +14,10 @@
   color: #f2f4f3;
 }
 
-#emphasis {
+.emphasis {
   color: #df2935
+}
+
+#faceplatebutton {
+  border-right: 0
 }

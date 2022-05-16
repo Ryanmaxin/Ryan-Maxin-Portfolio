@@ -1,6 +1,6 @@
 #footer {
   text-align: center;
-  background-color: brown;
+  background-color: #DF2935;
 }
 
 #footer svg {
@@ -22,26 +22,27 @@
 }
 
 #gh svg {
-  left: 43%
+  left: calc(46vw - 3rem)
 }
 
 #li svg {
-  right: 43%
+  right: calc(46vw - 3rem)
 }
 
 #gh svg:hover {
-  left: calc(43% - 0.5rem);
+  left: calc(46vw - 3.5rem);
   top: 0.5rem
 }
 
 #li svg:hover {
-  right: calc(43% - 0.5rem);
+  right: calc(46vw - 3.5rem);
   top: 0.5rem
 }
 
 #copyright {
   padding: 0 0 1rem 0;
   height: 3rem;
+  color: #F2F4F3;
 }
 
 #placeholder {

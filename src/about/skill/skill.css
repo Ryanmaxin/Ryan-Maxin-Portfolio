@@ -4,24 +4,94 @@
   justify-content: center;
   align-items: center;
   column-gap: 5%;
-  row-gap: 2.5vh
+  row-gap: 2.5vh;
+  margin: 2rem 0 2rem 0;
 }
 
 .skill {
   flex-basis: auto;
   border: 0.3rem solid black;
-  border-radius: 4rem;
-  padding: 0.5rem;
-  max-width: 30%;
-  width: 30%;
-  flex: 1 1 auto
+  border-radius: calc(3vw + 0.5rem);
+  padding: 0rem;
+  width: 15%;
+  /* flex: 1 1 auto */
+  background:
+    linear-gradient(#272727, #272727) padding-box,
+    linear-gradient(235deg, rgba(223, 41, 53, 1) 0%, rgba(53, 125, 237, 1) 100%)border-box;
+  border-radius: calc(3vw + 0.5rem);
+  border: 0.3rem solid transparent;
+
 }
 
 .skill svg {
-  padding: 2vw 2vw 0 2vw;
+  padding: 2vw 2vw 0 2vw
 }
 
 
 .skillName {
   text-align: center;
+  margin: 0;
+  padding-right: 1.0rem;
+  padding-left: 1.0rem;
+  font-size: calc(0.75rem + 0.8vw) !important;
+  min-height: 2vw
+}
+
+@media only screen and (max-width: 600px) {
+  .skill {
+    width: 35%;
+    /* flex: 1 1 auto */
+  }
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+  .skill {
+    width: 30%;
+    /* flex: 1 1 auto */
+  }
+
+  .skills {
+    column-gap: 2%;
+    row-gap: 2.5vh;
+  }
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+  .skill {
+    width: 25%;
+    /* flex: 1 1 auto */
+  }
+
+  .skills {
+    column-gap: 3%;
+    row-gap: 2.5vh;
+  }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+  .skill {
+    width: 20%;
+    /* flex: 1 1 auto */
+  }
+
+  .skills {
+    column-gap: 4%;
+    row-gap: 2.5vh;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .skill {
+    width: 15%;
+    /* flex: 1 1 auto */
+  }
+
+  .skills {
+    column-gap: 5%;
+    row-gap: 2.5vh;
+  }
 }

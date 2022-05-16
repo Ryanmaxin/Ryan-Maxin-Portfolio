@@ -31,6 +31,18 @@ const Skill = ({ type }) => {
             <h4 className="skillName">Javascript</h4>
           </div>
           <div className="skill">
+            <HTML />
+            <h4 className="skillName">HTML</h4>
+          </div>
+          <div className="skill">
+            <CSS />
+            <h4 className="skillName">CSS</h4>
+          </div>
+          <div className="skill">
+            <Python />
+            <h4 className="skillName">Python</h4>
+          </div>
+          <div className="skill">
             <C />
             <h4 className="skillName">C</h4>
           </div>
@@ -38,25 +50,16 @@ const Skill = ({ type }) => {
             <CPP />
             <h4 className="skillName">C++</h4>
           </div>
-          <div className="skill">
-            <CSS />
-            <h4 className="skillName">CSS</h4>
-          </div>
-          <div className="skill">
-            <HTML />
-            <h4 className="skillName">HTML</h4>
-          </div>
+
+
           <div className="skill">
             <Java />
             <h4 className="skillName">Java</h4>
           </div>
-          <div className="skill">
-            <Python />
-            <h4 className="skillName">Python</h4>
-          </div>
+
           <div className="skill">
             <SASS />
-            <h4 className="skillName">SASS/SCSS</h4>
+            <h4 className="skillName">SASS</h4>
           </div>
         </div>
       );

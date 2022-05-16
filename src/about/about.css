@@ -1,4 +1,40 @@
-#about {
-  width: 70%;
-  margin: auto;
+#about h1 {
+  display: inline;
+  background: linear-gradient(235deg, rgba(223, 41, 53, 1) 0%, rgba(53, 125, 237, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+
+}
+
+#resume {
+  background:
+    linear-gradient(#272727, #272727) padding-box,
+    linear-gradient(235deg, rgba(223, 41, 53, 1) 0%, rgba(53, 125, 237, 1) 100%)border-box !important;
+  border-radius: calc(3vw + 0.5rem) !important;
+  border: 0.3rem solid transparent !important;
+  color: #f2f4f3 !important;
+}
+
+#resume:hover,
+#resume:focus,
+#resume:active {
+  background:
+    linear-gradient(235deg, rgba(223, 41, 53, 1) 0%, rgba(53, 125, 237, 1) 100%) padding-box,
+    linear-gradient(235deg, rgba(223, 41, 53, 1) 0%, rgba(53, 125, 237, 1) 100%)border-box !important;
+  border-radius: calc(3vw + 0.5rem) !important;
+  border: 0.3rem solid transparent !important;
+  box-shadow: none !important;
+}
+
+.infotainer {
+  margin-bottom: 1.5rem
+}
+
+#about h4 {
+  margin-bottom: 1rem
+}
+
+.wrapper {
+  margin-bottom: 2rem;
 }
