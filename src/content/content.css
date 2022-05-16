@@ -7,6 +7,16 @@
   margin: auto;
 }
 
+#about h1,
+#projects h1 {
+  display: inline;
+  background: linear-gradient(235deg, rgba(223, 41, 53, 1) 0%, rgba(53, 125, 237, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+
+}
+
 @media only screen and (max-width: 595px) {
 
   #about,
