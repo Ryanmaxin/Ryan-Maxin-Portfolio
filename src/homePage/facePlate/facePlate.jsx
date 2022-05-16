@@ -9,9 +9,9 @@ const FacePlate = () => {
       <h1 className="faceplateText">Welcome to my portfolio!</h1>
       <div className="btn-group" role="group" aria-label="Basic example">
         <Link className="btn btn-outline-primary" id="faceplatebutton"
-          role="button" to="/content">About me</Link>
+          role="button" to="/Ryan-Maxin-Portfolio/content">About me</Link>
         <Link className="btn btn-outline-primary"
-          role="button" to="/content#projects">View my work</Link>
+          role="button" to="/Ryan-Maxin-Portfolio/content#projects">View my work</Link>
       </div>
     </div>
   );
