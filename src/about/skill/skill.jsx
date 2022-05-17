@@ -75,6 +75,10 @@ const Skill = ({ type }) => {
           <h4 className="skillName">React</h4>
         </div>
         <div className="skill">
+          <Express />
+          <h4 className="skillName">Express</h4>
+        </div>
+        <div className="skill">
           <Bootstrap />
           <h4 className="skillName">Bootstrap</h4>
         </div>
@@ -108,10 +112,6 @@ const Skill = ({ type }) => {
         <div className="skill">
           <Git />
           <h4 className="skillName">Git</h4>
-        </div>
-        <div className="skill">
-          <Express />
-          <h4 className="skillName">Express</h4>
         </div>
         <div className="skill">
           <Firebase />
