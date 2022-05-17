@@ -11,7 +11,7 @@ const Project = ({ name }) => {
               <div class="tag"><p>Python</p></div>
               <div class="tag"><p>Git</p></div>
             </div>
-            <div class="description"><p>Realm Tunes is a Discord application created with the Discord.py API. This bot comes with a bundle of commands, such as the ability to searchfor and play music from Youtube in a voice channel. This bot is hosted 24/7 and is currently used as the music bot on 4 servers, with the largest having over 120 active users.  </p></div>
+            <div class="description"><p>Realm Tunes is a Discord application created with the Discord.py API. This bot comes with a bundle of commands, such as the ability to search for and play music from Youtube in a voice channel. This bot is hosted 24/7 and is currently used as the music bot on 4 servers, with the largest having over 120 active users.  </p></div>
             <div class="outlier">
 
               <a target="_blank" href="https://github.com/Ryanmaxin/Realm-Tunes" type="a" class="btn btn-outline-primary"><h4>More Info</h4></a>
