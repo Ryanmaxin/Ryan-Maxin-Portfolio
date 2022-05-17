@@ -54,17 +54,13 @@ const Skill = ({ type }) => {
           </div>
           <div className="skill">
             <Bash />
-            <h4 className="skillName">C++</h4>
+            <h4 className="skillName">Bash</h4>
           </div>
           <div className="skill">
             <MATLAB />
-            <h4 className="skillName">Java</h4>
+            <h4 className="skillName">MATLAB</h4>
           </div>
 
-          <div className="skill">
-            <Java />
-            <h4 className="skillName">Java</h4>
-          </div>
           <div className="skill">
             <Java />
             <h4 className="skillName">Java</h4>
