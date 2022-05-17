@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ryan-Maxin-Portfolio/static/css/main.e80a1bab.css",
-    "main.js": "/Ryan-Maxin-Portfolio/static/js/main.a7513ae5.js",
+    "main.js": "/Ryan-Maxin-Portfolio/static/js/main.60a305b1.js",
     "static/media/RealmTunes.png": "/Ryan-Maxin-Portfolio/static/media/RealmTunes.4416a87d6c0397f848c3.png",
     "static/media/Sorting.png": "/Ryan-Maxin-Portfolio/static/media/Sorting.23ed33f790f1c6ab9966.png",
     "static/media/SYDE.png": "/Ryan-Maxin-Portfolio/static/media/SYDE.89aa988d58dc9048e254.png",
@@ -11,6 +11,7 @@
     "static/media/sass.svg": "/Ryan-Maxin-Portfolio/static/media/sass.c5cd6f68f5b9eebb4cec33efc11a0a12.svg",
     "static/media/react.svg": "/Ryan-Maxin-Portfolio/static/media/react.7098e2714733fed1ce8cdb90d51c4289.svg",
     "static/media/reactrouter.svg": "/Ryan-Maxin-Portfolio/static/media/reactrouter.81fa787362aa3de3cf30e25e49a5e025.svg",
+    "static/media/matlab.svg": "/Ryan-Maxin-Portfolio/static/media/matlab.b79d9fb8dc8a9edce3a214f62c9dd587.svg",
     "static/media/nodejs.svg": "/Ryan-Maxin-Portfolio/static/media/nodejs.ca7d509723af4bcecb79debeba809532.svg",
     "static/media/java.svg": "/Ryan-Maxin-Portfolio/static/media/java.6cf9b95610c3b03023e9535e590945e3.svg",
     "static/media/bash.svg": "/Ryan-Maxin-Portfolio/static/media/bash.3182f10bd7fa8b2a74d8ef5f40f5e5fb.svg",
@@ -33,10 +34,10 @@
     "static/media/mui.svg": "/Ryan-Maxin-Portfolio/static/media/mui.ac365d916d0d5a3c7cbefb520e9fc440.svg",
     "static/media/mail.svg": "/Ryan-Maxin-Portfolio/static/media/mail.d2668a915b3d9b349ea3b51fabae0e82.svg",
     "main.e80a1bab.css.map": "/Ryan-Maxin-Portfolio/static/css/main.e80a1bab.css.map",
-    "main.a7513ae5.js.map": "/Ryan-Maxin-Portfolio/static/js/main.a7513ae5.js.map"
+    "main.60a305b1.js.map": "/Ryan-Maxin-Portfolio/static/js/main.60a305b1.js.map"
   },
   "entrypoints": [
     "static/css/main.e80a1bab.css",
-    "static/js/main.a7513ae5.js"
+    "static/js/main.60a305b1.js"
   ]
 }
