@@ -19,6 +19,7 @@ import { ReactComponent as ReactIcon } from '../../images/react.svg'
 import { ReactComponent as ReactRouter } from '../../images/reactrouter.svg'
 import { ReactComponent as SASS } from '../../images/sass.svg'
 import { ReactComponent as Bash } from '../../images/bash.svg'
+import { ReactComponent as MATLAB } from '../../images/matlab.svg'
 
 import './skill.css'
 
@@ -55,13 +56,19 @@ const Skill = ({ type }) => {
             <Bash />
             <h4 className="skillName">C++</h4>
           </div>
-
+          <div className="skill">
+            <MATLAB />
+            <h4 className="skillName">Java</h4>
+          </div>
 
           <div className="skill">
             <Java />
             <h4 className="skillName">Java</h4>
           </div>
-
+          <div className="skill">
+            <Java />
+            <h4 className="skillName">Java</h4>
+          </div>
           <div className="skill">
             <SASS />
             <h4 className="skillName">SASS</h4>
