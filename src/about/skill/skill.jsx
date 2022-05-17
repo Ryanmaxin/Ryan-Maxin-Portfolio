@@ -18,6 +18,7 @@ import { ReactComponent as Python } from '../../images/python.svg'
 import { ReactComponent as ReactIcon } from '../../images/react.svg'
 import { ReactComponent as ReactRouter } from '../../images/reactrouter.svg'
 import { ReactComponent as SASS } from '../../images/sass.svg'
+import { ReactComponent as Bash } from '../../images/bash.svg'
 
 import './skill.css'
 
@@ -48,6 +49,10 @@ const Skill = ({ type }) => {
           </div>
           <div className="skill">
             <CPP />
+            <h4 className="skillName">C++</h4>
+          </div>
+          <div className="skill">
+            <Bash />
             <h4 className="skillName">C++</h4>
           </div>
 

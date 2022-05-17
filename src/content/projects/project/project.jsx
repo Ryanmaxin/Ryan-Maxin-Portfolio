@@ -79,6 +79,7 @@ const Project = ({ name }) => {
             <div class="tagholder">
               <div class="tag"><p>C++</p></div>
               <div class="tag"><p>Command Line</p></div>
+              <div class="tag"><p>Bash</p></div>
             </div>
             <div class="description"><p>A clone of Google's well known "Dinosaur Game", this game has you trying to reach the end of the stage while you avoid cacti coming at you at different speeds! The game includes a score and timer, parabolic jumping, aswell as procedurally generated clouds. It works and plays entirely in the terminal! </p></div>
             <div class="outlier">
