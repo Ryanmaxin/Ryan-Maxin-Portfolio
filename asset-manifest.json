@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ryan-Maxin-Portfolio/static/css/main.e80a1bab.css",
-    "main.js": "/Ryan-Maxin-Portfolio/static/js/main.ac9da556.js",
+    "main.js": "/Ryan-Maxin-Portfolio/static/js/main.3d9ec27a.js",
     "static/media/RealmTunes.png": "/Ryan-Maxin-Portfolio/static/media/RealmTunes.4416a87d6c0397f848c3.png",
     "static/media/Sorting.png": "/Ryan-Maxin-Portfolio/static/media/Sorting.23ed33f790f1c6ab9966.png",
     "static/media/SYDE.png": "/Ryan-Maxin-Portfolio/static/media/SYDE.89aa988d58dc9048e254.png",
@@ -13,6 +13,7 @@
     "static/media/reactrouter.svg": "/Ryan-Maxin-Portfolio/static/media/reactrouter.81fa787362aa3de3cf30e25e49a5e025.svg",
     "static/media/nodejs.svg": "/Ryan-Maxin-Portfolio/static/media/nodejs.ca7d509723af4bcecb79debeba809532.svg",
     "static/media/java.svg": "/Ryan-Maxin-Portfolio/static/media/java.6cf9b95610c3b03023e9535e590945e3.svg",
+    "static/media/bash.svg": "/Ryan-Maxin-Portfolio/static/media/bash.3182f10bd7fa8b2a74d8ef5f40f5e5fb.svg",
     "static/media/python.svg": "/Ryan-Maxin-Portfolio/static/media/python.597b2f1fa71fa923d54bc299b76743db.svg",
     "static/media/chartjs.svg": "/Ryan-Maxin-Portfolio/static/media/chartjs.edd5d626380294945bc8c02f2b12143c.svg",
     "static/media/bootstrap.svg": "/Ryan-Maxin-Portfolio/static/media/bootstrap.333f5e43f07c0838ca3c160adb53e877.svg",
@@ -32,10 +33,10 @@
     "static/media/mui.svg": "/Ryan-Maxin-Portfolio/static/media/mui.ac365d916d0d5a3c7cbefb520e9fc440.svg",
     "static/media/mail.svg": "/Ryan-Maxin-Portfolio/static/media/mail.d2668a915b3d9b349ea3b51fabae0e82.svg",
     "main.e80a1bab.css.map": "/Ryan-Maxin-Portfolio/static/css/main.e80a1bab.css.map",
-    "main.ac9da556.js.map": "/Ryan-Maxin-Portfolio/static/js/main.ac9da556.js.map"
+    "main.3d9ec27a.js.map": "/Ryan-Maxin-Portfolio/static/js/main.3d9ec27a.js.map"
   },
   "entrypoints": [
     "static/css/main.e80a1bab.css",
-    "static/js/main.ac9da556.js"
+    "static/js/main.3d9ec27a.js"
   ]
 }
