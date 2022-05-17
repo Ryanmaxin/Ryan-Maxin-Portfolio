@@ -61,7 +61,7 @@ const Project = ({ name }) => {
               <div class="tag"><p>Firebase</p></div>
               <div class="tag"><p>Git</p></div>
             </div>
-            <div class="description"><p>Following University of Waterloo tradition, myself and 18 other students from the Systems Design Engineering cohort working on data science, design and web dev created 2026 SYDE class profile! As a lead member of the software team, I created the Co-op, Academics, Demographics, High School, and Lifestyle pages, along with the footer and navigation.  </p></div>
+            <div class="description"><p>Following University of Waterloo tradition, myself and 18 other students from the Systems Design Engineering cohort working on data science, design and web dev created the 2026 SYDE class profile! As a lead member of the software team, I created the Co-op, Academics, Demographics, High School, and Lifestyle pages, along with the footer and navigation. I was able to reinforce my React skills, aswell as gaining the experience of working on a large project with Git source control. </p></div>
             <div class="outlier">
               <a target="_blank" href="https://syde26.life/" type="a" class="btn btn-outline-primary"><h4>Live</h4></a>
               <a target="_blank" href="https://github.com/SYDE-26/1A-Class-Profile-Website" type="a" class="btn btn-outline-primary"><h4>More Info</h4></a>
