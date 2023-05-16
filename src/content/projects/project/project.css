@@ -20,10 +20,12 @@
 }
 
 .tagholder {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   display: flex;
   flex-flow: row wrap;
   padding-top: 1vh;
-  margin-bottom: 1vh;
+  padding-bottom: 1vh;
   column-gap: 2%;
   row-gap: 1vh;
   justify-content: center;

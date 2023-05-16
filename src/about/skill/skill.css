@@ -24,7 +24,9 @@
 }
 
 .skill svg {
-  padding: 2vw 2vw 0 2vw
+  padding: 2.5vw 2.5vw 0 2.5vw;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -34,7 +36,7 @@
   padding-right: 1.0rem;
   padding-left: 1.0rem;
   font-size: calc(0.75rem + 0.8vw) !important;
-  min-height: 2vw
+  min-height: 2.5vw
 }
 
 @media only screen and (max-width: 600px) {

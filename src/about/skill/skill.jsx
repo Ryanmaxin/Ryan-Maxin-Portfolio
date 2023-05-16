@@ -20,6 +20,18 @@ import { ReactComponent as ReactRouter } from '../../images/reactrouter.svg'
 import { ReactComponent as SASS } from '../../images/sass.svg'
 import { ReactComponent as Bash } from '../../images/bash.svg'
 import { ReactComponent as MATLAB } from '../../images/matlab.svg'
+import { ReactComponent as TypeScript } from '../../images/typescript.svg'
+import { ReactComponent as Assembly } from '../../images/assembly.svg'
+import { ReactComponent as VHDL } from '../../images/vhdl.svg'
+import { ReactComponent as Groovy } from '../../images/groovy.svg'
+import { ReactComponent as Jenkins } from '../../images/jenkins.svg'
+import { ReactComponent as Jira } from '../../images/jira.svg'
+import { ReactComponent as Docker } from '../../images/docker.svg'
+import { ReactComponent as JQuery } from '../../images/jquery.svg'
+import { ReactComponent as Pandas } from '../../images/pandas.svg'
+import { ReactComponent as MatPlotLib } from '../../images/matplotlib.svg'
+
+
 
 import './skill.css'
 
@@ -31,6 +43,10 @@ const Skill = ({ type }) => {
           <div className="skill">
             <JS />
             <h4 className="skillName">Javascript</h4>
+          </div>
+          <div className="skill">
+            <TypeScript />
+            <h4 className="skillName">Typescript</h4>
           </div>
           <div className="skill">
             <HTML />
@@ -53,6 +69,14 @@ const Skill = ({ type }) => {
             <h4 className="skillName">C++</h4>
           </div>
           <div className="skill">
+            <Java />
+            <h4 className="skillName">Java</h4>
+          </div>
+          <div className="skill">
+            <Assembly />
+            <h4 className="skillName">Assembly</h4>
+          </div>
+          <div className="skill">
             <Bash />
             <h4 className="skillName">Bash</h4>
           </div>
@@ -60,14 +84,18 @@ const Skill = ({ type }) => {
             <MATLAB />
             <h4 className="skillName">MATLAB</h4>
           </div>
-
-          <div className="skill">
-            <Java />
-            <h4 className="skillName">Java</h4>
-          </div>
           <div className="skill">
             <SASS />
             <h4 className="skillName">SASS</h4>
+          </div>
+          <div className="skill">
+            <Groovy />
+            <h4 className="skillName">Groovy</h4>
+          </div>
+          
+          <div className="skill">
+            <VHDL />
+            <h4 className="skillName">VHDL</h4>
           </div>
         </div>
       );
@@ -85,6 +113,21 @@ const Skill = ({ type }) => {
           <Bootstrap />
           <h4 className="skillName">Bootstrap</h4>
         </div>
+        {/* <div className="skill">
+          <GEE />
+          <h4 className="skillName">Google Earth Engine</h4>
+        </div> */}
+      </div>)
+    case 'library':
+      return (<div className="skills">
+        <div className="skill">
+          <MatPlotLib />
+          <h4 className="skillName">Matplotlib</h4>
+        </div>
+        <div className="skill">
+          <Pandas />
+          <h4 className="skillName">Pandas</h4>
+        </div>
         <div className="skill">
           <Chartjs />
           <h4 className="skillName">Chart.js</h4>
@@ -92,10 +135,6 @@ const Skill = ({ type }) => {
         <div className="skill">
           <MUI />
           <h4 className="skillName">Material UI</h4>
-        </div>
-        <div className="skill">
-          <GEE />
-          <h4 className="skillName">Google Earth Engine</h4>
         </div>
       </div>)
     case 'tool':
@@ -115,6 +154,22 @@ const Skill = ({ type }) => {
         <div className="skill">
           <Git />
           <h4 className="skillName">Git</h4>
+        </div>
+        <div className="skill">
+          <Jenkins />
+          <h4 className="skillName">Jenkins</h4>
+        </div>
+        <div className="skill">
+          <JQuery />
+          <h4 className="skillName">jQuery</h4>
+        </div>
+        <div className="skill">
+          <Docker />
+          <h4 className="skillName">Docker</h4>
+        </div>
+        <div className="skill">
+          <Jira />
+          <h4 className="skillName">Jira</h4>
         </div>
         <div className="skill">
           <Firebase />
