@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ryan-Maxin-Portfolio/static/css/main.d4fbae6b.css",
-    "main.js": "/Ryan-Maxin-Portfolio/static/js/main.10f9fe57.js",
+    "main.js": "/Ryan-Maxin-Portfolio/static/js/main.6252a92b.js",
     "static/media/RealmTunes.png": "/Ryan-Maxin-Portfolio/static/media/RealmTunes.8aafa460fe71fbb6ad86.png",
     "static/media/matplotlib.svg": "/Ryan-Maxin-Portfolio/static/media/matplotlib.ea6b4de08ac5e09b28cede33217ac559.svg",
     "static/media/Sorting.png": "/Ryan-Maxin-Portfolio/static/media/Sorting.23ed33f790f1c6ab9966.png",
@@ -18,6 +18,7 @@
     "static/media/reactrouter.svg": "/Ryan-Maxin-Portfolio/static/media/reactrouter.81fa787362aa3de3cf30e25e49a5e025.svg",
     "static/media/assembly.svg": "/Ryan-Maxin-Portfolio/static/media/assembly.7f9619578dfed3a2755f2bdec38ebe9f.svg",
     "static/media/python.svg": "/Ryan-Maxin-Portfolio/static/media/python.4298525c028749eb4fa154f8f5bd1931.svg",
+    "static/media/jira.svg": "/Ryan-Maxin-Portfolio/static/media/jira.5c6a6c10519184961753342ac6fd7dca.svg",
     "static/media/matlab.svg": "/Ryan-Maxin-Portfolio/static/media/matlab.44de306ca4279f7043d62f0389b2a161.svg",
     "static/media/nextjs.svg": "/Ryan-Maxin-Portfolio/static/media/nextjs.b0cd4ec7d66b9048682c2d58d2a4008b.svg",
     "static/media/sqlite.svg": "/Ryan-Maxin-Portfolio/static/media/sqlite.bfd5005b0b5ce99bb6f646f9c1bacd59.svg",
@@ -30,7 +31,6 @@
     "static/media/langchain.svg": "/Ryan-Maxin-Portfolio/static/media/langchain.ba899cde883fa1a4d5cacb1b9eb602d6.svg",
     "static/media/linkedin.svg": "/Ryan-Maxin-Portfolio/static/media/linkedin.3cd755e2ab001c51453c0a60c73efee7.svg",
     "static/media/js.svg": "/Ryan-Maxin-Portfolio/static/media/js.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
-    "static/media/jira.svg": "/Ryan-Maxin-Portfolio/static/media/jira.1b79d9d02350c124716652a3e72b8376.svg",
     "static/media/express.svg": "/Ryan-Maxin-Portfolio/static/media/express.415f9b1f32da3ccac61b1658edfc01fe.svg",
     "static/media/github.svg": "/Ryan-Maxin-Portfolio/static/media/github.25dca3f3d32e8ad67fdd36baa7c88f8f.svg",
     "static/media/typescript.svg": "/Ryan-Maxin-Portfolio/static/media/typescript.a6305a733dd55243980aec55f96f70c5.svg",
@@ -48,10 +48,10 @@
     "static/media/mail.svg": "/Ryan-Maxin-Portfolio/static/media/mail.d2668a915b3d9b349ea3b51fabae0e82.svg",
     "static/media/fastapi.svg": "/Ryan-Maxin-Portfolio/static/media/fastapi.1536093a1656eaee7a8d589641ff2803.svg",
     "main.d4fbae6b.css.map": "/Ryan-Maxin-Portfolio/static/css/main.d4fbae6b.css.map",
-    "main.10f9fe57.js.map": "/Ryan-Maxin-Portfolio/static/js/main.10f9fe57.js.map"
+    "main.6252a92b.js.map": "/Ryan-Maxin-Portfolio/static/js/main.6252a92b.js.map"
   },
   "entrypoints": [
     "static/css/main.d4fbae6b.css",
-    "static/js/main.10f9fe57.js"
+    "static/js/main.6252a92b.js"
   ]
 }
