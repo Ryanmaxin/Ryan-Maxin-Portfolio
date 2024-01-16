@@ -1,0 +1,24 @@
+#facePlate {
+  position: absolute;
+  top: 40%;
+  width: 90%;
+  left: 5%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  z-index: 999;
+}
+
+.faceplateText {
+  color: #fca311;
+  text-align: center;
+}
+
+.emphasis {
+  color: #fca311;
+}
+
+#faceplatebutton {
+  border-right: 0;
+}

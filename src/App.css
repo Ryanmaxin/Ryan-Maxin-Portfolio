@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro&display=swap");
+
+html {
+  font-family: "Open-Sans", sans-serif;
+  font-size: calc(15px + 0.390625vw);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.125rem !important;
+  color: #f2f4f3 !important;
+}
+
+h2 {
+  font-size: 1.875rem !important;
+  color: #f2f4f3 !important;
+}
+
+h3 {
+  font-size: 1.5rem !important;
+  color: #f2f4f3 !important;
+}
+
+h4 {
+  font-size: 1.25rem !important;
+  color: #f2f4f3 !important;
+}
+
+p {
+  font-size: 1rem !important;
+  color: #f2f4f3 !important;
+}
+
+body {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  /* overflow-y: scroll; */
+  /* cursor: none; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-outline-primary,
+.btn-outline-primary:visited {
+  color: #fca311 !important;
+  border-color: #fca311 !important;
+  border-width: 0.09rem !important;
+  transition: all 0.15s !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+  background-color: #fca311 !important;
+  color: #f2f4f3 !important;
+  box-shadow: 0 0 0.5rem rgba(223, 41, 53, 0.5) !important;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary:after {
+  box-shadow: 0 0 0.6rem rgba(223, 41, 53, 0.5) !important;
+  background-color: #fca311 !important;
+  color: #f2f4f3 !important;
+}

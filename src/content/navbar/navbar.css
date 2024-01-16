@@ -1,0 +1,21 @@
+#navbar {
+  display: table !important;
+  width: 100% !important;
+}
+
+#navbar div {
+  display: table-cell !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+#left {
+  border-radius: 0 0 0 1rem;
+  border-right: 0;
+  border-top: 0
+}
+
+#right {
+  border-radius: 0 0 1rem 0;
+  border-top: 0
+}
