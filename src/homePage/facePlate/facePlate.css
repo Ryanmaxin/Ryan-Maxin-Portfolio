@@ -9,6 +9,7 @@
 #facePlateButtons {
   display: flex;
   justify-content: center;
+  /* flex: 0 0 100%; */
 }
 #facePlate {
   flex-grow: 0;
@@ -23,11 +24,16 @@
     transparent
   );
   border-radius: 40px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  row-gap: 0.5rem;
 }
 
 .faceplateText {
   color: var(--emphasis);
   text-align: center;
+  /* flex: 0 0 100%; */
 }
 
 .emphasis {
