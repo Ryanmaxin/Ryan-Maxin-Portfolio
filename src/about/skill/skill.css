@@ -36,21 +36,37 @@
   /* height: 3vw; */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
   .skill {
-    width: 24%;
-    /* flex: 1 1 auto */
+    width: 40%;
+    /* flex: 1 1 auto; */
+  }
+  .skills {
+    column-gap: 5%;
+    flex-wrap: wrap;
+  }
+  .skill svg {
+    padding: 0.75vw 6vw 0.75vw 6vw;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .skill {
+    width: 30%;
+    /* flex: 1 1 auto; */
   }
   .skills {
     column-gap: 2%;
+    flex-wrap: wrap;
   }
 }
 
 /* Small screen devices (600px and above) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 680px) {
   .skill {
     width: 22%;
-    /* flex: 1 1 auto */
+    /* flex: 1 1 auto; */
+    /* max-width: 33%; */
   }
 
   .skills {
@@ -59,7 +75,7 @@
 }
 
 /* Medium screen devices (768px and above) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 840px) {
   .skill {
     width: 20%;
     /* flex: 1 1 auto */
@@ -71,15 +87,14 @@
 }
 
 /* Big screen devices (889px and above) */
-@media only screen and (min-width: 889px) {
+@media only screen and (min-width: 1000px) {
   .skill {
-    width: 16%;
+    width: 17%;
     /* flex: 1 1 auto */
   }
 
   .skills {
     column-gap: 2.5%;
-    row-gap: 2vh;
   }
 }
 
