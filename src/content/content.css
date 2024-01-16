@@ -10,15 +10,13 @@
 #about h1,
 #projects h1 {
   display: inline;
-  background: linear-gradient(235deg, rgba(223, 41, 53, 1) 0%, rgba(53, 125, 237, 1) 100%);
+  background: linear-gradient(235deg, var(--off) 0%, var(--emphasis) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
-
 }
 
 @media only screen and (max-width: 595px) {
-
   #about,
   #projects {
     width: 90%;
@@ -27,7 +25,6 @@
 
 /* Small screen devices (600px and above) */
 @media only screen and (min-width: 600px) {
-
   #about,
   #projects {
     width: 85%;
@@ -36,7 +33,6 @@
 
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) {
-
   #about,
   #projects {
     width: 80%;
@@ -45,7 +41,6 @@
 
 /* Big screen devices (889px and above) */
 @media only screen and (min-width: 889px) {
-
   #about,
   #projects {
     width: 75%;
@@ -54,7 +49,6 @@
 
 /* Extra big screen devices (1200px and above) */
 @media only screen and (min-width: 1200px) {
-
   #about,
   #projects {
     width: 70%;

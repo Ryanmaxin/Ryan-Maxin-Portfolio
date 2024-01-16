@@ -23,14 +23,14 @@ const FacePlate = () => {
             >
               About me
             </Link>
-            <Link
+            {/* <Link
               className="btn btn-outline-primary"
               id="faceplatebutton"
               role="button"
               to="/Ryan-Maxin-Portfolio/content#projects"
             >
               Experience
-            </Link>
+            </Link> */}
             <Link
               className="btn btn-outline-primary"
               role="button"

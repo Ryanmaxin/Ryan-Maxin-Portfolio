@@ -12,6 +12,8 @@ html {
   --emphasisrgb: 0, 180, 216;
   --blackground: #272727;
   --white: #f2f4f3;
+  --off: #db324d;
+  --black2: #35353a;
 }
 
 h1 {
@@ -56,7 +58,7 @@ body::-webkit-scrollbar {
 .btn-outline-primary:visited {
   color: var(--emphasis) !important;
   border-color: var(--emphasis) !important;
-  border-width: 0.09rem !important;
+  border-width: 0.095rem !important;
   transition: all 0.15s !important;
 }
 
