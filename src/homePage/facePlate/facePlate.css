@@ -1,22 +1,37 @@
-#facePlate {
+#facePlateContainer {
   position: absolute;
-  top: 40%;
-  width: 90%;
-  left: 5%;
-  justify-content: center;
-  align-items: center;
+  top: 22%;
+  width: 100%;
   display: flex;
-  flex-flow: column wrap;
+  justify-content: center;
+}
+
+#facePlateButtons {
+  display: flex;
+  justify-content: center;
+}
+#facePlate {
+  flex-grow: 0;
+  padding: 6rem;
   z-index: 999;
+  background-color: var(--blackground);
+  background: radial-gradient(
+    ellipse at center,
+    var(--blackground),
+    var(--blackground),
+    transparent,
+    transparent
+  );
+  border-radius: 40px;
 }
 
 .faceplateText {
-  color: #fca311;
+  color: var(--emphasis);
   text-align: center;
 }
 
 .emphasis {
-  color: #fca311;
+  color: var(--emphasis);
 }
 
 #faceplatebutton {

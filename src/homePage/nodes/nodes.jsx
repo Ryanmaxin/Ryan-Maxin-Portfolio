@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import "./nodes.css";
 
+const nodes = "108, 110, 160";
+
 const Nodes = () => {
   let canvas, ctx, mouse, width, height, scalar, resizeTimeout;
   let points = [];
@@ -166,7 +168,7 @@ const Nodes = () => {
       ctx.fill();
       ctx.closePath();
       ctx.arc(this.pos.x, this.pos.y, this.radius, 0, 2 * Math.PI, false);
-      ctx.fillStyle = `rgba(55, 114, 255,${this.active})`;
+      ctx.fillStyle = `rgba(${nodes},${this.active})`;
       ctx.fill();
     };
     this.update = (points) => {
@@ -237,7 +239,7 @@ const Nodes = () => {
                   2
                 ) -
               0.1;
-            ctx.strokeStyle = `rgba(55, 114, 255, ${this.lineActive})`;
+            ctx.strokeStyle = `rgba(${nodes}, ${this.lineActive})`;
             ctx.lineWidth = lineWidth;
             ctx.stroke();
             ctx.closePath();
@@ -274,7 +276,7 @@ const Nodes = () => {
                   2
                 ) -
               0.1;
-            ctx.strokeStyle = `rgba(55, 114, 255, ${this.lineActive})`;
+            ctx.strokeStyle = `rgba(${nodes}, ${this.lineActive})`;
             ctx.lineWidth = lineWidth;
             ctx.stroke();
             ctx.closePath();
@@ -311,7 +313,7 @@ const Nodes = () => {
                   2
                 ) -
               0.1;
-            ctx.strokeStyle = `rgba(55, 114, 255, ${this.lineActive})`;
+            ctx.strokeStyle = `rgba(${nodes}, ${this.lineActive})`;
             ctx.lineWidth = lineWidth;
             ctx.stroke();
             ctx.closePath();

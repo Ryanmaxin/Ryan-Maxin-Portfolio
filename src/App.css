@@ -7,29 +7,36 @@ html {
   padding: 0;
 }
 
+:root {
+  --emphasis: #4cc9f0;
+  --emphasisrgb: 0, 180, 216;
+  --blackground: #272727;
+  --white: #f2f4f3;
+}
+
 h1 {
   font-size: 2.125rem !important;
-  color: #f2f4f3 !important;
+  color: var(--white) !important;
 }
 
 h2 {
   font-size: 1.875rem !important;
-  color: #f2f4f3 !important;
+  color: var(--white) !important;
 }
 
 h3 {
   font-size: 1.5rem !important;
-  color: #f2f4f3 !important;
+  color: var(--white) !important;
 }
 
 h4 {
   font-size: 1.25rem !important;
-  color: #f2f4f3 !important;
+  color: var(--white) !important;
 }
 
 p {
   font-size: 1rem !important;
-  color: #f2f4f3 !important;
+  color: var(--white) !important;
 }
 
 body {
@@ -47,22 +54,22 @@ body::-webkit-scrollbar {
 
 .btn-outline-primary,
 .btn-outline-primary:visited {
-  color: #fca311 !important;
-  border-color: #fca311 !important;
+  color: var(--emphasis) !important;
+  border-color: var(--emphasis) !important;
   border-width: 0.09rem !important;
   transition: all 0.15s !important;
 }
 
 .btn-outline-primary:hover,
 .btn-outline-primary:active {
-  background-color: #fca311 !important;
-  color: #f2f4f3 !important;
-  box-shadow: 0 0 0.5rem rgba(223, 41, 53, 0.5) !important;
+  background-color: var(--emphasis) !important;
+  color: var(--white) !important;
+  box-shadow: 0 0 0.5rem rgba(var(--emphasisrgb), 0.5) !important;
 }
 
 .btn-outline-primary:focus,
 .btn-outline-primary:after {
-  box-shadow: 0 0 0.6rem rgba(223, 41, 53, 0.5) !important;
-  background-color: #fca311 !important;
-  color: #f2f4f3 !important;
+  box-shadow: 0 0 0.6rem rgba(var(--emphasisrgb), 0.5) !important;
+  background-color: var(--emphasis) !important;
+  color: var(--white) !important;
 }
