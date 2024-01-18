@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Ryan-Maxin-Portfolio/static/css/main.037b71ff.css",
+    "main.css": "/Ryan-Maxin-Portfolio/static/css/main.9b09a3dd.css",
     "main.js": "/Ryan-Maxin-Portfolio/static/js/main.3cb2275e.js",
     "static/media/RealmTunes.png": "/Ryan-Maxin-Portfolio/static/media/RealmTunes.8aafa460fe71fbb6ad86.png",
     "static/media/matplotlib.svg": "/Ryan-Maxin-Portfolio/static/media/matplotlib.ea6b4de08ac5e09b28cede33217ac559.svg",
@@ -47,11 +47,11 @@
     "static/media/html.svg": "/Ryan-Maxin-Portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/mail.svg": "/Ryan-Maxin-Portfolio/static/media/mail.d2668a915b3d9b349ea3b51fabae0e82.svg",
     "static/media/fastapi.svg": "/Ryan-Maxin-Portfolio/static/media/fastapi.1536093a1656eaee7a8d589641ff2803.svg",
-    "main.037b71ff.css.map": "/Ryan-Maxin-Portfolio/static/css/main.037b71ff.css.map",
+    "main.9b09a3dd.css.map": "/Ryan-Maxin-Portfolio/static/css/main.9b09a3dd.css.map",
     "main.3cb2275e.js.map": "/Ryan-Maxin-Portfolio/static/js/main.3cb2275e.js.map"
   },
   "entrypoints": [
-    "static/css/main.037b71ff.css",
+    "static/css/main.9b09a3dd.css",
     "static/js/main.3cb2275e.js"
   ]
 }
