@@ -87,7 +87,7 @@
     /* flex: 1 1 auto */
   }
   .skill svg {
-    min-height: 7rem;
+    min-height: 6rem;
   }
 }
 
@@ -103,6 +103,38 @@
   }
 
   .skill svg {
-    min-height: 6rem;
+    min-height: 7rem;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1800px) {
+  .skill {
+    width: 13%;
+    /* flex: 1 1 auto */
+  }
+
+  .skills {
+    row-gap: 2vh;
+  }
+
+  .skill svg {
+    min-height: 7rem;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 2400px) {
+  .skill {
+    width: 12%;
+    /* flex: 1 1 auto */
+  }
+
+  .skills {
+    row-gap: 2vh;
+  }
+
+  .skill svg {
+    min-height: 9rem;
   }
 }
