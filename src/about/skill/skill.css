@@ -87,7 +87,7 @@
     /* flex: 1 1 auto */
   }
   .skill svg {
-    min-height: 6rem;
+    min-height: 7rem;
   }
 }
 
@@ -126,7 +126,7 @@
 /* Extra big screen devices (1200px and above) */
 @media only screen and (min-width: 2400px) {
   .skill {
-    width: 12%;
+    width: 10%;
     /* flex: 1 1 auto */
   }
 
@@ -135,6 +135,6 @@
   }
 
   .skill svg {
-    min-height: 9rem;
+    min-height: 8rem;
   }
 }

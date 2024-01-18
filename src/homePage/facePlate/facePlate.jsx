@@ -36,7 +36,7 @@ const FacePlate = () => {
               role="button"
               to="/Ryan-Maxin-Portfolio/content#projects"
             >
-              Projects
+              My Work
             </Link>
           </div>
         </div>
