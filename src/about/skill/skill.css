@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   column-gap: 1%;
-  row-gap: 2vh;
+  row-gap: 2rem;
   margin: 2rem 0 2rem 0;
 }
 
@@ -23,7 +23,8 @@
   padding: 0.25vw 2vw 0.25vw 2vw;
   max-width: 100%;
   height: auto;
-  min-height: calc(14vh);
+  /* min-height: calc(16vh); */
+  /* padding-top: calc(3rem); */
 }
 
 .skillName {
@@ -31,46 +32,39 @@
   margin: 0;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  font-size: calc(1rem) !important;
+  font-size: 1rem !important;
   /* min-height: 3vw; */
   /* height: 3vw; */
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 680px) {
   .skill {
     width: 40%;
     /* flex: 1 1 auto; */
   }
   .skills {
-    column-gap: 5%;
+    column-gap: 4%;
     flex-wrap: wrap;
   }
   .skill svg {
-    padding: 0.75vw 6vw 0.75vw 6vw;
-  }
-}
-
-@media only screen and (min-width: 450px) {
-  .skill {
-    width: 30%;
-    /* flex: 1 1 auto; */
-  }
-  .skills {
-    column-gap: 2%;
-    flex-wrap: wrap;
+    min-height: 11rem;
   }
 }
 
 /* Small screen devices (600px and above) */
 @media only screen and (min-width: 680px) {
   .skill {
-    width: 22%;
+    width: 23%;
     /* flex: 1 1 auto; */
     /* max-width: 33%; */
   }
-
   .skills {
     column-gap: 2%;
+    flex-wrap: wrap;
+  }
+
+  .skill svg {
+    min-height: 9rem;
   }
 }
 
@@ -81,32 +75,34 @@
     /* flex: 1 1 auto */
   }
 
-  .skills {
-    column-gap: 2%;
+  .skill svg {
+    min-height: 8rem;
   }
 }
 
 /* Big screen devices (889px and above) */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .skill {
     width: 17%;
     /* flex: 1 1 auto */
   }
-
-  .skills {
-    column-gap: 2.5%;
+  .skill svg {
+    min-height: 7rem;
   }
 }
 
 /* Extra big screen devices (1200px and above) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1450px) {
   .skill {
-    width: 14%;
+    width: 15%;
     /* flex: 1 1 auto */
   }
 
   .skills {
-    column-gap: 2.5%;
     row-gap: 2vh;
+  }
+
+  .skill svg {
+    min-height: 6rem;
   }
 }
