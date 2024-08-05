@@ -27,11 +27,25 @@ const Nodes = () => {
     width = window.innerWidth;
     mouse = { x: width / 2, y: height / 2 };
     canvas = document.getElementById("canvas");
-    canvas.width = width;
-    canvas.height = height;
+
     animateHeader = true;
     scalar = width / 1920;
     ctx = canvas.getContext("2d");
+    ctx.imageSmoothingEnabled = false;
+
+    // Set actual size in memory (scaled to account for extra pixel density).
+    const dpr = window.devicePixelRatio || 1;
+    // Set the width and height of the canvas to match its size in CSS pixels times the device pixel ratio.
+    canvas.width = width * dpr;
+    canvas.height = height * dpr;
+
+    // Set the canvas's CSS width and height to its actual width and height.
+    canvas.style.width = `${width}px`;
+    canvas.style.height = `${height}px`;
+
+    // Normalize coordinate system to use css pixels.
+    ctx.scale(dpr, dpr);
+
     points.splice(0, points.length);
     if (width < 800 || height < 600) {
       pause = true;

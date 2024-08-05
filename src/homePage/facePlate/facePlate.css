@@ -1,9 +1,11 @@
 #facePlateContainer {
   position: absolute;
-  top: 22%;
+  top: 50%;
   width: 100%;
   display: flex;
   justify-content: center;
+
+  transform: translate(0%, -50%);
 }
 
 #facePlateButtons {
@@ -13,13 +15,14 @@
 }
 #facePlate {
   flex-grow: 0;
-  padding: 6rem;
+  padding: 12rem;
   z-index: 999;
   background-color: var(--blackground);
   background: radial-gradient(
-    ellipse at center,
+    ellipse 100% 65% at center,
     var(--blackground),
     var(--blackground),
+    transparent,
     transparent,
     transparent
   );
