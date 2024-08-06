@@ -2,9 +2,10 @@
 
 html {
   font-family: "Open-Sans", sans-serif;
-  font-size: calc(15px + 0.390625vw);
+  font-size: 1.5rem;
   margin: 0;
   padding: 0;
+  scroll-padding-top: 6rem;
 }
 
 :root {
@@ -13,6 +14,7 @@ html {
   --blackground: #272727;
   --white: #f2f4f3;
   --off: #db324d;
+  --off2: #6c6ea0;
   --black2: #35353a;
 }
 
@@ -66,6 +68,7 @@ body::-webkit-scrollbar {
 .btn-outline-primary:active {
   background-color: var(--emphasis) !important;
   color: var(--white) !important;
+  border-width: 0.095rem !important;
   box-shadow: 0 0 0.5rem rgba(var(--emphasisrgb), 0.5) !important;
 }
 
@@ -74,4 +77,17 @@ body::-webkit-scrollbar {
   box-shadow: 0 0 0.6rem rgba(var(--emphasisrgb), 0.5) !important;
   background-color: var(--emphasis) !important;
   color: var(--white) !important;
+}
+
+.nav-link {
+  color: var(--white) !important;
+  transition: all 0.15s !important;
+}
+
+.nav-link:hover {
+  color: var(--emphasis) !important;
+  font-weight: bold;
+  border-color: var(--emphasis) !important;
+  border-width: 0.095rem !important;
+  transition: all 0.15s !important;
 }

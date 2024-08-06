@@ -1,7 +1,7 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Routes, Redirect } from 'react-router-dom'
-import HomePage from './homePage/homePage';
-import Content from './content/content';
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import "./App.css";
+import Content from "./content/content";
+import HomePage from "./homePage/homePage";
 
 function App() {
   return (
@@ -9,7 +9,11 @@ function App() {
       <div id="App">
         <Routes>
           <Route exact path="/Ryan-Maxin-Portfolio" element={<HomePage />} />
-          <Route exact path="/Ryan-Maxin-Portfolio/content" element={<Content />} />
+          <Route
+            exact
+            path="/Ryan-Maxin-Portfolio/content"
+            element={<Content />}
+          />
         </Routes>
       </div>
     </Router>

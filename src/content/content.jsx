@@ -1,18 +1,22 @@
-import About from "../about/about";
+import About from "./about/about";
+import "./content.css";
 import Footer from "./footer/footer";
 import Navbar from "./navbar/navbar";
-import './content.css'
 import Projects from "./projects/projects";
+import Resume from "./resume/resume";
 
 const Content = () => {
   return (
     <div id="content">
       <Navbar />
-      <About />
-      <Projects />
-      <Footer />
+      <div id="avoidHeader">
+        <About />
+        <Projects />
+        <Resume />
+        <Footer />
+      </div>
     </div>
   );
-}
+};
 
 export default Content;

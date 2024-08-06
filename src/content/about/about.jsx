@@ -8,11 +8,11 @@ const About = () => {
         <h1>About Me</h1>
       </div>
       <section class="infotainer">
-        <h4>Hi there! I'm Ryan Maxin &#128075;</h4>
+        <h4>Greetings! &#128075;</h4>
         <p>
-          I'm currently in my 3A term studying computer science at the
-          University of Waterloo! &#127891; Over the past two years, I've had
-          the privilege of gaining hands-on experience through coops at three
+          I'm currently in my 3B term studying computer science at the
+          University of Waterloo! &#127891; Over the past three years, I've had
+          the privilege of gaining hands-on experience through coops at four
           amazing companies.
         </p>
         <p>

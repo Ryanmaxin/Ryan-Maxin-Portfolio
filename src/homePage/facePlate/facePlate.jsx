@@ -16,27 +16,12 @@ const FacePlate = () => {
             aria-label="Basic example"
           >
             <Link
-              className="btn btn-outline-primary"
+              className="btn btn-outline-primary wider"
               id="faceplatebutton"
               role="button"
               to="/Ryan-Maxin-Portfolio/content"
             >
-              About me
-            </Link>
-            {/* <Link
-              className="btn btn-outline-primary"
-              id="faceplatebutton"
-              role="button"
-              to="/Ryan-Maxin-Portfolio/content#projects"
-            >
-              Experience
-            </Link> */}
-            <Link
-              className="btn btn-outline-primary"
-              role="button"
-              to="/Ryan-Maxin-Portfolio/content#projects"
-            >
-              My Work
+              Dive In
             </Link>
           </div>
         </div>

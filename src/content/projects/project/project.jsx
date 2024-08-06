@@ -27,6 +27,7 @@ const Project = ({ name }) => {
             <div class="outlier">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/Ryanmaxin/Realm-Tunes-2.0"
                 type="a"
                 class="btn btn-outline-primary"
@@ -82,6 +83,7 @@ const Project = ({ name }) => {
             <div class="outlier">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://ryanmaxin.github.io/Sorting-Algorithm-Visualizer/"
                 type="a"
                 class="btn btn-outline-primary"
@@ -90,6 +92,7 @@ const Project = ({ name }) => {
               </a>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/Ryanmaxin/Sorting-Algorithm-Visualizer"
                 type="a"
                 class="btn btn-outline-primary"
@@ -151,6 +154,7 @@ const Project = ({ name }) => {
             <div class="outlier">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://syde26.life/"
                 type="a"
                 class="btn btn-outline-primary"
@@ -159,6 +163,7 @@ const Project = ({ name }) => {
               </a>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/SYDE-26/1A-Class-Profile-Website"
                 type="a"
                 class="btn btn-outline-primary"
@@ -199,6 +204,7 @@ const Project = ({ name }) => {
             <div class="outlier">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/Ryanmaxin/Dinosaur-Game"
                 type="a"
                 class="btn btn-outline-primary"

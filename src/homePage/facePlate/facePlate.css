@@ -13,6 +13,9 @@
   justify-content: center;
   /* flex: 0 0 100%; */
 }
+.wider {
+  padding: 0.4rem 1.3rem; /* Adjust padding if needed */
+}
 #facePlate {
   flex-grow: 0;
   padding: 12rem;
@@ -43,6 +46,6 @@
   color: var(--emphasis);
 }
 
-#faceplatebutton {
+/* #faceplatebutton {
   border-right: 0;
-}
+} */

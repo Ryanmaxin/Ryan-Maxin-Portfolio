@@ -1,21 +1,84 @@
 #navbar {
-  display: table !important;
-  width: 100% !important;
+  /* display: table !important; */
+  width: 100%;
+  background: var(--black2);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 0rem 1rem;
+  height: 4rem;
+  align-items: center;
 }
 
-#navbar div {
+#navbar svg {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.dotDivider {
+  font-size: 1.5rem;
+  padding: 0;
+  line-height: 1;
+  color: var(--emphasis);
+}
+
+/* #navbar div {
   display: table-cell !important;
   text-align: center !important;
   vertical-align: middle !important;
+} */
+
+#namePlate {
+  font-size: 2rem;
+  color: var(--emphasis);
 }
 
-#left {
-  border-radius: 0 0 0 1rem;
+.left {
   border-right: 0;
-  border-top: 0
 }
 
-#right {
+/* #right {
   border-radius: 0 0 1rem 0;
-  border-top: 0
+  border-top: 0;
+}  */
+
+.navButton {
+  border-radius: 0.75rem;
+}
+
+.navButtons {
+  padding: 0rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.navIcons {
+  display: flex;
+  justify-content: space-around; /* Distribute space evenly */
+  align-items: center; /* Center vertically */
+  flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+  gap: 0.5rem;
+}
+
+.navIcon {
+  flex: 1; /* Allow the SVG wrappers to grow and shrink equally */
+  display: flex;
+  justify-content: center; /* Center the SVGs horizontally */
+  align-items: center; /* Center the SVGs vertically */
+  overflow: hidden;
+}
+
+.socialIcon {
+  width: 100%; /* Make the SVG fill the wrapper */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 100px; /* Maximum height for the SVGs */
+  transition: transform 0.3s ease;
+  /* Ensure the SVGs stay within their container */
+  display: block;
+  padding: 0.2rem;
+}
+
+.socialIcon:hover {
+  transform: scale(1.15); /* Adjust the scale factor as needed */
 }
