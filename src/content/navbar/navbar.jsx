@@ -18,7 +18,19 @@ const Navbar = () => {
           // id="right"
           role="button"
         >
-          Home
+          Homepage
+        </Link>
+        <span className="dotDivider">&middot;</span>
+        <Link
+          smooth
+          to="https://ryanmaxin.github.io/resume/ryan_maxin_resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-link navButton"
+          // id="right"
+          role="button"
+        >
+          My Resume
         </Link>
         <span className="dotDivider">&middot;</span>
         <Link
@@ -39,31 +51,33 @@ const Navbar = () => {
         >
           My Work
         </Link>
-        <span className="dotDivider">&middot;</span>
-        <Link
-          smooth
-          to="/Ryan-Maxin-Portfolio/content#resume"
-          className="nav-link navButton"
-          // id="right"
-          role="button"
-        >
-          My Resume
-        </Link>
       </div>
       <div className="navIcons">
         <div className="navIcon">
-          <a href="https://github.com/Ryanmaxin" target="_blank">
+          <a
+            href="https://github.com/Ryanmaxin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <GitHub className="socialIcon" />
           </a>
         </div>
 
         <div className="navIcon">
-          <a href="mailto:rsmaxin@uwaterloo.ca" target="_blank">
+          <a
+            href="mailto:rsmaxin@uwaterloo.ca"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Mail className="socialIcon" />
           </a>
         </div>
         <div className="navIcon">
-          <a href="https://www.linkedin.com/in/ryan-maxin/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/ryan-maxin/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <LinkedIn className="socialIcon" />
           </a>
         </div>
