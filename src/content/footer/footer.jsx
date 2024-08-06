@@ -1,8 +1,5 @@
 import { Button as MUIButton } from "@mui/material";
 import { useEffect, useState } from "react";
-import { ReactComponent as GitHub } from "../../images/github.svg";
-import { ReactComponent as LinkedIn } from "../../images/linkedin.svg";
-import { ReactComponent as Mail } from "../../images/mail.svg";
 import arrow from "./arrow.svg";
 import "./footer.css";
 const Footer = () => {
@@ -26,24 +23,8 @@ const Footer = () => {
   };
   return (
     <div id="footer">
-      <div id="gh">
-        <a href="https://github.com/Ryanmaxin" target="_blank">
-          <GitHub />
-        </a>
-      </div>
-      <div id="li">
-        <a href="https://www.linkedin.com/in/ryan-maxin/" target="_blank">
-          <LinkedIn />
-        </a>
-      </div>
-      <div id="placeholder">
-        <div id="ma">
-          <a href="mailto:rsmaxin@uwaterloo.ca" target="_blank">
-            <Mail />
-          </a>
-        </div>
-      </div>
-      <div id="copyright">Ryan Maxin &copy; 2022</div>
+      <span class="footerText">Handmade by Ryan 🍿</span>
+      <span class="footerText">&copy; 2022-2024</span>
       {isVisible && (
         <div className="ScrollWrapper" id="ScrollToTop">
           <MUIButton
