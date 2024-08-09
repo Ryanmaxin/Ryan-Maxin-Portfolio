@@ -2,10 +2,10 @@
 
 html {
   font-family: "Open-Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   margin: 0;
   padding: 0;
-  scroll-padding-top: 6rem;
+  scroll-padding-top: 3rem;
 }
 
 :root {
@@ -14,8 +14,9 @@ html {
   --blackground: #272727;
   --white: #f2f4f3;
   --off: #db324d;
-  --off2: #6c6ea0;
+  --off2: #ee964b;
   --black2: #35353a;
+  --gradient: linear-gradient(30deg, var(--off), var(--off2), var(--emphasis));
 }
 
 h1 {

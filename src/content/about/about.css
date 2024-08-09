@@ -1,5 +1,12 @@
 .infotainer {
-  margin-bottom: 1.5rem;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.infotainer p:last-child {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 #about h4 {
@@ -10,20 +17,30 @@
   margin-bottom: 2rem;
 }
 
-img {
-  /* flex: 1; */
-  max-width: 100%;
-  height: auto;
-}
-
 #aboutBox {
   display: flex;
   /* align-items: center; */
   gap: 2rem;
+  align-items: stretch;
 }
 
 #imageHolder {
-  max-width: 50%;
-  padding: 0.25rem;
+  /* padding: 0.25rem; */
   background-color: var(--black2);
+  position: relative;
+  flex: 1;
+
+  /* margin-bottom: 1rem; */
+}
+
+#imageHolder img {
+  padding: 0.25rem;
+  position: absolute;
+  width: 100%;
+  /* max-width: 100%; */
+  height: 100%;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }

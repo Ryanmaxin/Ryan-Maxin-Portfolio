@@ -7,10 +7,11 @@
 #resume {
   margin: auto;
   padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 #avoidHeader {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 #about h1,
@@ -20,10 +21,10 @@
   display: inline;
   /* background: linear-gradient(235deg, var(--emphasis) 0%, var(--off) 100%); */
 
-  background: linear-gradient(135deg, var(--off2), var(--emphasis), var(--off));
+  background: var(--gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 800;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 595px) {

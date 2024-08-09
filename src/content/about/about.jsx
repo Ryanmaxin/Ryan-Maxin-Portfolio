@@ -25,12 +25,12 @@ const About = () => {
           </p>
           <p>
             I aim for a well rounded lifestyle. For me this primarily means
-            physical activity to contrast with programming. Specifically I have
-            gotten into the routine of weightlifting at the gym 3-4 times a
-            week. I also love to play soccer, badminton, and ping. Recently,
-            I've also been challenging myself lately with rock climbing. Outside
-            of fitness, I enjoy playing chess and indulging in some quality TV
-            and movies.
+            pursuing physical activity to contrast with my time programming.
+            Specifically I have gotten into the routine of weightlifting at the
+            gym 3-4 times a week. I also love to play soccer, badminton, and
+            ping pong. Recently, I've also been challenging myself with rock
+            climbing. Outside of fitness, I enjoy playing chess and indulging in
+            some quality TV and movies.
           </p>
           <p>
             Looking forward, my goal is to secure a meaningful co-op position
@@ -40,7 +40,7 @@ const About = () => {
           </p>
         </section>
         <div id="imageHolder">
-          <img src={require("./portraits/mainpic.jpeg")} />
+          <img src={require("./portraits/mainpic.png")} />
         </div>
       </div>
     </div>
