@@ -57,7 +57,7 @@ const Nodes = () => {
     // masterCircle.active = 1
 
     // create points
-    for (let i = 0; i < Math.floor((width / 2 + height / 2) / 5); i += 1) {
+    for (let i = 0; i < Math.floor((width / 2 + height / 2) / 6); i += 1) {
       const decider = Math.floor(getRandom(1, 36));
       let radius, dx, dy;
       if (decider > 34) {
@@ -127,32 +127,36 @@ const Nodes = () => {
     if (!pause) {
       ctx.clearRect(0, 0, width, height);
       points.forEach((point) => {
-        //detect points in range
+        // detect points in range
         // if (Math.abs(getDistance(mouse, point.pos)) < Math.sqrt(10000)) {
-        //     point.active = 0.6;
-        //     point.lineActive = 0.3
-        //     // point.circle.active = 0.6;
-        //     point.update(points)
+        //   point.active = 0.6;
+        //   point.lineActive = 0.3;
+        //   // point.circle.active = 0.6;
+        //   point.update(points);
         // } else if (Math.abs(getDistance(mouse, point.pos)) < Math.sqrt(80000)) {
-        //     point.active = 0.3;
-        //     point.lineActive = 0.1
-        //     // point.circle.active = 0.3;
-        //     point.update(points)
-        // } else if (Math.abs(getDistance(mouse, point.pos)) < Math.sqrt(120000)) {
-        //     point.active = 0.1;
-        //     point.lineActive = 0.02
-        //     // point.circle.active = 0.1;
-        //     point.update(points)
-        // } else if (Math.abs(getDistance(mouse, point.pos)) < Math.sqrt(150000)) {
-        //     point.active = 0.05;
-        //     point.lineActive = 0.005
-        //     // point.circle.active = 0.1;
-        //     point.update(points)
+        //   point.active = 0.3;
+        //   point.lineActive = 0.1;
+        //   // point.circle.active = 0.3;
+        //   point.update(points);
+        // } else if (
+        //   Math.abs(getDistance(mouse, point.pos)) < Math.sqrt(120000)
+        // ) {
+        //   point.active = 0.1;
+        //   point.lineActive = 0.02;
+        //   // point.circle.active = 0.1;
+        //   point.update(points);
+        // } else if (
+        //   Math.abs(getDistance(mouse, point.pos)) < Math.sqrt(150000)
+        // ) {
+        //   point.active = 0.05;
+        //   point.lineActive = 0.005;
+        //   // point.circle.active = 0.1;
+        //   point.update(points);
         // } else {
-        //     point.active = 0;
-        //     point.lineActive = 0
-        //     point.update(points)
-        //     // point.circle.active = 0;
+        //   point.active = 0;
+        //   point.lineActive = 0;
+        //   point.update(points);
+        //   // point.circle.active = 0;
         // }
         point.active =
           1 / Math.pow(Math.abs(getDistance(mouse, point.pos) / 100), 2) - 0.04;
