@@ -8,6 +8,7 @@
   padding: 0rem 1rem;
   height: 4rem;
   align-items: center;
+  z-index: 2;
 }
 
 #navbar svg {
@@ -42,10 +43,6 @@
   border-top: 0;
 }  */
 
-.navButton {
-  border-radius: 0.75rem;
-}
-
 .navButtons {
   padding: 0rem;
   display: flex;
@@ -73,7 +70,7 @@
   width: 100%; /* Make the SVG fill the wrapper */
   height: auto; /* Maintain aspect ratio */
   max-height: 100px; /* Maximum height for the SVGs */
-  transition: transform 0.3s ease;
+  transition: transform 0.25s ease;
   /* Ensure the SVGs stay within their container */
   display: block;
   padding: 0.2rem;

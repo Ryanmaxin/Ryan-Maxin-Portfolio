@@ -1,0 +1,103 @@
+.projectTile img {
+  width: 100%;
+  padding: 0.25rem;
+}
+
+.projectTile {
+  margin-bottom: 3rem;
+}
+
+.projectInfo {
+  background-color: #35353a;
+}
+
+.description {
+  padding: 0.5rem;
+}
+
+.description p {
+  margin: 0;
+}
+
+.tagholder {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  column-gap: 2%;
+  row-gap: 1vh;
+  justify-content: center;
+}
+
+.tag {
+  border: 1px solid var(--off);
+  background-color: var(--off);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  cursor: default;
+}
+
+.tag p {
+  margin: 0;
+}
+
+.outlier a {
+  background: linear-gradient(var(--black2), var(--black2)) padding-box,
+    var(--gradient) border-box !important;
+
+  border-radius: calc(2rem) !important;
+  border: 3px solid transparent !important;
+  color: var(--white) !important;
+  /* transition: 0.5s; */
+}
+
+.outlier a:hover,
+.outlier a:focus,
+.outlier a:active {
+  background: var(--gradient) padding-box, var(--gradient) border-box !important;
+  border-radius: calc(2rem) !important;
+  border: 3px solid transparent !important;
+  box-shadow: none !important;
+}
+
+.outlier {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-around;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.outlier a h4 {
+  margin: 0;
+}
+
+.outlier a {
+  padding: 0.8rem;
+}
+
+.projectButton {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-around;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding: 0.8rem;
+  margin: 0;
+  background: linear-gradient(var(--black2), var(--black2)) padding-box,
+    var(--gradient) border-box !important;
+
+  border-radius: calc(2rem) !important;
+  border: 3px solid transparent !important;
+  color: var(--white) !important;
+  /* transition: 0.5s; */
+}
+
+.projectButton:hover .projectButton:focus .projectButton:active {
+  background: var(--gradient) padding-box, var(--gradient) border-box !important;
+  border-radius: calc(2rem) !important;
+  border: 3px solid transparent !important;
+  box-shadow: none !important;
+}

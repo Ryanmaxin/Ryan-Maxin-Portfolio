@@ -1,8 +1,8 @@
 import About from "./about/about";
 import "./content.css";
+import Experiences from "./experience/experiences";
 import Footer from "./footer/footer";
 import Navbar from "./navbar/navbar";
-import Projects from "./projects/projects";
 
 const Content = () => {
   return (
@@ -10,7 +10,7 @@ const Content = () => {
       <Navbar />
       <div id="avoidHeader">
         <About />
-        <Projects />
+        <Experiences />
         <Footer />
       </div>
     </div>
