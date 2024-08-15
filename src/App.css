@@ -22,31 +22,31 @@ html {
   --off2: #ee964b;
   --black2: #35353a;
   --gradient: linear-gradient(30deg, var(--off), var(--off2), var(--emphasis));
-  --fs: 1.4rem;
+  --fs: 1.25rem;
 }
 
 h1 {
-  font-size: 2.25rem !important;
-  color: var(--white) !important;
-}
-
-h2 {
   font-size: 2rem !important;
   color: var(--white) !important;
 }
 
+h2 {
+  font-size: 1.75rem !important;
+  color: var(--white) !important;
+}
+
 h3 {
-  font-size: 1.6rem !important;
+  font-size: 1.5rem !important;
   color: var(--white) !important;
 }
 
 h4 {
-  font-size: 1.4rem !important;
+  font-size: 1.25rem !important;
   color: var(--white) !important;
 }
 
 p {
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
   color: var(--white) !important;
 }
 
@@ -96,4 +96,125 @@ body::-webkit-scrollbar {
 
   transform: scale(1.04);
   transition: transform 0.25s !important;
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (max-width: 600px) {
+  #about,
+  #work,
+  #resume {
+    width: 90%;
+  }
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+  #about,
+  #work,
+  #resume {
+    width: 90%;
+  }
+  #aboutBox {
+    grid-template-columns: 1fr;
+  }
+  #imageHolder {
+    max-width: 75vw;
+  }
+  #imageHolder {
+    margin: 0 auto;
+  }
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+  #about,
+  #work {
+    width: 85%;
+  }
+  #aboutBox {
+    grid-template-columns: 1fr;
+  }
+  #imageHolder {
+    max-width: 50vw;
+  }
+  #imageHolder {
+    margin: 0 auto;
+  }
+}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 992px) {
+  #about,
+  #work,
+  #resume {
+    width: 80%;
+  }
+  #aboutBox {
+    grid-template-columns: 1fr 1fr;
+  }
+  #imageHolder img {
+    position: absolute;
+  }
+  #imageHolder {
+    margin: 0;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  #about,
+  #work,
+  #resume {
+    width: 75%;
+  }
+  #aboutBox {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1600px) {
+  #about,
+  #work,
+  #resume {
+    width: 70%;
+  }
+  #aboutBox {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 2000px) {
+  #about,
+  #work,
+  #resume {
+    width: 60%;
+  }
+  #aboutBox {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  #about,
+  #work,
+  #resume {
+    width: 50%;
+  }
+  #aboutBox {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 2800px) {
+  #about,
+  #work,
+  #resume {
+    width: 40%;
+  }
+  #aboutBox {
+    grid-template-columns: 3fr 1fr;
+  }
 }

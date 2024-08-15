@@ -27,8 +27,8 @@ const About = () => {
             I aim for a well rounded lifestyle. For me this primarily means
             pursuing physical activity to contrast with my time programming.
             Specifically I have gotten into the routine of weightlifting at the
-            gym 3-4 times a week. I also love to play soccer, badminton, and
-            ping pong. Recently, I've also been challenging myself with rock
+            gym 3-4 times a week. I also love to play soccer, badminton, ping
+            pong, and recently, I've also been challenging myself with rock
             climbing. Outside of fitness, I enjoy playing chess and indulging in
             some quality TV and movies.
           </p>

@@ -9,44 +9,42 @@
   padding-bottom: 0px;
 }
 
-#about h4 {
-  margin-bottom: 1rem;
+#about h3 {
+  margin-bottom: 2rem;
 }
 
 .wrapper {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 #aboutBox {
-  display: flex;
+  display: grid;
   /* align-items: center; */
   gap: 3rem;
   align-items: stretch;
 }
 
+/* #imageHolderHolder {
+  display: flex;
+  justify-content: center;
+} */
+
 #imageHolder {
   /* padding: 0.25rem; */
   background-color: var(--black2);
   position: relative;
-  flex: 1;
-
+  /* fle */
   /* margin-bottom: 1rem; */
 }
 
 #imageHolder img {
   padding: 0.25rem;
-  position: absolute;
   width: 100%;
-  /* max-width: 100%; */
   height: 100%;
   object-fit: cover;
   left: 0;
   top: 0;
   z-index: 1;
-}
-
-#about {
-  margin: 8rem;
 }
 
 /* #aboutHolder {

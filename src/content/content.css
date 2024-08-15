@@ -9,8 +9,11 @@
   padding-bottom: 15vh;
 }
 
+#about {
+}
+
 #avoidHeader {
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
 #about h1,
@@ -23,47 +26,4 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-}
-
-@media only screen and (max-width: 595px) {
-  #about,
-  #work,
-  #resume {
-    width: 90%;
-  }
-}
-
-/* Small screen devices (600px and above) */
-@media only screen and (min-width: 600px) {
-  #about,
-  #work,
-  #resume {
-    width: 85%;
-  }
-}
-
-/* Medium screen devices (768px and above) */
-@media only screen and (min-width: 768px) {
-  #about,
-  #work {
-    width: 80%;
-  }
-}
-
-/* Big screen devices (889px and above) */
-@media only screen and (min-width: 889px) {
-  #about,
-  #work,
-  #resume {
-    width: 80%;
-  }
-}
-
-/* Extra big screen devices (1200px and above) */
-@media only screen and (min-width: 1200px) {
-  #about,
-  #work,
-  #resume {
-    width: 80%;
-  }
 }

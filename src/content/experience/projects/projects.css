@@ -1,6 +1,7 @@
 #projectsHolder {
-  display: flex;
-  gap: 3%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  gap: 4rem;
   align-items: stretch;
   flex-wrap: wrap;
 }
