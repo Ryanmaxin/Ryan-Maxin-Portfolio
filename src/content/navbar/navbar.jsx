@@ -2,6 +2,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import { ReactComponent as GitHub } from "../../images/socials/github.svg";
 import { ReactComponent as LinkedIn } from "../../images/socials/linkedin.svg";
 import { ReactComponent as Mail } from "../../images/socials/mail.svg";
+import Hamburger from "./hamburger/hamburger";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
       <div className="titleSide">
         <h1 id="namePlate">Ryan Maxin</h1>
       </div>
-      <div className="navButtons">
+      <div className="navButtons nonHamburger">
         <Link
           smooth
           to="/Ryan-Maxin-Portfolio"
@@ -52,7 +53,7 @@ const Navbar = () => {
           My Work
         </Link>
       </div>
-      <div className="navIcons">
+      <div className="navIcons nonHamburger">
         <div className="navIcon">
           <a
             href="https://github.com/Ryanmaxin"
@@ -82,6 +83,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
+      <Hamburger />
     </div>
   );
 };

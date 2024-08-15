@@ -1,0 +1,49 @@
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#hamburgerMenu {
+  display: None;
+}
+
+.dropmenu {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  top: 4rem;
+  right: 0;
+  background-color: var(--black2);
+  gap: 1rem;
+  padding: 0.5rem;
+  width: 50%;
+}
+.navList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media only screen and (max-width: 992px) {
+  #hamburgerMenu {
+    display: block;
+  }
+  .nonHamburger {
+    display: None;
+  }
+}
+
+.closed {
+  display: None;
+}
+
+#hamIcon button {
+  background: None;
+  border: None;
+}
+
+.noscale:hover {
+  transform: scale(1); /* Adjust the scale factor as needed */
+}
