@@ -1,0 +1,17 @@
+export const Tags = Object.freeze({
+  REACT: "React",
+  JS: "Javascript",
+  HTML: "HTML",
+  CSS: "CSS",
+  MUI: "Material UI",
+  ASYNC: "Async",
+  GIT: "Git",
+  SASS: "SASS",
+  FIREBASE: "Firebase",
+  PYTHON: "Python",
+  KOTLIN: "Kotlin",
+  JC: "Jetpack Compose",
+  CPP: "C++",
+  CMD: "Command Line",
+  AUTH: "Auth",
+});

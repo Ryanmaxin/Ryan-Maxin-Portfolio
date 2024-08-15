@@ -3,11 +3,10 @@
 }
 
 #about,
-#work,
-#resume {
+#work {
   margin: auto;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
 }
 
 #avoidHeader {
@@ -20,7 +19,6 @@
 #namePlate {
   display: inline;
   /* background: linear-gradient(235deg, var(--emphasis) 0%, var(--off) 100%); */
-
   background: var(--gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

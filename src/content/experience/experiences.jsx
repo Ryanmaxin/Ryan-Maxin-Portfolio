@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./experiences.css";
 import Projects from "./projects/projects";
+import WorkExperiences from "./work_experiences/work_experiences";
 const Experiences = () => {
   const [isWorkExperience, setIsWorkExperience] = useState(true);
   return (
@@ -35,7 +36,7 @@ const Experiences = () => {
           Projects
         </button>
       </div>
-      {isWorkExperience ? <Projects /> : <Projects />}
+      <div>{isWorkExperience ? <WorkExperiences /> : <Projects />}</div>
     </div>
   );
 };

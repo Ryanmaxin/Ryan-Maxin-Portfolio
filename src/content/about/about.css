@@ -1,6 +1,6 @@
 .infotainer {
   display: flex;
-  flex: 2;
+  flex: 2.5;
   flex-direction: column;
 }
 
@@ -14,13 +14,13 @@
 }
 
 .wrapper {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 #aboutBox {
   display: flex;
   /* align-items: center; */
-  gap: 2rem;
+  gap: 3rem;
   align-items: stretch;
 }
 
@@ -44,3 +44,16 @@
   top: 0;
   z-index: 1;
 }
+
+#about {
+  margin: 8rem;
+}
+
+/* #aboutHolder {
+  display: flex;
+  algin-content: center;
+  justify-content: center;
+  height: 90vh;
+  margin-bottom: 10vh;
+  min-height: ;
+} */

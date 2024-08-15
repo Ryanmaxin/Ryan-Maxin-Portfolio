@@ -1,10 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
-html {
-  font-family: "Open-Sans", sans-serif;
-  font-size: 1.35rem;
+body {
+  font-family: "Open Sans", sans-serif !important;
+  /* font-family: "Inter", sans-serif !important; */
+  font-size: var(--fs) !important;
   margin: 0;
   padding: 0;
+}
+
+html {
   scroll-padding-top: 3rem;
 }
 
@@ -17,30 +22,31 @@ html {
   --off2: #ee964b;
   --black2: #35353a;
   --gradient: linear-gradient(30deg, var(--off), var(--off2), var(--emphasis));
+  --fs: 1.4rem;
 }
 
 h1 {
-  font-size: 2.125rem !important;
+  font-size: 2.25rem !important;
   color: var(--white) !important;
 }
 
 h2 {
-  font-size: 1.875rem !important;
+  font-size: 2rem !important;
   color: var(--white) !important;
 }
 
 h3 {
-  font-size: 1.5rem !important;
+  font-size: 1.6rem !important;
   color: var(--white) !important;
 }
 
 h4 {
-  font-size: 1.25rem !important;
+  font-size: 1.4rem !important;
   color: var(--white) !important;
 }
 
 p {
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
   color: var(--white) !important;
 }
 
@@ -82,12 +88,12 @@ body::-webkit-scrollbar {
 
 .nav-link {
   color: var(--white) !important;
-  transition: all 0.25s !important;
+  transition: transform 0.25s !important;
 }
 
 .nav-link:hover {
   color: var(--emphasis) !important;
 
-  transform: scale(1.05);
-  transition: all 0.25s !important;
+  transform: scale(1.04);
+  transition: transform 0.25s !important;
 }

@@ -3,11 +3,11 @@
   display: inline-flex;
   justify-content: space-between;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 
 #experienceDivider {
-  font-size: 1.35rem;
+  font-size: calc(var(--fs) * 1.25);
   padding: 0;
   line-height: 1;
   color: var(--emphasis);

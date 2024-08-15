@@ -57,7 +57,7 @@ const Nodes = () => {
     // masterCircle.active = 1
 
     // create points
-    for (let i = 0; i < Math.floor((width / 2 + height / 2) / 6); i += 1) {
+    for (let i = 0; i < Math.floor((width / 2 + height / 2) / 5); i += 1) {
       const decider = Math.floor(getRandom(1, 36));
       let radius, dx, dy;
       if (decider > 34) {

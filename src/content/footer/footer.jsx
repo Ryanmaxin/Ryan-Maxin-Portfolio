@@ -28,6 +28,7 @@ const Footer = () => {
       {isVisible && (
         <div className="ScrollWrapper" id="ScrollToTop">
           <MUIButton
+            disableRipple
             onClick={topFunction}
             sx={{
               backgroundColor: "#27313B",

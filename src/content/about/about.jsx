@@ -11,7 +11,7 @@ const About = () => {
           <p>
             I am currently in my 3B term studying computer science at the
             University of Waterloo, and I'm set to graduate in April 2026
-            &#127891; Over the past three years, I've had the privilege of
+            &#127891;. Over the past three years, I've had the privilege of
             gaining hands-on experience through co-ops at four amazing
             companies.
           </p>

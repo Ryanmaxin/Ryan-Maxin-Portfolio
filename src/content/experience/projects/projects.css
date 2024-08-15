@@ -1,0 +1,6 @@
+#projectsHolder {
+  display: flex;
+  gap: 3%;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
