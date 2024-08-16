@@ -3,7 +3,6 @@ export const Tags = Object.freeze({
   JS: "Javascript",
   HTML: "HTML",
   CSS: "CSS",
-  MUI: "Material UI",
   ASYNC: "Async",
   GIT: "Git",
   SASS: "SASS",
@@ -14,4 +13,5 @@ export const Tags = Object.freeze({
   CPP: "C++",
   CMD: "Command Line",
   AUTH: "Auth",
+  VERCEL: "Vercel",
 });

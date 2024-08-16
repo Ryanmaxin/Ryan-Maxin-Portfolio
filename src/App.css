@@ -63,27 +63,18 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.btn-outline-primary,
-.btn-outline-primary:visited {
+.btn-outline-primary {
   color: var(--emphasis) !important;
   border-color: var(--emphasis) !important;
   border-width: 0.095rem !important;
   transition: all 0.15s !important;
 }
 
-.btn-outline-primary:hover,
-.btn-outline-primary:active {
+.btn-outline-primary:hover {
   background-color: var(--emphasis) !important;
   color: var(--white) !important;
   border-width: 0.095rem !important;
   box-shadow: 0 0 0.5rem rgba(var(--emphasisrgb), 0.5) !important;
-}
-
-.btn-outline-primary:focus,
-.btn-outline-primary:after {
-  box-shadow: 0 0 0.6rem rgba(var(--emphasisrgb), 0.5) !important;
-  background-color: var(--emphasis) !important;
-  color: var(--white) !important;
 }
 
 .nav-link {

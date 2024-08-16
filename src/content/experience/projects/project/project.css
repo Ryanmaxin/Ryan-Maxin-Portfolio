@@ -25,8 +25,12 @@
 }
 
 .description {
-  padding: 0.25rem;
+  padding: 1.5rem 0.75rem;
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .description p {
@@ -65,22 +69,21 @@
   border: 3px solid transparent !important;
   color: var(--white) !important;
   /* transition: 0.5s; */
+  box-shadow: 0 0 0.5rem rgba(var(--emphasisrgb), 0.2) !important;
 }
 
-.outlier a:hover,
-.outlier a:focus,
-.outlier a:active {
+.outlier a:hover {
   background: var(--gradient) padding-box, var(--gradient) border-box !important;
   border-radius: calc(2rem) !important;
   border: 3px solid transparent !important;
-  box-shadow: none !important;
+  box-shadow: 0 0 0.5rem rgba(var(--emphasisrgb), 0.2) !important;
 }
 
 .outlier {
   display: flex;
   flex-flow: row-wrap;
   justify-content: space-around;
-  padding: 0.25rem;
+  padding: 1rem 0.25rem;
 }
 
 .outlier a h4 {
@@ -108,9 +111,8 @@
   /* transition: 0.5s; */
 }
 
-.projectButton:hover .projectButton:focus .projectButton:active {
+.projectButton:hover {
   background: var(--gradient) padding-box, var(--gradient) border-box !important;
   border-radius: calc(2rem) !important;
   border: 3px solid transparent !important;
-  box-shadow: none !important;
 }

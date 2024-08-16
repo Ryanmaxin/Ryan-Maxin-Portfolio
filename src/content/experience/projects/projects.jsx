@@ -1,5 +1,5 @@
+import { Tags } from "../tags";
 import Project from "./project/project";
-import { Tags } from "./project/projectData";
 import "./projects.css";
 
 const Projects = () => {
@@ -9,7 +9,7 @@ const Projects = () => {
         projectData={{
           title: "Sorting Algorithm Visualizer",
           imagePath: "Sorting.png",
-          description: `I've been fascinated with sorting algorithms ever since I first learned about them. This visualizer tool was born out of that curiosity, turning complex algorithms into interactive animations that bring theory to life.`,
+          description: `Born from a deep-seated fascination with sorting algorithms, this visualizer tool transforms the abstract into captivating animations. Designed to make complex concepts accessible and engaging, it brings the intricate dance of algorithms to life, offering both novices and seasoned programmers a vivid glimpse into the mechanics of data sorting.`,
           tags: [
             Tags.REACT,
             Tags.JS,
@@ -18,9 +18,9 @@ const Projects = () => {
             Tags.ASYNC,
             Tags.GIT,
           ],
-          link1: "https://example.com/link1",
+          link1: "https://ryanmaxin.github.io/Sorting-Algorithm-Visualizer/",
           link1Name: "Live",
-          link2: "https://example.com/link2",
+          link2: "https://github.com/Ryanmaxin/Sorting-Algorithm-Visualizer",
           link2Name: "More Info",
         }}
       />
@@ -28,11 +28,11 @@ const Projects = () => {
         projectData={{
           title: "Realm Tunes",
           imagePath: "RealmTunes.png",
-          description: `Realm Tunes is a Discord music bot serving over 350 users across 7 servers. I created Realm Tunes as a private way to play music with my friends after most public bots got shut down.`,
+          description: `A vibrant and feature-rich Discord music bot, Realm Tunes elevates the listening experience for over 350 users across 7 servers. I created Realm Tunes as a way to play music with my friends after most public bots got shut down.`,
           tags: [Tags.PYTHON, Tags.ASYNC, Tags.GIT],
           link1: "",
           link1Name: "",
-          link2: "https://example.com/link2",
+          link2: "https://github.com/Ryanmaxin/Realm-Tunes-2.0",
           link2Name: "More Info",
         }}
       />
@@ -40,30 +40,31 @@ const Projects = () => {
         projectData={{
           title: "AceInterviewer",
           imagePath: "Ace.png",
-          description: `a private way to play music with my friends after most public bots got shut down.`,
+          description: `AceInterviewer provides a dedicated space for both students and professionals to practice interview questions, share their responses, and receive constructive feedback from a knowledgeable community, helping them better prepare for real-world interviews.`,
           tags: [Tags.KOTLIN, Tags.JC, Tags.FIREBASE, Tags.GIT],
-          link1: "https://example.com/link1",
-          link1Name: "Demo",
-          link2: "https://example.com/link2",
-          link2Name: "More Info",
+          link1: "",
+          link1Name: "",
+          link2: "https://github.com/Ryanmaxin/AceInterviewer",
+          link2Name: "More Info and Demo",
         }}
       />
       <Project
         projectData={{
           title: "Syde 2026 Class Profile",
           imagePath: "SYDE.png",
-          description: ` 350 users across 7 servers. I created Realm Tunes as a private way to play music with my friends after most public bots got shut down.`,
+          description: `Continuing University of Waterloo tradition, I joined 18 Systems Design Engineering classmates to develop the 2026 SYDE class profile. As a lead on the software team, I spearheaded the creation of navigation and all five statistics pages, and organized team meetings that drove the project to completion two weeks ahead of schedule.`,
           tags: [
             Tags.REACT,
             Tags.JS,
+            Tags.FIREBASE,
+            Tags.VERCEL,
             Tags.HTML,
             Tags.CSS,
-            Tags.FIREBASE,
             Tags.GIT,
           ],
-          link1: "https://example.com/link1",
+          link1: "https://syde26.life/",
           link1Name: "Live",
-          link2: "https://example.com/link2",
+          link2: "https://github.com/SYDE-26/1A-Class-Profile-Website",
           link2Name: "More Info",
         }}
       />
@@ -71,17 +72,14 @@ const Projects = () => {
         projectData={{
           title: "Dinosaur Game",
           imagePath: "Dino.png",
-          description: `Revers. I created Realm Tunes as a private way to play music with my friends after most public bots got shut down.`,
-          tags: [Tags.CPP, Tags.CMD],
+          description: `I created a clone of Google's famous "Dinosaur Game" that runs entirely in the terminal.`,
+          tags: [Tags.CPP, Tags.CMD, Tags.ASYNC],
           link1: "",
           link1Name: "",
           link2: "https://example.com/link2",
           link2Name: "More Info",
         }}
       />
-      {/* <Project name="syde" />
-      <Project name="realm" />
-      <Project name="dino" /> */}
     </div>
   );
 };
