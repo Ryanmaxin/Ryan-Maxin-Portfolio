@@ -10,7 +10,7 @@ body {
 }
 
 html {
-  scroll-padding-top: 3rem;
+  /* scroll-padding-top: 15vh; */
 }
 
 :root {
@@ -216,5 +216,17 @@ body::-webkit-scrollbar {
   }
   #aboutBox {
     grid-template-columns: 3fr 1fr;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 3600px) {
+  #about,
+  #work,
+  #resume {
+    width: 40%;
+  }
+  #aboutBox {
+    grid-template-columns: 8fr 1fr;
   }
 }

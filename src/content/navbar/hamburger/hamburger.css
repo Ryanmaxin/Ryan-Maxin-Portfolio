@@ -17,7 +17,7 @@
   background-color: var(--black2);
   gap: 1rem;
   padding: 0.5rem;
-  width: 50%;
+  min-width: 35%;
 }
 .navList {
   display: flex;
