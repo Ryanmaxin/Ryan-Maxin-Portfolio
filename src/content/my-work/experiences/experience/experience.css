@@ -24,6 +24,11 @@
   align-items: stretch;
 }
 
+.projectInfo img {
+  box-sizing: border-box;
+  padding: 4rem;
+}
+
 .description {
   padding: 1.5rem 0.75rem;
   flex: 1;
@@ -70,6 +75,7 @@
   color: var(--white) !important;
   /* transition: 0.5s; */
   box-shadow: 0 0 0.5rem rgba(var(--emphasisrgb), 0.2) !important;
+  padding: 0.8rem;
 }
 
 .outlier a:hover {
@@ -88,10 +94,6 @@
 
 .outlier a h4 {
   margin: 0;
-}
-
-.outlier a {
-  padding: 0.8rem;
 }
 
 .projectButton {

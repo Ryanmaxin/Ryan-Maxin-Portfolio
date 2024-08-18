@@ -1,7 +1,7 @@
 import About from "./about/about";
 import "./content.css";
-import Experiences from "./experience/experiences";
 import Footer from "./footer/footer";
+import MyWork from "./my-work/my-work";
 import Navbar from "./navbar/navbar";
 
 const Content = () => {
@@ -10,7 +10,7 @@ const Content = () => {
       <Navbar />
       <div id="avoidHeader">
         <About />
-        <Experiences />
+        <MyWork />
         <Footer />
       </div>
     </div>

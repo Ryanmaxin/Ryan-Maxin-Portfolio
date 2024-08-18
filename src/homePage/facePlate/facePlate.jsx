@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { HashLink as Link } from "react-router-hash-link";
-import "./facePlate.css";
+import "./faceplate.css";
 const FacePlate = () => {
   return (
     <div id="facePlateContainer">

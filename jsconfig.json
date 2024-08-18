@@ -4,5 +4,5 @@
     "module": "commonjs",
     "checkJs": true
   },
-  "include": ["src/**/*.js"]
+  "include": ["src/**/*.js", "src/App.jsx"]
 }

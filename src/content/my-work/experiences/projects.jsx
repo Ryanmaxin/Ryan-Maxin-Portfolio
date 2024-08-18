@@ -1,11 +1,11 @@
 import { Tags } from "../tags";
-import Project from "./project/project";
-import "./projects.css";
+import "./experience.css";
+import Experience from "./experience/experience";
 
 const Projects = () => {
   return (
     <div id="projectsHolder">
-      <Project
+      <Experience
         projectData={{
           title: "Sorting Algorithm Visualizer",
           imagePath: "Sorting.png",
@@ -24,7 +24,7 @@ const Projects = () => {
           link2Name: "More Info",
         }}
       />
-      <Project
+      <Experience
         projectData={{
           title: "Realm Tunes",
           imagePath: "RealmTunes.png",
@@ -36,7 +36,7 @@ const Projects = () => {
           link2Name: "More Info",
         }}
       />
-      <Project
+      <Experience
         projectData={{
           title: "AceInterviewer",
           imagePath: "Ace.png",
@@ -48,11 +48,11 @@ const Projects = () => {
           link2Name: "More Info and Demo",
         }}
       />
-      <Project
+      <Experience
         projectData={{
           title: "Syde 2026 Class Profile",
           imagePath: "SYDE.png",
-          description: `Continuing University of Waterloo tradition, I joined 18 Systems Design Engineering classmates to develop the 2026 SYDE class profile. As a lead on the software team, I spearheaded the creation of navigation and all five statistics pages, and organized team meetings that drove the project to completion two weeks ahead of schedule.`,
+          description: `Continuing University of Waterloo tradition, I joined 18 Systems Design Engineering classmates to develop the 2026 SYDE class profile. As a lead on the software team, I spearheaded the creation of navigation and all five statistics pages, and organized team meetings that drove the Experience to completion two weeks ahead of schedule.`,
           tags: [
             Tags.REACT,
             Tags.JS,
@@ -68,7 +68,7 @@ const Projects = () => {
           link2Name: "More Info",
         }}
       />
-      <Project
+      <Experience
         projectData={{
           title: "Dinosaur Game",
           imagePath: "Dino.png",

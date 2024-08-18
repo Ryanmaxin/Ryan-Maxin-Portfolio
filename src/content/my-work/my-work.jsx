@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./experiences.css";
-import Projects from "./projects/projects";
-import WorkExperiences from "./work_experiences/work_experiences";
-const Experiences = () => {
+import Projects from "./experiences/projects";
+import WorkExperiences from "./experiences/work-experiences";
+import "./my-work.css";
+const MyWork = () => {
   const [isWorkExperience, setIsWorkExperience] = useState(true);
   return (
     <div id="work">
@@ -41,4 +41,4 @@ const Experiences = () => {
   );
 };
 
-export default Experiences;
+export default MyWork;

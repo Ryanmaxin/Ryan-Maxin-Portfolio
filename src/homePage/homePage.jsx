@@ -1,7 +1,7 @@
-import FacePlate from "./facePlate/facePlate";
-import "./homePage.css";
+import FacePlate from "./faceplate/faceplate";
+import "./homepage.css";
 import Nodes from "./nodes/nodes";
-const HomePage = () => {
+const Homepage = () => {
   return (
     <div id="homePage">
       <Nodes />
@@ -10,4 +10,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Homepage;

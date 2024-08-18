@@ -1,11 +1,11 @@
-import "./project.css";
+import "./experience.css";
 
 const Project = ({ projectData }) => {
   return (
     <div class="projectTile">
       <h3>{projectData.title}</h3>
       <div class="projectInfo">
-        <img src={require(`../projectImages/${projectData.imagePath}`)} />
+        <img src={require(`../experience-images/${projectData.imagePath}`)} />
         <div class="tagholder">
           {projectData.tags.map((tag, i) => (
             <div className="tag" key={i}>

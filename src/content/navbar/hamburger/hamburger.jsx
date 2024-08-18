@@ -4,9 +4,9 @@ import { ReactComponent as GitHub } from "../../../images/socials/github.svg";
 import { ReactComponent as LinkedIn } from "../../../images/socials/linkedin.svg";
 import { ReactComponent as Mail } from "../../../images/socials/mail.svg";
 import "../navbar.css";
+import { ReactComponent as Close } from "./hamburger-icons/close.svg";
+import { ReactComponent as Open } from "./hamburger-icons/open.svg";
 import "./hamburger.css";
-import { ReactComponent as Close } from "./hamburger_icons/close.svg";
-import { ReactComponent as Open } from "./hamburger_icons/open.svg";
 
 const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
