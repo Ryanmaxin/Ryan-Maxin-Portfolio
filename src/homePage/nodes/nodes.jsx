@@ -66,12 +66,12 @@ const Nodes = () => {
         dy = getRandom(-0.05, 0.05) * scalar;
       } else if (decider > 30 && decider <= 34) {
         radius = getRandom(20, 30);
-        dx = getRandom(-0.1, 0.1) * scalar;
-        dy = getRandom(-0.1, 0.1) * scalar;
+        dx = getRandom(-0.075, 0.075) * scalar;
+        dy = getRandom(-0.075, 0.075) * scalar;
       } else if (decider <= 30) {
         radius = getRandom(2, 5);
-        dx = getRandom(-0.15, 0.15) * scalar;
-        dy = getRandom(-0.15, 0.15) * scalar;
+        dx = getRandom(-0.1, 0.1) * scalar;
+        dy = getRandom(-0.1, 0.1) * scalar;
       }
       let x = Math.random() * (width - radius * 2) + radius;
       let y = Math.random() * (height - radius * 2) + radius;
