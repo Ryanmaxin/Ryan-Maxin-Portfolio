@@ -1,6 +1,5 @@
-import { Button as MUIButton } from "@mui/material";
 import { useEffect, useState } from "react";
-import arrow from "./arrow.svg";
+import { ReactComponent as Arrow } from "./arrow.svg";
 import "./footer.css";
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,21 +25,10 @@ const Footer = () => {
       <span class="footerText">Handmade by Ryan 🍿</span>
       <span class="footerText">&copy; 2022-2024</span>
       {isVisible && (
-        <div className="ScrollWrapper" id="ScrollToTop">
-          <MUIButton
-            disableRipple
-            onClick={topFunction}
-            sx={{
-              backgroundColor: "#27313B",
-              color: "white",
-              borderRadius: "50px",
-              padding: "1rem",
-              minWidth: "0px",
-            }}
-            variant="outline"
-          >
-            <img src={arrow} alt="up arrow" className="arrow"></img>
-          </MUIButton>
+        <div id="ScrollToTop">
+          <a onClick={topFunction}>
+            <Arrow />
+          </a>
         </div>
       )}
     </div>
