@@ -28,7 +28,7 @@ const Projects = () => {
         projectData={{
           title: "Realm Tunes",
           imagePath: "RealmTunes.png",
-          description: `A vibrant and feature-rich Discord music bot, Realm Tunes elevates the listening experience for over 350 users across 7 servers. I created Realm Tunes as a way to play music with my friends after most public bots got shut down.`,
+          description: `A vibrant and feature-rich Discord music bot, Realm Tunes elevates the music listening experience for over 350 users across 7 servers. I created Realm Tunes as a way to play music with my friends after most public bots got shut down.`,
           tags: [Tags.PYTHON, Tags.ASYNC, Tags.GIT],
           link1: "",
           link1Name: "",
@@ -40,7 +40,7 @@ const Projects = () => {
         projectData={{
           title: "AceInterviewer",
           imagePath: "Ace.png",
-          description: `AceInterviewer provides a dedicated space for both students and professionals to practice interview questions, share their responses, and receive constructive feedback from a knowledgeable community, helping them better prepare for real-world interviews.`,
+          description: `AceInterviewer provides a dedicated platform where students and professionals can practice interview questions, share responses, and gain constructive feedback from a knowledgable community, helping them better prepare for real-world interviews.`,
           tags: [Tags.KOTLIN, Tags.JC, Tags.FIREBASE, Tags.GIT],
           link1: "",
           link1Name: "",
