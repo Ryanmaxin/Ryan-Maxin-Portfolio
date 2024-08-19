@@ -45,12 +45,22 @@ const Navbar = () => {
         <span className="dotDivider">&middot;</span>
         <Link
           smooth
-          to="/Ryan-Maxin-Portfolio/content#work"
+          to="/Ryan-Maxin-Portfolio/content#work-experience"
           className="nav-link navButton"
           // id="right"
           role="button"
         >
-          My Work
+          Work Experience
+        </Link>
+        <span className="dotDivider">&middot;</span>
+        <Link
+          smooth
+          to="/Ryan-Maxin-Portfolio/content#projects"
+          className="nav-link navButton"
+          // id="right"
+          role="button"
+        >
+          Projects
         </Link>
       </div>
       <div className="navIcons nonHamburger">

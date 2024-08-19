@@ -5,7 +5,9 @@ const WorkExperience = ({ workData }) => {
     <div id="workExperience">
       <img src={require(`../work-experience-images/${workData.imagePath}`)} />
       <div id="experienceInfo">
-        <h3>{workData.name}</h3>
+        <h3>
+          <b>{workData.name}</b>
+        </h3>
         <div class="workTagHolder">
           {workData.tags.map((tag, i) => (
             <div className="tag" key={i}>

@@ -65,12 +65,21 @@ const Hamburger = () => {
           </Link>
           <Link
             smooth
-            to="/Ryan-Maxin-Portfolio/content#work"
+            to="/Ryan-Maxin-Portfolio/content#work-experience"
             className="nav-link navButton"
             // id="right"
             role="button"
           >
-            My Work
+            Work Experience
+          </Link>
+          <Link
+            smooth
+            to="/Ryan-Maxin-Portfolio/content#projects"
+            className="nav-link navButton"
+            // id="right"
+            role="button"
+          >
+            Projects
           </Link>
         </div>
         <div className="navIcons">

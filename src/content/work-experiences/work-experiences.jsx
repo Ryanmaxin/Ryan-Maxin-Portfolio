@@ -17,7 +17,7 @@ const WorkExperiences = () => {
         <div id="workExperiences">
           <WorkExperience
             workData={{
-              name: "Compiler Engineering at Huawei",
+              name: "Compiler Engineeriat Huawei",
               imagePath: "Huawei.png",
               tags: [
                 Tags.CPP,
@@ -25,7 +25,6 @@ const WorkExperiences = () => {
                 Tags.LLVM,
                 Tags.ASM,
                 Tags.MT,
-
                 Tags.JENKINS,
                 Tags.DOCKER,
                 Tags.GIT,
@@ -34,7 +33,7 @@ const WorkExperiences = () => {
           />
           <WorkExperience
             workData={{
-              name: "Fullstack Engineering at WSIB",
+              name: "Fullstack Engineer at WSIB",
               imagePath: "WSIB.png",
               tags: [
                 Tags.REACT,
@@ -50,7 +49,7 @@ const WorkExperiences = () => {
           />
           <WorkExperience
             workData={{
-              name: "Firmware Engineering at Infinera",
+              name: "Firmware Engineer at Infinera",
               imagePath: "Infinera.png",
               tags: [
                 Tags.CPP,
