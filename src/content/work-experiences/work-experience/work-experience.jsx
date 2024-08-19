@@ -3,7 +3,9 @@ import "./work-experience.css";
 const WorkExperience = ({ workData }) => {
   return (
     <div id="workExperience">
-      <img src={require(`../work-experience-images/${workData.imagePath}`)} />
+      <div id="workImgHolder">
+        <img src={require(`../work-experience-images/${workData.imagePath}`)} />
+      </div>
       <div id="experienceInfo">
         <h3>
           <b>{workData.name}</b>

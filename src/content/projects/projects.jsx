@@ -13,7 +13,7 @@ const Projects = () => {
           projectData={{
             title: "Sorting Algorithm Visualizer",
             imagePath: "Sorting.png",
-            description: `Born from a deep-seated fascination with sorting algorithms, this visualizer tool transforms the abstract into captivating animations. Designed to make complex concepts accessible and engaging, it brings the intricate dance of algorithms to life, offering both novices and seasoned programmers a vivid glimpse into the mechanics of data sorting.`,
+            description: `Born from a fascination with sorting algorithms, this visualizer tool transforms complex concepts into captivating animations. Designed to make abstract ideas engaging and accessible, it brings the intricate dance of algorithms to life, offering both novices and seasoned programmers a vivid glimpse into the mechanics of data sorting.`,
             tags: [
               Tags.REACT,
               Tags.JS,
@@ -32,7 +32,7 @@ const Projects = () => {
           projectData={{
             title: "Realm Tunes",
             imagePath: "RealmTunes.png",
-            description: `A vibrant and feature-rich Discord music bot, Realm Tunes elevates the music listening experience for over 350 users across 7 servers. I created Realm Tunes as a way to play music with my friends after most public bots got shut down.`,
+            description: `A vibrant and feature-rich Discord music bot, Realm Tunes enhances the music listening experience for over 350 users across 7 servers. I created Realm Tunes as a way to play music with my friends after most public bots got shut down.`,
             tags: [Tags.PYTHON, Tags.ASYNC, Tags.GIT],
             link1: "",
             link1Name: "",
@@ -80,7 +80,7 @@ const Projects = () => {
             tags: [Tags.CPP, Tags.CMD, Tags.ASYNC],
             link1: "",
             link1Name: "",
-            link2: "https://example.com/link2",
+            link2: "https://github.com/Ryanmaxin/Dinosaur-Game",
             link2Name: "More Info",
           }}
         />

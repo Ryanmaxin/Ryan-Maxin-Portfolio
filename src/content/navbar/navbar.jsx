@@ -19,7 +19,7 @@ const Navbar = () => {
           // id="right"
           role="button"
         >
-          Homepage
+          Home
         </Link>
         <span className="dotDivider">&middot;</span>
         <Link
@@ -31,7 +31,7 @@ const Navbar = () => {
           // id="right"
           role="button"
         >
-          My Resume
+          Resume
         </Link>
         <span className="dotDivider">&middot;</span>
         <Link

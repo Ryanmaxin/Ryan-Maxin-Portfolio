@@ -9,10 +9,6 @@ body {
   padding: 0;
 }
 
-html {
-  /* scroll-padding-top: 15vh; */
-}
-
 :root {
   --emphasis: #4cc9f0;
   --emphasisrgb: 0, 180, 216;
@@ -160,7 +156,7 @@ body::-webkit-scrollbar {
     width: 75%;
   }
   #aboutBox {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
   }
 }
 
@@ -172,19 +168,31 @@ body::-webkit-scrollbar {
     width: 70%;
   }
   #aboutBox {
+    grid-template-columns: 5fr 2fr;
+  }
+}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1900px) {
+  #about,
+  #work-experience,
+  #projects {
+    width: 65%;
+  }
+  #aboutBox {
     grid-template-columns: 3fr 1fr;
   }
 }
 
 /* Extra big screen devices (1200px and above) */
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 2200px) {
   #about,
   #work-experience,
   #projects {
     width: 60%;
   }
   #aboutBox {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
   }
 }
 
@@ -207,7 +215,7 @@ body::-webkit-scrollbar {
     width: 40%;
   }
   #aboutBox {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
   }
 }
 

@@ -17,7 +17,7 @@ const WorkExperiences = () => {
         <div id="workExperiences">
           <WorkExperience
             workData={{
-              name: "Compiler Engineeriat Huawei",
+              name: "Compiler Engineer at Huawei",
               imagePath: "Huawei.png",
               tags: [
                 Tags.CPP,
@@ -73,8 +73,8 @@ const WorkExperiences = () => {
         </div>
         <div id="after">
           <h4>
-            For all four coop positions I received the highest possible employer
-            rating of <b>OUTSTANDING</b>.
+            For all four co-op positions I received the highest possible
+            employer rating of <b>OUTSTANDING</b>.
           </h4>
         </div>
       </div>

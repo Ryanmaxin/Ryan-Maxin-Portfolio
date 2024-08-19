@@ -10,24 +10,31 @@
   padding: 0.25rem;
 }
 
+#workImgHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #experienceInfo {
   padding: 0.75rem;
   display: flex;
+  gap: 1rem;
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
   /* align-items: center; */
 }
 
-#experienceInfo span {
-  color: var(--white);
+#experienceInfo h3 {
+  margin: 0;
 }
 
 .workTagHolder {
   display: flex;
   flex-flow: row wrap;
   column-gap: 0.6rem;
-  row-gap: 1vh;
+  row-gap: 1rem;
   justify-content: left;
   /* flex: 1; */
 }
