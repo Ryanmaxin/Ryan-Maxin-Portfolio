@@ -16,15 +16,12 @@
     linear-gradient(235deg, var(--off) 0%, var(--emphasis) 100%) border-box;
   border-radius: calc(2rem);
   border: calc(0.225rem) solid transparent;
-  /* min-height: calc(22vh); */
 }
 
 .skill svg {
   padding: 0.25vw 2vw 0.25vw 2vw;
   max-width: 100%;
   height: auto;
-  /* min-height: calc(16vh); */
-  /* padding-top: calc(3rem); */
 }
 
 .skillName {
@@ -99,7 +96,7 @@
   }
 
   .skills {
-    row-gap: 2vh;
+    row-gap: 2dvh;
   }
 
   .skill svg {
@@ -115,7 +112,7 @@
   }
 
   .skills {
-    row-gap: 2vh;
+    row-gap: 2dvh;
   }
 
   .skill svg {
@@ -131,7 +128,7 @@
   }
 
   .skills {
-    row-gap: 2vh;
+    row-gap: 2dvh;
   }
 
   .skill svg {

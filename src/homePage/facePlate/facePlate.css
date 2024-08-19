@@ -1,11 +1,9 @@
 #facePlateContainer {
   position: absolute;
-  top: 50%;
+  top: 0%;
   width: 100%;
   display: flex;
   justify-content: center;
-
-  transform: translate(0%, -50%);
 }
 
 #facePlateButtons {
@@ -18,8 +16,8 @@
 }
 #facePlate {
   flex-grow: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   z-index: 999;
   background-color: var(--blackground);
   background: radial-gradient(
@@ -33,10 +31,6 @@
     transparent
   );
   border-radius: 40px;
-  display: flex;
-  /* flex-wrap: wrap; */
-  flex-direction: column;
-  row-gap: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,6 +46,13 @@
   color: var(--emphasis);
 }
 
-/* #faceplatebutton {
-  border-right: 0;
-} */
+#facePlateCenter {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  row-gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}

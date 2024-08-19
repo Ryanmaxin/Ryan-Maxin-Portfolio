@@ -1,6 +1,6 @@
 .projectTile img {
   width: 100%;
-  height: min(40vh, 30rem);
+  height: min(40dvh, 30rem);
   padding: 0.25rem;
   object-fit: cover;
   align-self: stretch;
@@ -42,7 +42,7 @@
   display: flex;
   flex-flow: row wrap;
   column-gap: 0.6rem;
-  row-gap: 1vh;
+  row-gap: 1dvh;
   justify-content: center;
   /* flex: 1; */
 }
@@ -95,8 +95,8 @@
   display: flex;
   flex-flow: row-wrap;
   justify-content: space-around;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding-top: 1dvh;
+  padding-bottom: 1dvh;
   padding: 0.8rem;
   margin: 0;
   background: linear-gradient(var(--black2), var(--black2)) padding-box,

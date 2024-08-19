@@ -1,4 +1,5 @@
-import FacePlate from "./faceplate/faceplate";
+import React from "react";
+import FacePlate from "./faceplate/facePlate";
 import "./homepage.css";
 import Nodes from "./nodes/nodes";
 const Homepage = () => {
