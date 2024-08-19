@@ -9,13 +9,15 @@ const About = () => {
         <section class="infotainer">
           <h4>Greetings!</h4>
           <p>
-            I am currently in my 3B term studying computer science at the
-            University of Waterloo, where I'm set to graduate April of 2026
-            &#127891;. Over the past three years, I've had the privilege of
-            gaining hands-on experience through co-ops at four amazing
-            companies. It's at these companies I encountered the most
-            interesting and complex problems of my career so far, and where I
-            found my passion in coming up with clever solutions to solve them.
+            <b>
+              I am currently in my 3B term studying computer science at the
+              University of Waterloo, where I'm set to graduate April of 2026
+              &#127891;. Over the past three years, I've had the privilege of
+              gaining hands-on experience through co-ops at four amazing
+              companies. It's at these companies I encountered the most
+              interesting and complex problems of my career so far, and where I
+              found my passion in coming up with clever solutions to solve them.
+            </b>
           </p>
           <p>
             I started my journey as a programmer when I took my first compsci
@@ -36,10 +38,12 @@ const About = () => {
             indulging in some quality TV and movies.
           </p>
           <p>
-            Looking forward, my goal is to secure a meaningful co-op position
-            for summer 2025. I'm eager to apply my skills and enthusiasm to make
-            a decisive contribution. Let's connect and create something
-            remarkable together!
+            <b>
+              Looking forward, my goal is to secure a meaningful co-op position
+              for summer 2025. I'm eager to apply my skills and enthusiasm to
+              make a decisive contribution. Let's connect and create something
+              remarkable together!
+            </b>
           </p>
         </section>
         <div id="imageHolder">

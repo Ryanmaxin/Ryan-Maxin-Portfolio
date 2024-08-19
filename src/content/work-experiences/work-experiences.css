@@ -1,0 +1,14 @@
+#workExperiences {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto; /* Rows size to fit the content */
+  gap: 2rem;
+}
+
+#previously {
+  margin-bottom: 3rem;
+}
+
+#after {
+  margin-top: 3rem;
+}

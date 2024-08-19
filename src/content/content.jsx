@@ -1,8 +1,9 @@
 import About from "./about/about";
 import "./content.css";
 import Footer from "./footer/footer";
-import MyWork from "./my-work/my-work";
 import Navbar from "./navbar/navbar";
+import Projects from "./projects/projects";
+import WorkExperiences from "./work-experiences/work-experiences";
 
 const Content = () => {
   return (
@@ -10,9 +11,10 @@ const Content = () => {
       <Navbar />
       <div id="avoidHeader">
         <About />
-        <MyWork />
-        <Footer />
+        <WorkExperiences />
+        <Projects />
       </div>
+      <Footer />
     </div>
   );
 };

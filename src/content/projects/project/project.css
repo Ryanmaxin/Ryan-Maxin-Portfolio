@@ -24,11 +24,6 @@
   align-items: stretch;
 }
 
-.projectInfo img {
-  box-sizing: border-box;
-  padding: 4rem;
-}
-
 .description {
   padding: 1.5rem 0.75rem;
   flex: 1;
@@ -46,7 +41,7 @@
   padding: 0.25rem;
   display: flex;
   flex-flow: row wrap;
-  column-gap: 2%;
+  column-gap: 0.6rem;
   row-gap: 1vh;
   justify-content: center;
   /* flex: 1; */

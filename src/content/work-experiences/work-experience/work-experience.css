@@ -1,0 +1,33 @@
+#workExperience {
+  background: var(--black2);
+  display: flex;
+  padding: 0.25rem;
+}
+
+#workExperience img {
+  height: 7rem;
+  width: 7rem;
+  padding: 0.25rem;
+}
+
+#experienceInfo {
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+#experienceInfo span {
+  color: var(--white);
+}
+
+.workTagHolder {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 0.6rem;
+  row-gap: 1vh;
+  justify-content: left;
+  /* flex: 1; */
+}

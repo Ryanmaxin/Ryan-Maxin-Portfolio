@@ -3,10 +3,11 @@
 }
 
 #about,
-#work {
+#work-experience,
+#projects {
   margin: auto;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
 #avoidHeader {
@@ -14,8 +15,8 @@
 }
 
 #about h1,
-#work h1,
-#resume h1,
+#projects h1,
+#work-experience h1,
 #namePlate {
   display: inline;
   /* background: linear-gradient(235deg, var(--emphasis) 0%, var(--off) 100%); */
