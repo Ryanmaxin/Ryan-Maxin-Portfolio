@@ -1,6 +1,6 @@
 .projectTile img {
   width: 100%;
-  height: min(40dvh, 30rem);
+  height: min(40vh, 30rem);
   padding: 0.25rem;
   object-fit: cover;
   align-self: stretch;

@@ -1,3 +1,4 @@
+import React from "react";
 import About from "./about/about";
 import "./content.css";
 import Footer from "./footer/footer";
