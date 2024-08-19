@@ -13,7 +13,7 @@ html,
 body {
   height: 100%; /* Ensures body and html take full height of the viewport */
   margin: 0; /* Removes default margin */
-  overflow-y: hidden; /* Prevents horizontal overflow */
+  /* overflow-y: hidden; Prevents horizontal overflow */
   overflow-x: hidden; /* Prevents horizontal overflow */
 }
 
