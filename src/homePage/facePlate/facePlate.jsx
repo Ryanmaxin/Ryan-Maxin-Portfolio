@@ -10,20 +10,14 @@ const FacePlate = () => {
         </h1>
         <h1 className="faceplateText">Welcome to my portfolio!</h1>
         <div id="facePlateButtons">
-          <div
-            className="btn-group mr2"
-            role="group"
-            aria-label="Basic example"
+          <Link
+            className="btn btn-outline-primary wider"
+            id="faceplatebutton"
+            role="button"
+            to="/Ryan-Maxin-Portfolio/content"
           >
-            <Link
-              className="btn btn-outline-primary wider"
-              id="faceplatebutton"
-              role="button"
-              to="/Ryan-Maxin-Portfolio/content"
-            >
-              Dive In
-            </Link>
-          </div>
+            Dive In
+          </Link>
         </div>
       </div>
     </div>
