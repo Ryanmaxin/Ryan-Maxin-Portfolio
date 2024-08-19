@@ -9,7 +9,7 @@ const Nodes = () => {
   let animateHeader = false;
   let pause = false;
   useEffect(() => {
-    console.log("rerendered!");
+    // console.log("rerendered!");
     initialize();
     addListeners();
     animate();
@@ -362,13 +362,13 @@ const Nodes = () => {
     // clearCanvas();
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
-      console.log("resized");
+      // console.log("resized");
       initialize();
     }, 200); // Adjust the debounce delay as needed
   }
 
   function mouseMove(e) {
-    console.log("moved");
+    // console.log("moved");
     let posx = 0;
     let posy = 0;
     if (e.pageX || e.pageY) {
