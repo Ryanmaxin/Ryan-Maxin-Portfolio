@@ -18,13 +18,16 @@
 }
 #facePlate {
   flex-grow: 0;
-  padding: 12rem;
+  width: 100vw;
+  height: 100vh;
   z-index: 999;
   background-color: var(--blackground);
   background: radial-gradient(
     ellipse 100% 65% at center,
     var(--blackground),
     var(--blackground),
+    transparent,
+    transparent,
     transparent,
     transparent,
     transparent
@@ -34,6 +37,9 @@
   /* flex-wrap: wrap; */
   flex-direction: column;
   row-gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .faceplateText {
