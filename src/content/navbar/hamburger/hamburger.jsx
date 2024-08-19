@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import { ReactComponent as GitHub } from "../../../images/socials/github.svg";
-import { ReactComponent as LinkedIn } from "../../../images/socials/linkedin.svg";
-import { ReactComponent as Mail } from "../../../images/socials/mail.svg";
 import "../navbar.css";
+import { ReactComponent as GitHub } from "../socials/github.svg";
+import { ReactComponent as LinkedIn } from "../socials/linkedin.svg";
+import { ReactComponent as Mail } from "../socials/mail.svg";
 import { ReactComponent as Close } from "./hamburger-icons/close.svg";
 import { ReactComponent as Open } from "./hamburger-icons/open.svg";
 import "./hamburger.css";

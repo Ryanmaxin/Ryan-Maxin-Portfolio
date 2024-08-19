@@ -2,11 +2,11 @@ import "./about.css";
 const About = () => {
   return (
     <div id="about">
-      <div class="wrapper">
+      <div className="wrapper">
         <h1>About Me</h1>
       </div>
       <div id="aboutBox">
-        <section class="infotainer">
+        <section className="infotainer">
           <h4>Greetings!</h4>
           <p>
             <b>

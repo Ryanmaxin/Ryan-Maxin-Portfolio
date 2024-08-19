@@ -10,7 +10,7 @@ const WorkExperience = ({ workData }) => {
         <h3>
           <b>{workData.name}</b>
         </h3>
-        <div class="workTagHolder">
+        <div className="workTagHolder">
           {workData.tags.map((tag, i) => (
             <div className="tag" key={i}>
               <p>{tag}</p>

@@ -7,7 +7,7 @@ const WorkExperiences = () => {
   // const [isWorkExperience, setIsWorkExperience] = useState(true);
   return (
     <div id="work-experience">
-      <div class="wrapper">
+      <div className="wrapper">
         <h1>Work Experience</h1>
       </div>
       <div>

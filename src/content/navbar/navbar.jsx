@@ -1,9 +1,9 @@
 import { HashLink as Link } from "react-router-hash-link";
-import { ReactComponent as GitHub } from "../../images/socials/github.svg";
-import { ReactComponent as LinkedIn } from "../../images/socials/linkedin.svg";
-import { ReactComponent as Mail } from "../../images/socials/mail.svg";
 import Hamburger from "./hamburger/hamburger";
 import "./navbar.css";
+import { ReactComponent as GitHub } from "./socials/github.svg";
+import { ReactComponent as LinkedIn } from "./socials/linkedin.svg";
+import { ReactComponent as Mail } from "./socials/mail.svg";
 
 const Navbar = () => {
   return (

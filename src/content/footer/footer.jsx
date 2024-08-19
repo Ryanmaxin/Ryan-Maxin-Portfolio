@@ -22,8 +22,8 @@ const Footer = () => {
   };
   return (
     <div id="footer">
-      <span class="footerText">Handmade by Ryan 🍿</span>
-      <span class="footerText">&copy; 2022-2024</span>
+      <span className="footerText">Handmade by Ryan 🍿</span>
+      <span className="footerText">&copy; 2022-2024</span>
       {isVisible && (
         <div id="ScrollToTop">
           <a onClick={topFunction}>
