@@ -200,11 +200,11 @@ body::-webkit-scrollbar {
     width: 60%;
   }
   #aboutBox {
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
   }
 }
 
-@media only screen and (min-width: 2500px) {
+@media only screen and (min-width: 2600px) {
   #about,
   #work-experience,
   #projects {
@@ -216,7 +216,7 @@ body::-webkit-scrollbar {
 }
 
 /* Extra big screen devices (1200px and above) */
-@media only screen and (min-width: 2800px) {
+@media only screen and (min-width: 3000px) {
   #about,
   #work-experience,
   #projects {
@@ -235,6 +235,6 @@ body::-webkit-scrollbar {
     width: 40%;
   }
   #aboutBox {
-    grid-template-columns: 8fr 1fr;
+    grid-template-columns: 4fr 1fr;
   }
 }

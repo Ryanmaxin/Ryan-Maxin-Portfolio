@@ -74,7 +74,7 @@ const WorkExperiences = () => {
         <div id="after">
           <h4>
             For all four co-op positions I received the highest possible
-            employer rating of <b>outstanding</b>.
+            employer rating of <b id="outstanding">outstanding</b>.
           </h4>
         </div>
       </div>

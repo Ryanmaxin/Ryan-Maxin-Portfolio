@@ -12,3 +12,7 @@
 #after {
   margin-top: 3rem;
 }
+
+#outstanding {
+  color: var(--emphasis);
+}
