@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ReactComponent as Arrow } from "./arrow.svg";
 import "./footer.css";
 const Footer = () => {
@@ -22,7 +22,7 @@ const Footer = () => {
   };
   return (
     <div id="footer">
-      <span className="footerText">Handmade by Ryan 🍿</span>
+      <span className="footerText">Handmade by Ryan</span>
       <span className="footerText">&copy; 2022-2024</span>
       {isVisible && (
         <div id="ScrollToTop">

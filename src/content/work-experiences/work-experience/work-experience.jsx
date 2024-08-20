@@ -1,3 +1,4 @@
+import React from "react";
 import "./work-experience.css";
 
 const WorkExperience = ({ workData }) => {

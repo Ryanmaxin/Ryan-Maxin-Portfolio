@@ -1,3 +1,4 @@
+import React from "react";
 import { Tags } from "../tags";
 import Project from "./project/project";
 import "./projects.css";
@@ -25,7 +26,7 @@ const Projects = () => {
             link1: "https://ryanmaxin.github.io/Sorting-Algorithm-Visualizer/",
             link1Name: "Live",
             link2: "https://github.com/Ryanmaxin/Sorting-Algorithm-Visualizer",
-            link2Name: "More Info",
+            link2Name: "Github",
           }}
         />
         <Project
@@ -37,7 +38,7 @@ const Projects = () => {
             link1: "",
             link1Name: "",
             link2: "https://github.com/Ryanmaxin/Realm-Tunes-2.0",
-            link2Name: "More Info",
+            link2Name: "Github",
           }}
         />
         <Project
@@ -49,7 +50,7 @@ const Projects = () => {
             link1: "",
             link1Name: "",
             link2: "https://github.com/Ryanmaxin/AceInterviewer",
-            link2Name: "More Info and Demo",
+            link2Name: "Github and Demo",
           }}
         />
         <Project
@@ -69,7 +70,7 @@ const Projects = () => {
             link1: "https://syde26.life/",
             link1Name: "Live",
             link2: "https://github.com/SYDE-26/1A-Class-Profile-Website",
-            link2Name: "More Info",
+            link2Name: "Github",
           }}
         />
         <Project
@@ -81,7 +82,7 @@ const Projects = () => {
             link1: "",
             link1Name: "",
             link2: "https://github.com/Ryanmaxin/Dinosaur-Game",
-            link2Name: "More Info",
+            link2Name: "Github",
           }}
         />
       </div>

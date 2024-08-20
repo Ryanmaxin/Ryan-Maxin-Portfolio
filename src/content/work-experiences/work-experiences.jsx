@@ -65,7 +65,7 @@ const WorkExperiences = () => {
           />
           <WorkExperience
             workData={{
-              name: "Course and Technical Support Assistant at University of Waterloo",
+              name: "Course and Technical Support Assistant at the University of Waterloo",
               imagePath: "UW.png",
               tags: [Tags.JS],
             }}
@@ -74,7 +74,7 @@ const WorkExperiences = () => {
         <div id="after">
           <h4>
             For all four co-op positions I received the highest possible
-            employer rating of <b>OUTSTANDING</b>.
+            employer rating of <b>outstanding</b>.
           </h4>
         </div>
       </div>

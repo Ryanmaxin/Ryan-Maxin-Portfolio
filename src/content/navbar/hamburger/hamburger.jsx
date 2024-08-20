@@ -37,15 +37,6 @@ const Hamburger = () => {
         <div className="navList">
           <Link
             smooth
-            to="/Ryan-Maxin-Portfolio"
-            className="nav-link navButton"
-            // id="right"
-            role="button"
-          >
-            Homepage
-          </Link>
-          <Link
-            smooth
             to="https://ryanmaxin.github.io/resume/ryan_maxin_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -53,7 +44,7 @@ const Hamburger = () => {
             // id="right"
             role="button"
           >
-            My Resume
+            Résumé
           </Link>
           <Link
             smooth

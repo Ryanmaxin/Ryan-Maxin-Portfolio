@@ -12,6 +12,12 @@
   gap: 0.65rem;
 }
 
+@media only screen and (max-width: 400px) {
+  #navbar {
+    padding: 0rem 0.5rem;
+  }
+}
+
 #navbar svg {
   height: calc(var(--fs) * 2.5);
   width: calc(var(--fs) * 2.5);
@@ -59,4 +65,8 @@
 
 .socialIcon:hover {
   transform: scale(1.15); /* Adjust the scale factor as needed */
+}
+
+#navName {
+  text-decoration: none;
 }

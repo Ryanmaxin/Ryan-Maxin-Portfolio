@@ -1,3 +1,4 @@
+import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import Hamburger from "./hamburger/hamburger";
 import "./navbar.css";
@@ -9,19 +10,11 @@ const Navbar = () => {
   return (
     <div id="navbar">
       <div className="titleSide">
-        <h1 id="namePlate">Ryan Maxin</h1>
+        <Link smooth to="/Ryan-Maxin-Portfolio" id="navName" role="button">
+          <h1 id="namePlate">Ryan Maxin</h1>
+        </Link>
       </div>
       <div className="navButtons nonHamburger">
-        <Link
-          smooth
-          to="/Ryan-Maxin-Portfolio"
-          className="nav-link navButton"
-          // id="right"
-          role="button"
-        >
-          Home
-        </Link>
-        <span className="dotDivider">&middot;</span>
         <Link
           smooth
           to="https://ryanmaxin.github.io/resume/ryan_maxin_resume.pdf"
@@ -31,7 +24,7 @@ const Navbar = () => {
           // id="right"
           role="button"
         >
-          Resume
+          Résumé
         </Link>
         <span className="dotDivider">&middot;</span>
         <Link
