@@ -6,7 +6,7 @@ import Homepage from "./homepage/hompeage";
 
 function App() {
   return (
-    <Router basename="/Ryan-Maxin-Portfolio/">
+    <Router>
       <div id="App">
         <Routes>
           <Route path="/Ryan-Maxin-Portfolio" element={<Homepage />} />
