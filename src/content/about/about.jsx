@@ -14,7 +14,7 @@ const About = () => {
               <p>
                 <strong>Current Studies:</strong> 3B term in Computer Science at
                 the University of Waterloo with expected graduation in April
-                2026 🎓
+                2026. 🎓
               </p>
             </li>
             <li className="aboutPoints">
@@ -41,14 +41,15 @@ const About = () => {
               <p>
                 <strong>Programming Journey:</strong> My fascination with
                 programming began after taking first compsci class in high
-                school. The more I learned, the more my curiosity grew;
+                school. The more I learned, the more my curiosity grew, and this
+                led me to major in computer science in university.
               </p>
             </li>
             <li className="aboutPoints">
               <p>
                 <strong>Lifestyle:</strong> Committed to a well-rounded life
                 with regular physical activity, including weightlifting, rock
-                climbing, soccer, badminton, and ping pong; also enjoys chess
+                climbing, soccer, badminton, and ping pong; I also enjoys chess
                 and quality TV and movies.
               </p>
             </li>
