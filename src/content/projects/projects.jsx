@@ -45,7 +45,7 @@ const Projects = () => {
           projectData={{
             title: "AceInterviewer",
             imagePath: "Ace.png",
-            description: `AceInterviewer provides a dedicated platform where students and professionals can practice interview questions, share responses, and gain constructive feedback from a knowledgable community, helping them better prepare for real-world interviews. Added to the wall of fame of outstanding projects for CS 346`,
+            description: `AceInterviewer provides a dedicated platform where students and professionals can practice interview questions, share responses, and gain constructive feedback from a knowledgable community, helping them better prepare for real-world interviews. Added to the wall of fame of outstanding projects for CS 346.`,
             tags: [Tags.KOTLIN, Tags.JC, Tags.FIREBASE, Tags.GIT],
             link1: "",
             link1Name: "",
