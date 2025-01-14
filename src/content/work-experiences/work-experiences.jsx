@@ -14,7 +14,7 @@ const WorkExperiences = () => {
         <h4>Currently, I work as a . . . </h4>
         <WorkExperience
           workData={{
-            name: "Software Engineer at AMD",
+            name: "Software Engineer Intern at AMD",
             imagePath: "AMD.svg",
             tags: [
               Tags.CPP,
@@ -35,7 +35,7 @@ const WorkExperiences = () => {
         <div className="workExperiences">
           <WorkExperience
             workData={{
-              name: "Compiler Engineer at Huawei",
+              name: "Compiler Engineer Intern at Huawei",
               imagePath: "Huawei.svg",
               tags: [
                 Tags.CPP,
@@ -51,7 +51,7 @@ const WorkExperiences = () => {
           />
           <WorkExperience
             workData={{
-              name: "Fullstack Engineer at WSIB",
+              name: "Fullstack Engineer Intern at WSIB",
               imagePath: "WSIB.svg",
               tags: [
                 Tags.REACT,
@@ -67,7 +67,7 @@ const WorkExperiences = () => {
           />
           <WorkExperience
             workData={{
-              name: "Firmware Engineer at Infinera",
+              name: "Firmware Engineer Intern at Infinera",
               imagePath: "Infinera.svg",
               tags: [
                 Tags.CPP,

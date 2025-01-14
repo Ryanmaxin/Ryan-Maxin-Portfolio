@@ -45,7 +45,7 @@ const Projects = () => {
           projectData={{
             title: "Performant Transactional Memory",
             imagePath: "TM.png",
-            description: `I built a software transactional memory library to enable fine-grained concurrency, achieving a 6x speedup over coarse-grained locking.`,
+            description: `A software transactional memory library built to ensure correctness, opacity, and high performance in concurrent programming. Delivers a 6x speedup over traditional course-grained locking.`,
             tags: [Tags.CPP, Tags.MT, Tags.GIT],
             link1: "",
             link1Name: "",
