@@ -63,7 +63,7 @@ const About = () => {
           </ul>
         </section>
         <div id="imageHolder">
-          <img src={require("./portraits/mainpic.png")} />
+          <img src={require("./portraits/mainpic2.png")} />
         </div>
       </div>
     </div>
