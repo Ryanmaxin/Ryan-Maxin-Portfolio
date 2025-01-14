@@ -66,7 +66,6 @@ const Navbar = () => {
             <GitHub className="socialIcon" />
           </a>
         </div>
-
         <div className="navIcon">
           <a
             href="mailto:rsmaxin@uwaterloo.ca"
