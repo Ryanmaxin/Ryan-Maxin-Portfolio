@@ -12,9 +12,9 @@ const About = () => {
           <ul id="aboutList">
             <li className="aboutPoints">
               <p>
-                <strong>Current Studies:</strong> 4th year Computer Science at
-                the University of Waterloo with expected graduation in April
-                2026. 🎓
+                <strong>Current Studies:</strong> 4th year student studying
+                Computer Science at the University of Waterloo with expected
+                graduation in April 2026. 🎓
               </p>
             </li>
             <li className="aboutPoints">
