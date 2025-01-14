@@ -232,9 +232,20 @@ body::-webkit-scrollbar {
   #about,
   #work-experience,
   #projects {
-    width: 40%;
+    width: 35%;
   }
   #aboutBox {
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 5fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 6000px) {
+  #about,
+  #work-experience,
+  #projects {
+    width: 30%;
+  }
+  #aboutBox {
+    grid-template-columns: 6fr 1fr;
   }
 }
