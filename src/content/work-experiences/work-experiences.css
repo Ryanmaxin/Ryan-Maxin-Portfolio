@@ -1,4 +1,4 @@
-#workExperiences {
+.workExperiences {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto; /* Rows size to fit the content */
@@ -7,6 +7,7 @@
 
 #previously {
   margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 #after {

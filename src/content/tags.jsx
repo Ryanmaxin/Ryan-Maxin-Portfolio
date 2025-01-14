@@ -27,4 +27,7 @@ export const Tags = Object.freeze({
   LLAMA: "LlamaLLM",
   PANDAS: "Pandas",
   MATPLOTLIB: "Matplotlib",
+  Encoding: "Video Encoding",
+  OpenCL: "OpenCL",
+  OpenGL: "OpenGL",
 });

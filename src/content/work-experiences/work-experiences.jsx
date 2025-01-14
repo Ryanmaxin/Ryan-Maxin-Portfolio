@@ -10,15 +10,33 @@ const WorkExperiences = () => {
       <div className="wrapper">
         <h1>Work Experience</h1>
       </div>
+      <div className="workExperiences">
+        <h4>Currently, I work as a . . . </h4>
+        <WorkExperience
+          workData={{
+            name: "Software Engineer at AMD",
+            imagePath: "AMD.svg",
+            tags: [
+              Tags.CPP,
+              Tags.C,
+              Tags.MT,
+              Tags.GIT,
+              Tags.Encoding,
+              Tags.OpenCL,
+              Tags.OpenGL,
+            ],
+          }}
+        />
+      </div>
       <div>
         <div id="previously">
           <h4>Previously, I worked as a . . .</h4>
         </div>
-        <div id="workExperiences">
+        <div className="workExperiences">
           <WorkExperience
             workData={{
               name: "Compiler Engineer at Huawei",
-              imagePath: "Huawei.png",
+              imagePath: "Huawei.svg",
               tags: [
                 Tags.CPP,
                 Tags.C,
@@ -34,7 +52,7 @@ const WorkExperiences = () => {
           <WorkExperience
             workData={{
               name: "Fullstack Engineer at WSIB",
-              imagePath: "WSIB.png",
+              imagePath: "WSIB.svg",
               tags: [
                 Tags.REACT,
                 Tags.TS,
@@ -50,7 +68,7 @@ const WorkExperiences = () => {
           <WorkExperience
             workData={{
               name: "Firmware Engineer at Infinera",
-              imagePath: "Infinera.png",
+              imagePath: "Infinera.svg",
               tags: [
                 Tags.CPP,
                 Tags.PYTHON,
@@ -66,14 +84,14 @@ const WorkExperiences = () => {
           <WorkExperience
             workData={{
               name: "Course and Technical Support Assistant at the University of Waterloo",
-              imagePath: "UW.png",
+              imagePath: "UW.svg",
               tags: [Tags.JS],
             }}
           />
         </div>
         <div id="after">
           <h4>
-            For all four co-op positions I received the highest possible
+            For all four past co-op positions I received the highest possible
             employer rating of <b id="outstanding">outstanding</b>.
           </h4>
         </div>

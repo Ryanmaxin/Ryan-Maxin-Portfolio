@@ -7,7 +7,8 @@
 #workExperience img {
   height: 7rem;
   width: 7rem;
-  padding: 0.25rem;
+  padding: 0.5rem;
+  object-fit: contain;
 }
 
 #workImgHolder {
