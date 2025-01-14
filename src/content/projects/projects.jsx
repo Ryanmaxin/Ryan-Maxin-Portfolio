@@ -43,6 +43,19 @@ const Projects = () => {
         />
         <Project
           projectData={{
+            title: "Performant Transactional Memory",
+            imagePath: "TM.png",
+            description: `I built a software transactional memory library to enable fine-grained concurrency, achieving a 6x speedup over coarse-grained locking.`,
+            tags: [Tags.CPP, Tags.MT, Tags.GIT],
+            link1: "",
+            link1Name: "",
+            link2:
+              "https://github.com/Ryanmaxin/Performant-Transactional-Memory",
+            link2Name: "Github",
+          }}
+        />
+        <Project
+          projectData={{
             title: "AceInterviewer",
             imagePath: "Ace.png",
             description: `AceInterviewer provides a dedicated platform where students and professionals can practice interview questions, share responses, and gain constructive feedback from a knowledgable community, helping them better prepare for real-world interviews. Added to the wall of fame of outstanding projects for CS 346.`,
@@ -77,7 +90,7 @@ const Projects = () => {
           projectData={{
             title: "Dinosaur Game",
             imagePath: "Dino.png",
-            description: `I created a clone of Google's famous "Dinosaur Game" that runs entirely in the terminal.`,
+            description: `I created a clone of Google's famous "Dinosaur Game" that runs entirely in the terminal!`,
             tags: [Tags.CPP, Tags.CMD, Tags.ASYNC],
             link1: "",
             link1Name: "",
