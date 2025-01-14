@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Ryan-Maxin-Portfolio/static/css/main.e4d8ea9b.css",
-    "main.js": "/Ryan-Maxin-Portfolio/static/js/main.560c4c9a.js",
-    "static/media/mainpic.png": "/Ryan-Maxin-Portfolio/static/media/mainpic.296e2290559eb32c9b70.png",
+    "main.css": "/Ryan-Maxin-Portfolio/static/css/main.d90ac99c.css",
+    "main.js": "/Ryan-Maxin-Portfolio/static/js/main.27a997a0.js",
+    "static/media/mainpic2.png": "/Ryan-Maxin-Portfolio/static/media/mainpic2.e386b23e6fae0155b934.png",
     "static/media/RealmTunes.png": "/Ryan-Maxin-Portfolio/static/media/RealmTunes.8aafa460fe71fbb6ad86.png",
-    "static/media/UW.png": "/Ryan-Maxin-Portfolio/static/media/UW.eebb608b547e220ed7ba.png",
     "static/media/Ace.png": "/Ryan-Maxin-Portfolio/static/media/Ace.9d38501af345434ecd99.png",
-    "static/media/Huawei.png": "/Ryan-Maxin-Portfolio/static/media/Huawei.2cda0092bcae5a1be67e.png",
     "static/media/Fliot.png": "/Ryan-Maxin-Portfolio/static/media/Fliot.0fb3432735996c31a8d3.png",
     "static/media/Sorting.png": "/Ryan-Maxin-Portfolio/static/media/Sorting.23ed33f790f1c6ab9966.png",
     "static/media/SYDE.png": "/Ryan-Maxin-Portfolio/static/media/SYDE.89aa988d58dc9048e254.png",
-    "static/media/Infinera.png": "/Ryan-Maxin-Portfolio/static/media/Infinera.a34483cdca16ad1a9193.png",
-    "static/media/WSIB.png": "/Ryan-Maxin-Portfolio/static/media/WSIB.fa1246464aaa74b8bd46.png",
+    "static/media/TM.png": "/Ryan-Maxin-Portfolio/static/media/TM.823d5723e45a3e23cc74.png",
+    "static/media/UW.svg": "/Ryan-Maxin-Portfolio/static/media/UW.e3a231d2cfc64090ec47.svg",
     "static/media/Dino.png": "/Ryan-Maxin-Portfolio/static/media/Dino.623b1bc790ea9bf229dd.png",
+    "static/media/Infinera.svg": "/Ryan-Maxin-Portfolio/static/media/Infinera.23f1baabc1efbb920302.svg",
+    "static/media/Huawei.svg": "/Ryan-Maxin-Portfolio/static/media/Huawei.3b982595b4ad265f7a8e.svg",
+    "static/media/WSIB.svg": "/Ryan-Maxin-Portfolio/static/media/WSIB.fff0b2dca40f54d812a1.svg",
     "static/media/close.svg": "/Ryan-Maxin-Portfolio/static/media/close.6f12cf81cfe6e688d57fa8a3fd835995.svg",
     "static/media/github.svg": "/Ryan-Maxin-Portfolio/static/media/github.b8a62b1bbf3ae3ff9026c5ec22121fd3.svg",
     "index.html": "/Ryan-Maxin-Portfolio/index.html",
@@ -20,11 +21,12 @@
     "static/media/arrow.svg": "/Ryan-Maxin-Portfolio/static/media/arrow.764f74e764a89134340c2545483e0604.svg",
     "static/media/open.svg": "/Ryan-Maxin-Portfolio/static/media/open.0fa96f04b905b49d33b4d18b8fc3b338.svg",
     "static/media/mail.svg": "/Ryan-Maxin-Portfolio/static/media/mail.1521a7a2fb63b513d75244f76d4caef8.svg",
-    "main.e4d8ea9b.css.map": "/Ryan-Maxin-Portfolio/static/css/main.e4d8ea9b.css.map",
-    "main.560c4c9a.js.map": "/Ryan-Maxin-Portfolio/static/js/main.560c4c9a.js.map"
+    "static/media/AMD.svg": "/Ryan-Maxin-Portfolio/static/media/AMD.c7e3b2d36feeeb224994.svg",
+    "main.d90ac99c.css.map": "/Ryan-Maxin-Portfolio/static/css/main.d90ac99c.css.map",
+    "main.27a997a0.js.map": "/Ryan-Maxin-Portfolio/static/js/main.27a997a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4d8ea9b.css",
-    "static/js/main.560c4c9a.js"
+    "static/css/main.d90ac99c.css",
+    "static/js/main.27a997a0.js"
   ]
 }
