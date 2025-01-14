@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ryan-Maxin-Portfolio/static/css/main.d90ac99c.css",
-    "main.js": "/Ryan-Maxin-Portfolio/static/js/main.699acad0.js",
+    "main.js": "/Ryan-Maxin-Portfolio/static/js/main.8f132540.js",
     "static/media/mainpic2.png": "/Ryan-Maxin-Portfolio/static/media/mainpic2.e386b23e6fae0155b934.png",
     "static/media/RealmTunes.png": "/Ryan-Maxin-Portfolio/static/media/RealmTunes.8aafa460fe71fbb6ad86.png",
     "static/media/Ace.png": "/Ryan-Maxin-Portfolio/static/media/Ace.9d38501af345434ecd99.png",
@@ -23,10 +23,10 @@
     "static/media/mail.svg": "/Ryan-Maxin-Portfolio/static/media/mail.1521a7a2fb63b513d75244f76d4caef8.svg",
     "static/media/AMD.svg": "/Ryan-Maxin-Portfolio/static/media/AMD.c7e3b2d36feeeb224994.svg",
     "main.d90ac99c.css.map": "/Ryan-Maxin-Portfolio/static/css/main.d90ac99c.css.map",
-    "main.699acad0.js.map": "/Ryan-Maxin-Portfolio/static/js/main.699acad0.js.map"
+    "main.8f132540.js.map": "/Ryan-Maxin-Portfolio/static/js/main.8f132540.js.map"
   },
   "entrypoints": [
     "static/css/main.d90ac99c.css",
-    "static/js/main.699acad0.js"
+    "static/js/main.8f132540.js"
   ]
 }
