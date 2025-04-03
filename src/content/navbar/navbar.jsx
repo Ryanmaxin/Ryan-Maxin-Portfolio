@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import { ROUTES } from "../../routes";
 import Hamburger from "./hamburger/hamburger";
 import "./navbar.css";
 import { ReactComponent as GitHub } from "./socials/github.svg";
@@ -10,7 +11,7 @@ const Navbar = () => {
   return (
     <div id="navbar">
       <div className="titleSide">
-        <Link smooth to="/Ryan-Maxin-Portfolio" id="navName" role="button">
+        <Link smooth to={ROUTES.HOME} id="navName" role="button">
           <h1 id="namePlate">Ryan Maxin</h1>
         </Link>
       </div>
@@ -29,7 +30,7 @@ const Navbar = () => {
         <span className="dotDivider">&middot;</span>
         <Link
           smooth
-          to="/Ryan-Maxin-Portfolio/content#about"
+          to={`${ROUTES.CONTENT}#about`}
           className="nav-link navButton"
           role="button"
         >
@@ -38,7 +39,7 @@ const Navbar = () => {
         <span className="dotDivider">&middot;</span>
         <Link
           smooth
-          to="/Ryan-Maxin-Portfolio/content#work-experience"
+          to={`${ROUTES.CONTENT}#work-experience`}
           className="nav-link navButton"
           // id="right"
           role="button"
@@ -48,7 +49,7 @@ const Navbar = () => {
         <span className="dotDivider">&middot;</span>
         <Link
           smooth
-          to="/Ryan-Maxin-Portfolio/content#projects"
+          to={`${ROUTES.CONTENT}#projects`}
           className="nav-link navButton"
           // id="right"
           role="button"

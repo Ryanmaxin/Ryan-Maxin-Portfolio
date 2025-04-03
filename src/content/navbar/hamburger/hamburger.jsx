@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import { ROUTES } from "../../../routes";
 import "../navbar.css";
 import { ReactComponent as GitHub } from "../socials/github.svg";
 import { ReactComponent as LinkedIn } from "../socials/linkedin.svg";
@@ -48,7 +49,7 @@ const Hamburger = () => {
           </Link>
           <Link
             smooth
-            to="/Ryan-Maxin-Portfolio/content#about"
+            to={`${ROUTES.CONTENT}#about`}
             className="nav-link navButton"
             role="button"
           >
@@ -56,7 +57,7 @@ const Hamburger = () => {
           </Link>
           <Link
             smooth
-            to="/Ryan-Maxin-Portfolio/content#work-experience"
+            to={`${ROUTES.CONTENT}#work-experience`}
             className="nav-link navButton"
             // id="right"
             role="button"
@@ -65,7 +66,7 @@ const Hamburger = () => {
           </Link>
           <Link
             smooth
-            to="/Ryan-Maxin-Portfolio/content#projects"
+            to={`${ROUTES.CONTENT}#projects`}
             className="nav-link navButton"
             // id="right"
             role="button"

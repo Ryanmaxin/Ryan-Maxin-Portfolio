@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import "./facePlate.css";
+import { ROUTES } from "../../routes";
 const FacePlate = () => {
   return (
     <div id="facePlateContainer">
@@ -16,7 +17,7 @@ const FacePlate = () => {
               className="btn btn-outline-primary wider"
               id="faceplatebutton"
               role="button"
-              to="/Ryan-Maxin-Portfolio/content"
+              to={ROUTES.CONTENT}
             >
               Dive In
             </Link>
