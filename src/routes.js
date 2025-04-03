@@ -1,5 +1,5 @@
 export const ROUTES = {
   HOME: "/",
   CONTENT: "/content",
-  RESUME: "/resume",
+  RESUME: "/resume.pdf",
 };

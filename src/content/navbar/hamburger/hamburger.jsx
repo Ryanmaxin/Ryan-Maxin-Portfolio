@@ -38,7 +38,7 @@ const Hamburger = () => {
         <div className="navList">
           <Link
             smooth
-            to="https://ryanmaxin.github.io/resume/ryan_maxin_resume.pdf"
+            to={ROUTES.RESUME}
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link navButton"
