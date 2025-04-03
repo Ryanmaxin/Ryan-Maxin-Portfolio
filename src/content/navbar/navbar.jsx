@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
         <div className="navIcon">
           <a
-            href="mailto:rsmaxin@uwaterloo.ca"
+            href="mailto:rymaxin@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
