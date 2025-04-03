@@ -1,0 +1,25 @@
+<!-- 404.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Page Not Found</title>
+  </head>
+  <body>
+    <script>
+      // This JavaScript trick checks if your app has a path after the /
+      // If so, it rewrites the URL to the one-page app (index.html) but
+      // preserves the pathname, so your React Router can pick it up.
+
+      (function () {
+        var redirect =
+          window.location.protocol +
+          "//" +
+          window.location.host +
+          "/#" +
+          window.location.pathname;
+        window.location.replace(redirect);
+      })();
+    </script>
+  </body>
+</html>
