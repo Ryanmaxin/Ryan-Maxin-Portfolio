@@ -14,13 +14,13 @@ const About = () => {
               <p>
                 <strong>Current Studies:</strong> 4th year student studying
                 Computer Science at the University of Waterloo with expected
-                graduation in April 2026. 🎓
+                graduation in August 2026. 🎓
               </p>
             </li>
             <li className="aboutPoints">
               <p>
                 <strong>Professional Experience:</strong> Hands-on experience
-                through co-ops at four companies over the past three years.
+                through co-ops at seven companies over the past four years.
               </p>
             </li>
             <li className="aboutPoints">
@@ -55,15 +55,15 @@ const About = () => {
             </li>
             <li className="aboutPoints">
               <p>
-                <strong>Future Goals:</strong> Aiming to secure a meaningful
-                co-op position for summer 2025 and excited to apply skills and
+                <strong>Future Goals:</strong> Aiming to secure a new-grad
+                compiler engineering role and excited to apply skills and
                 enthusiasm to make a decisive contribution.
               </p>
             </li>
           </ul>
         </section>
         <div id="imageHolder">
-          <img src={require("./portraits/mainpic2.png")} />
+          <img src={require("./portraits/mainpic_edit.jpeg")} />
         </div>
       </div>
     </div>

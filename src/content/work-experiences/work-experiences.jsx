@@ -14,16 +14,16 @@ const WorkExperiences = () => {
         <h4>Currently, I work as a . . . </h4>
         <WorkExperience
           workData={{
-            name: "Software Engineer Intern at AMD",
-            imagePath: "AMD.svg",
+            name: "Compiler Engineer Intern at NVIDIA",
+            imagePath: "NVIDIA.svg",
             tags: [
               Tags.CPP,
-              Tags.C,
               Tags.MT,
-              Tags.GIT,
-              Tags.Encoding,
-              Tags.OpenCL,
-              Tags.OpenGL,
+              Tags.ASM,
+              Tags.GPU,
+              Tags.PTX,
+              Tags.CUDA,
+              Tags.P4,
             ],
           }}
         />
@@ -33,6 +33,37 @@ const WorkExperiences = () => {
           <h4>Previously, I worked as a . . .</h4>
         </div>
         <div className="workExperiences">
+          <WorkExperience
+            workData={{
+              name: "ML Compiler Engineer Intern at Qualcomm",
+              imagePath: "Qualcomm.svg",
+              tags: [
+                Tags.PYTHON,
+                Tags.PYTORCH,
+                Tags.ML,
+                Tags.CPP,
+                Tags.TRANSFORMERS,
+                Tags.ASM,
+                Tags.MT,
+                Tags.GIT,
+              ],
+            }}
+          />
+          <WorkExperience
+            workData={{
+              name: "Software Engineer Intern at AMD",
+              imagePath: "AMD.svg",
+              tags: [
+                Tags.CPP,
+                Tags.C,
+                Tags.MT,
+                Tags.GIT,
+                Tags.Encoding,
+                Tags.OpenCL,
+                Tags.OpenGL,
+              ],
+            }}
+          />
           <WorkExperience
             workData={{
               name: "Compiler Engineer Intern at Huawei",
@@ -91,7 +122,7 @@ const WorkExperiences = () => {
         </div>
         <div id="after">
           <h4>
-            For all four past co-op positions I received the highest possible
+            For all past co-op positions I received the highest possible
             employer rating of <b id="outstanding">outstanding</b>.
           </h4>
         </div>

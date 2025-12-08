@@ -1,4 +1,10 @@
 export const Tags = Object.freeze({
+  P4: "Perforce",
+  CUDA: "CUDA",
+  PTX: "PTX",
+  GPU: "GPU",
+  PYTORCH: "PyTorch",
+  ML: "Machine Learning",
   REACT: "React",
   JS: "Javascript",
   TS: "Typescript",
