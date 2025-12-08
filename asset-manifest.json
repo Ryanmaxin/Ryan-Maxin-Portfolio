@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.d90ac99c.css",
-    "main.js": "/static/js/main.0703d32b.js",
-    "static/media/mainpic2.png": "/static/media/mainpic2.e386b23e6fae0155b934.png",
+    "main.js": "/static/js/main.06d3d2e6.js",
     "static/media/RealmTunes.png": "/static/media/RealmTunes.8aafa460fe71fbb6ad86.png",
     "static/media/Ace.png": "/static/media/Ace.9d38501af345434ecd99.png",
     "static/media/Fliot.png": "/static/media/Fliot.0fb3432735996c31a8d3.png",
+    "static/media/mainpic_edit.jpeg": "/static/media/mainpic_edit.9d1c0edbf1b11d170e31.jpeg",
     "static/media/Sorting.png": "/static/media/Sorting.23ed33f790f1c6ab9966.png",
     "static/media/SYDE.png": "/static/media/SYDE.89aa988d58dc9048e254.png",
     "static/media/TM.png": "/static/media/TM.823d5723e45a3e23cc74.png",
@@ -13,9 +13,11 @@
     "static/media/Dino.png": "/static/media/Dino.623b1bc790ea9bf229dd.png",
     "static/media/Infinera.svg": "/static/media/Infinera.23f1baabc1efbb920302.svg",
     "static/media/Huawei.svg": "/static/media/Huawei.3b982595b4ad265f7a8e.svg",
+    "static/media/NVIDIA.svg": "/static/media/NVIDIA.c0b75435a84aff243c07.svg",
     "static/media/WSIB.svg": "/static/media/WSIB.fff0b2dca40f54d812a1.svg",
     "static/media/close.svg": "/static/media/close.6f12cf81cfe6e688d57fa8a3fd835995.svg",
     "static/media/github.svg": "/static/media/github.b8a62b1bbf3ae3ff9026c5ec22121fd3.svg",
+    "static/media/Qualcomm.svg": "/static/media/Qualcomm.be23c158ae2c7a3a184e.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.7b377b8bc089c830a0b7cd03d0d1a807.svg",
     "static/media/arrow.svg": "/static/media/arrow.764f74e764a89134340c2545483e0604.svg",
@@ -23,10 +25,10 @@
     "static/media/mail.svg": "/static/media/mail.1521a7a2fb63b513d75244f76d4caef8.svg",
     "static/media/AMD.svg": "/static/media/AMD.c7e3b2d36feeeb224994.svg",
     "main.d90ac99c.css.map": "/static/css/main.d90ac99c.css.map",
-    "main.0703d32b.js.map": "/static/js/main.0703d32b.js.map"
+    "main.06d3d2e6.js.map": "/static/js/main.06d3d2e6.js.map"
   },
   "entrypoints": [
     "static/css/main.d90ac99c.css",
-    "static/js/main.0703d32b.js"
+    "static/js/main.06d3d2e6.js"
   ]
 }
