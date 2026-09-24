@@ -8,56 +8,57 @@ const About = () => {
       </div>
       <div id="aboutBox">
         <section className="infotainer">
-          <h4>Greetings!</h4>
           <ul id="aboutList">
             <li className="aboutPoints">
               <p>
-                <strong>Current Studies:</strong> 4th year student studying
-                Computer Science at the University of Waterloo with expected
-                graduation in August 2026. 🎓
+                <strong>Education:</strong> Earned a Bachelor of Computer
+                Science from the University of Waterloo, graduating on the
+                Dean&apos;s Honours List. 🎓
               </p>
             </li>
             <li className="aboutPoints">
               <p>
-                <strong>Professional Experience:</strong> Hands-on experience
-                through co-ops at seven companies over the past four years.
+                <strong>Experience:</strong> Across seven co-op terms, I worked
+                on compilers and systems at NVIDIA, Qualcomm, AMD, and Huawei.
               </p>
             </li>
             <li className="aboutPoints">
               <p>
-                <strong>Dependable:</strong> Proven track record of success in
-                co-op roles, personal projects, and academic courses (take a
-                look below).
+                <strong>Research:</strong> I researched and implemented a new
+                global initialization safety checker for the Scala 3 compiler
+                with{" "}
+                <a href="https://cs.uwaterloo.ca/contacts/ondrej-lhotak">
+                  Ondřej Lhoták
+                </a>{" "}
+                at Waterloo.
               </p>
             </li>
             <li className="aboutPoints">
               <p>
-                <strong>Passionate:</strong> I love coming up with clever
-                solutions to deal with interesting and complex problems and then
-                implementing them efficiently in code.
+                <strong>Programming Journey:</strong> I started coding in high
+                school, then got hooked on what happens beneath the code: how
+                languages, compilers, and hardware fit together.
               </p>
             </li>
             <li className="aboutPoints">
               <p>
-                <strong>Programming Journey:</strong> My fascination with
-                programming began after taking first compsci class in high
-                school. The more I learned, the more my curiosity grew, and this
-                led me to major in computer science in university.
+                <strong>Technical Interests:</strong> I&apos;m drawn to computer
+                architecture, low-level systems, and performance engineering
+                across GPUs, DSPs, and CPUs.
               </p>
             </li>
             <li className="aboutPoints">
               <p>
-                <strong>Lifestyle:</strong> Committed to a well-rounded life
-                with regular physical activity, including weightlifting, rock
-                climbing, soccer, badminton, and ping pong; I also enjoys chess
-                and quality TV and movies.
+                <strong>What&apos;s Next:</strong> I&apos;m heading to NVIDIA in
+                Austin as a GPU Compiler Engineer, working on the CUDA compiler
+                backend.
               </p>
             </li>
             <li className="aboutPoints">
               <p>
-                <strong>Future Goals:</strong> Aiming to secure a new-grad
-                compiler engineering role and excited to apply skills and
-                enthusiasm to make a decisive contribution.
+                <strong>Outside of Work:</strong> I enjoy weightlifting,
+                running, rock climbing, baseball, board games, and a good movie
+                or TV series.
               </p>
             </li>
           </ul>

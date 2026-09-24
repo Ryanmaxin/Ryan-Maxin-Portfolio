@@ -11,10 +11,10 @@ const WorkExperiences = () => {
         <h1>Work Experience</h1>
       </div>
       <div className="workExperiences">
-        <h4>Currently, I work as a . . . </h4>
+        <h4>Soon I'll be working as a . . .</h4>
         <WorkExperience
           workData={{
-            name: "Compiler Engineer Intern at NVIDIA",
+            name: "Compiler Software Engineer at NVIDIA",
             imagePath: "NVIDIA.svg",
             tags: [
               Tags.CPP,
@@ -32,6 +32,21 @@ const WorkExperiences = () => {
         <div id="previously">
           <h4>Previously, I worked as a . . .</h4>
         </div>
+        <WorkExperience
+          workData={{
+            name: "Compiler Engineer Intern at NVIDIA",
+            imagePath: "NVIDIA.svg",
+            tags: [
+              Tags.CPP,
+              Tags.MT,
+              Tags.ASM,
+              Tags.GPU,
+              Tags.PTX,
+              Tags.CUDA,
+              Tags.P4,
+            ],
+          }}
+        />
         <div className="workExperiences">
           <WorkExperience
             workData={{

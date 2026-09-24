@@ -6,7 +6,10 @@ const Project = ({ projectData }) => {
     <div className="projectTile">
       <h3>{projectData.title}</h3>
       <div className="projectInfo">
-        <img src={require(`../project-images/${projectData.imagePath}`)} />
+        <img
+          src={require(`../project-images/${projectData.imagePath}`)}
+          alt={`${projectData.title} project preview`}
+        />
         <div className="tagholder">
           {projectData.tags.map((tag, i) => (
             <div className="tag" key={i}>

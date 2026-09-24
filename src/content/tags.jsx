@@ -16,6 +16,8 @@ export const Tags = Object.freeze({
   SASS: "SASS",
   FIREBASE: "Firebase",
   PYTHON: "Python",
+  SWIFT: "Swift",
+  OCAML: "OCaml",
   FLASK: "Flask",
   KOTLIN: "Kotlin",
   JC: "Jetpack Compose",
@@ -36,4 +38,6 @@ export const Tags = Object.freeze({
   Encoding: "Video Encoding",
   OpenCL: "OpenCL",
   OpenGL: "OpenGL",
+  WEBGL: "WebGL",
+  GLSL: "GLSL",
 });

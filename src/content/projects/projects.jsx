@@ -12,6 +12,66 @@ const Projects = () => {
       <div id="projectsHolder">
         <Project
           projectData={{
+            title: "Black Hole Renderer",
+            imagePath: "Blackhole.jpg",
+            description: `A real-time WebGL 2 renderer that simulates light around a Schwarzschild black hole. Each pixel traces a curved path through spacetime, visualizing gravitational lensing, accretion-disk crossings, and the event horizon.`,
+            tags: [Tags.TS, Tags.WEBGL, Tags.GLSL, Tags.GIT],
+            link1: "https://ryanmaxin.github.io/Blackhole-Renderer/",
+            link1Name: "Live",
+            link2: "https://github.com/Ryanmaxin/Blackhole-Renderer",
+            link2Name: "Github",
+          }}
+        />
+        <Project
+          projectData={{
+            title: "CloudPress",
+            imagePath: "CloudPress.jpg",
+            description: `A local-only macOS utility that creates lower-resolution copies of videos in an iCloud Photo Library to help reclaim storage. Its verified-copy workflow preserves key Photos metadata before offering a separate, deliberate original-deletion step.`,
+            tags: [Tags.SWIFT, Tags.GIT],
+            link1: "",
+            link1Name: "",
+            link2: "https://github.com/Ryanmaxin/CloudPress",
+            link2Name: "Github",
+          }}
+        />
+        <Project
+          projectData={{
+            title: "Watopoly",
+            imagePath: "Watopoly.svg",
+            description: `A terminal-based, multiplayer University of Waterloo-themed Monopoly game built as a three-person CS246 final project. It supports two to six players, property trading and improvements, save/load state, and a testable MVC-inspired architecture.`,
+            tags: [Tags.CPP, Tags.CMD, Tags.GIT],
+            link1: "",
+            link1Name: "",
+            link2: "https://github.com/Ryanmaxin/Watopoly",
+            link2Name: "Github",
+          }}
+        />
+        <Project
+          projectData={{
+            title: "Joos Compiler Web",
+            imagePath: "JoosCompilerWeb.svg",
+            description: `A web interface for exploring a shared Joos compiler project. It presents the compiler pipeline, tokens, intermediate trees, diagnostics, generated x86 assembly, and program output while running the real compiler backend.`,
+            tags: [Tags.TS, Tags.JS, Tags.HTML, Tags.CSS, Tags.GIT],
+            link1: "https://github.com/Ryanmaxin/compiler-web",
+            link1Name: "Github",
+            link2: "",
+            link2Name: "",
+          }}
+        />
+        <Project
+          projectData={{
+            title: "Joos Compiler",
+            imagePath: "JoosCompiler.svg",
+            description: `A shared course compiler project for Joos, a Java subset. The compiler performs the language-analysis pipeline and produces x86 assembly, which powers the accompanying interactive compiler web interface.`,
+            tags: [Tags.OCAML, Tags.ASM, Tags.GIT],
+            link1: "https://github.com/Ryanmaxin/joos-compiler",
+            link1Name: "Github",
+            link2: "",
+            link2Name: "",
+          }}
+        />
+        <Project
+          projectData={{
             title: "Sorting Algorithm Visualizer",
             imagePath: "Sorting.png",
             description: `Born from a fascination with sorting algorithms, this visualizer tool transforms complex concepts into captivating animations. Designed to make abstract ideas engaging and accessible, it brings the intricate dance of algorithms to life, offering both novices and seasoned programmers a vivid glimpse into the mechanics of data sorting.`,
