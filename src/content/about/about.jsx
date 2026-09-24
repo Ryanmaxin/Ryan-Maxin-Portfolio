@@ -27,9 +27,7 @@ const About = () => {
                 <strong>Research:</strong> I researched and implemented a new
                 global initialization safety checker for the Scala 3 compiler
                 with{" "}
-                <a href="https://cs.uwaterloo.ca/contacts/ondrej-lhotak">
-                  Ondřej Lhoták
-                </a>{" "}
+                <a href="https://plg.uwaterloo.ca/~olhotak/">Ondřej Lhoták</a>{" "}
                 at Waterloo.
               </p>
             </li>

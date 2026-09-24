@@ -11,10 +11,10 @@ const WorkExperiences = () => {
         <h1>Work Experience</h1>
       </div>
       <div className="workExperiences">
-        <h4>Soon I'll be working as a . . .</h4>
+        <h4>Currently, I work as a . . .</h4>
         <WorkExperience
           workData={{
-            name: "Compiler Software Engineer at NVIDIA",
+            name: "Compiler Software Engineer at NVIDIA (starting 10/05/26)",
             imagePath: "NVIDIA.svg",
             tags: [
               Tags.CPP,
@@ -32,22 +32,22 @@ const WorkExperiences = () => {
         <div id="previously">
           <h4>Previously, I worked as a . . .</h4>
         </div>
-        <WorkExperience
-          workData={{
-            name: "Compiler Engineer Intern at NVIDIA",
-            imagePath: "NVIDIA.svg",
-            tags: [
-              Tags.CPP,
-              Tags.MT,
-              Tags.ASM,
-              Tags.GPU,
-              Tags.PTX,
-              Tags.CUDA,
-              Tags.P4,
-            ],
-          }}
-        />
         <div className="workExperiences">
+          <WorkExperience
+            workData={{
+              name: "Compiler Engineer Intern at NVIDIA",
+              imagePath: "NVIDIA.svg",
+              tags: [
+                Tags.CPP,
+                Tags.MT,
+                Tags.ASM,
+                Tags.GPU,
+                Tags.PTX,
+                Tags.CUDA,
+                Tags.P4,
+              ],
+            }}
+          />
           <WorkExperience
             workData={{
               name: "ML Compiler Engineer Intern at Qualcomm",
@@ -73,9 +73,12 @@ const WorkExperiences = () => {
                 Tags.C,
                 Tags.MT,
                 Tags.GIT,
+                Tags.PYTHON,
                 Tags.Encoding,
                 Tags.OpenCL,
                 Tags.OpenGL,
+                Tags.VULKAN,
+                Tags.DIRECTX,
               ],
             }}
           />
@@ -92,6 +95,8 @@ const WorkExperiences = () => {
                 Tags.JENKINS,
                 Tags.DOCKER,
                 Tags.GIT,
+                Tags.PGO,
+                Tags.PERF,
               ],
             }}
           />
@@ -108,6 +113,8 @@ const WorkExperiences = () => {
                 Tags.FLASK,
                 Tags.SQL,
                 Tags.GIT,
+                Tags.LANGCHAIN,
+                Tags.AZURE,
               ],
             }}
           />
@@ -120,7 +127,7 @@ const WorkExperiences = () => {
                 Tags.PYTHON,
                 Tags.MATPLOTLIB,
                 Tags.PANDAS,
-
+                Tags.ERPC,
                 Tags.JENKINS,
                 Tags.DOCKER,
                 Tags.GIT,
@@ -131,7 +138,7 @@ const WorkExperiences = () => {
             workData={{
               name: "Course and Technical Support Assistant at the University of Waterloo",
               imagePath: "UW.svg",
-              tags: [Tags.JS],
+              tags: [Tags.JS, Tags.GEE],
             }}
           />
         </div>
