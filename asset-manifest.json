@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d90ac99c.css",
-    "main.js": "/static/js/main.06d3d2e6.js",
+    "main.css": "/static/css/main.4e791efc.css",
+    "main.js": "/static/js/main.4c310811.js",
+    "static/media/CloudPress.png": "/static/media/CloudPress.81374346273ae77135c8.png",
     "static/media/RealmTunes.png": "/static/media/RealmTunes.8aafa460fe71fbb6ad86.png",
+    "static/media/joos.png": "/static/media/joos.49cd9d998b6ff6ac209f.png",
+    "static/media/Watopoly.png": "/static/media/Watopoly.daaf750db38e9714583e.png",
     "static/media/Ace.png": "/static/media/Ace.9d38501af345434ecd99.png",
-    "static/media/Fliot.png": "/static/media/Fliot.0fb3432735996c31a8d3.png",
+    "static/media/Blackhole.jpg": "/static/media/Blackhole.711d0a735581eba769ae.jpg",
     "static/media/mainpic_edit.jpeg": "/static/media/mainpic_edit.9d1c0edbf1b11d170e31.jpeg",
     "static/media/Sorting.png": "/static/media/Sorting.23ed33f790f1c6ab9966.png",
     "static/media/SYDE.png": "/static/media/SYDE.89aa988d58dc9048e254.png",
     "static/media/TM.png": "/static/media/TM.823d5723e45a3e23cc74.png",
+    "static/media/URA.png": "/static/media/URA.d4cb264de7e03c017a6c.png",
     "static/media/UW.svg": "/static/media/UW.e3a231d2cfc64090ec47.svg",
+    "static/media/URA2.png": "/static/media/URA2.d6a99e1d0419195ab35c.png",
     "static/media/Dino.png": "/static/media/Dino.623b1bc790ea9bf229dd.png",
     "static/media/Infinera.svg": "/static/media/Infinera.23f1baabc1efbb920302.svg",
     "static/media/Huawei.svg": "/static/media/Huawei.3b982595b4ad265f7a8e.svg",
@@ -24,11 +29,11 @@
     "static/media/open.svg": "/static/media/open.0fa96f04b905b49d33b4d18b8fc3b338.svg",
     "static/media/mail.svg": "/static/media/mail.1521a7a2fb63b513d75244f76d4caef8.svg",
     "static/media/AMD.svg": "/static/media/AMD.c7e3b2d36feeeb224994.svg",
-    "main.d90ac99c.css.map": "/static/css/main.d90ac99c.css.map",
-    "main.06d3d2e6.js.map": "/static/js/main.06d3d2e6.js.map"
+    "main.4e791efc.css.map": "/static/css/main.4e791efc.css.map",
+    "main.4c310811.js.map": "/static/js/main.4c310811.js.map"
   },
   "entrypoints": [
-    "static/css/main.d90ac99c.css",
-    "static/js/main.06d3d2e6.js"
+    "static/css/main.4e791efc.css",
+    "static/js/main.4c310811.js"
   ]
 }
