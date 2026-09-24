@@ -4,6 +4,7 @@ import "./content.css";
 import Footer from "./footer/footer";
 import Navbar from "./navbar/navbar";
 import Projects from "./projects/projects";
+import Research from "./research/research";
 import WorkExperiences from "./work-experiences/work-experiences";
 
 const Content = () => {
@@ -13,6 +14,7 @@ const Content = () => {
       <div id="avoidHeader">
         <About />
         <WorkExperiences />
+        <Research />
         <Projects />
       </div>
       <Footer />

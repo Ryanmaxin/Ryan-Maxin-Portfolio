@@ -4,6 +4,7 @@
 
 #about,
 #work-experience,
+#research,
 #projects {
   margin: auto;
   padding-top: 15dvh;
@@ -15,6 +16,7 @@
 }
 
 #about h1,
+#research h1,
 #projects h1,
 #work-experience h1,
 #namePlate {

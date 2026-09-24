@@ -48,4 +48,7 @@ export const Tags = Object.freeze({
   GEE: "Google Earth Engine",
   WEBGL: "WebGL",
   GLSL: "GLSL",
+  SCALA: "Scala 3",
+  STATIC_ANALYSIS: "Static Analysis",
+  COMPILERS: "Compilers",
 });

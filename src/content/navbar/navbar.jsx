@@ -49,6 +49,15 @@ const Navbar = () => {
         <span className="dotDivider">&middot;</span>
         <Link
           smooth
+          to={`${ROUTES.CONTENT}#research`}
+          className="nav-link navButton"
+          role="button"
+        >
+          Research
+        </Link>
+        <span className="dotDivider">&middot;</span>
+        <Link
+          smooth
           to={`${ROUTES.CONTENT}#projects`}
           className="nav-link navButton"
           // id="right"
