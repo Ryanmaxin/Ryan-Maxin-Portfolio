@@ -15,6 +15,11 @@ const Project = ({ projectData }) => {
                   require(`../project-images/${projectData.imagePath}`)
                 }
                 alt={`${projectData.title} project preview`}
+                style={
+                  projectData.imagePosition
+                    ? { objectPosition: projectData.imagePosition }
+                    : undefined
+                }
               />
             )}
         <div className="tagholder">

@@ -25,7 +25,7 @@ const Projects = () => {
         <Project
           projectData={{
             title: "CloudPress",
-            imagePath: "CloudPress.jpg",
+            imagePath: "CloudPress.png",
             description: `A local-only macOS utility that creates lower-resolution copies of videos in an iCloud Photo Library to help reclaim storage. Its verified-copy workflow preserves key Photos metadata before offering a separate, deliberate original-deletion step.`,
             tags: [Tags.SWIFT, Tags.GIT],
             link1: "",
@@ -37,7 +37,8 @@ const Projects = () => {
         <Project
           projectData={{
             title: "Watopoly",
-            imagePath: "Watopoly.svg",
+            imagePath: "Watopoly.png",
+            imagePosition: "center bottom",
             description: `A terminal-based, multiplayer University of Waterloo-themed Monopoly game built as a three-person CS246 final project. It supports two to six players, property trading and improvements, save/load state, and a testable MVC-inspired architecture.`,
             tags: [Tags.CPP, Tags.CMD, Tags.GIT],
             link1: "",
@@ -48,21 +49,9 @@ const Projects = () => {
         />
         <Project
           projectData={{
-            title: "Joos Compiler Web",
-            imagePath: "JoosCompilerWeb.svg",
-            description: `A web interface for exploring a shared Joos compiler project. It presents the compiler pipeline, tokens, intermediate trees, diagnostics, generated x86 assembly, and program output while running the real compiler backend.`,
-            tags: [Tags.TS, Tags.JS, Tags.HTML, Tags.CSS, Tags.GIT],
-            link1: "https://github.com/Ryanmaxin/compiler-web",
-            link1Name: "Github",
-            link2: "",
-            link2Name: "",
-          }}
-        />
-        <Project
-          projectData={{
             title: "Joos Compiler",
-            imagePath: "JoosCompiler.svg",
-            description: `A shared course compiler project for Joos, a Java subset. The compiler performs the language-analysis pipeline and produces x86 assembly, which powers the accompanying interactive compiler web interface.`,
+            imagePath: "joos.png",
+            description: `A shared course compiler for Joos, a subset of Java. It analyzes source programs and generates x86 assembly.`,
             tags: [Tags.OCAML, Tags.ASM, Tags.GIT],
             link1: "https://github.com/Ryanmaxin/joos-compiler",
             link1Name: "Github",
