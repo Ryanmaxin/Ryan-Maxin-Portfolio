@@ -15,7 +15,7 @@ const Projects = () => {
             title: "Joos Compiler",
             imagePath: "joos.png",
             description: `An OCaml compiler for Joos 1W, a subset of Java, built with two teammates for CS 444. It scans and parses programs across multiple files, resolves names, checks types, and generates 32-bit x86 assembly with dynamic dispatch and runtime type checks.`,
-            tags: [Tags.OCAML, Tags.ASM, Tags.GIT],
+            tags: [Tags.OCAML, Tags.ASM, Tags.GIT, Tags.COMPILERS],
             link1: "https://ryanmaxin.github.io/java-compiler-public/",
             link1Name: "Design Doc",
             link2: "",
@@ -38,8 +38,8 @@ const Projects = () => {
           projectData={{
             title: "Performant Transactional Memory",
             imagePath: "TM.png",
-            description: `A software transactional memory library built to ensure correctness, opacity, and high performance in concurrent programming. Delivers a 6x speedup over traditional course-grained locking.`,
-            tags: [Tags.CPP, Tags.MT, Tags.GIT],
+            description: `A software transactional memory library built to ensure correctness, opacity, and high performance in concurrent programming. Delivers a 6x speedup over traditional coarse-grained locking.`,
+            tags: [Tags.CPP, Tags.MT, Tags.GIT, Tags.CONCURRENCY],
             link1: "",
             link1Name: "",
             link2:
@@ -138,7 +138,7 @@ const Projects = () => {
             title: "CloudPress",
             imagePath: "CloudPress.png",
             description: `A local-only macOS utility that creates lower-resolution copies of videos in an iCloud Photo Library to help reclaim storage.`,
-            tags: [Tags.SWIFT, Tags.GIT],
+            tags: [Tags.SWIFT, Tags.GIT, Tags.Encoding],
             link1: "",
             link1Name: "",
             link2: "https://github.com/Ryanmaxin/CloudPress",

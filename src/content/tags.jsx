@@ -29,6 +29,7 @@ export const Tags = Object.freeze({
   DOCKER: "Docker",
   JENKINS: "Jenkins",
   MT: "Multithreading",
+  CONCURRENCY: "Concurrency",
   ASM: "Assembly",
   C: "C",
   TRANSFORMERS: "Transformers",

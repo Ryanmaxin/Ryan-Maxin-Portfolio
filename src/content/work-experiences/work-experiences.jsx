@@ -11,7 +11,7 @@ const WorkExperiences = () => {
         <h1>Work Experience</h1>
       </div>
       <div className="workExperiences">
-        <h4>Currently, I work as a . . .</h4>
+        <h4>My next role:</h4>
         <WorkExperience
           workData={{
             name: "Compiler Software Engineer at NVIDIA (starting 10/05/26)",
