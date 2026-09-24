@@ -12,9 +12,21 @@ const Projects = () => {
       <div id="projectsHolder">
         <Project
           projectData={{
+            title: "Joos Compiler",
+            imagePath: "joos.png",
+            description: `An OCaml compiler for Joos 1W, a subset of Java, built with two teammates for CS 444. It scans and parses programs across multiple files, resolves names, checks types, and generates 32-bit x86 assembly with dynamic dispatch and runtime type checks.`,
+            tags: [Tags.OCAML, Tags.ASM, Tags.GIT],
+            link1: "https://ryanmaxin.github.io/java-compiler-public/",
+            link1Name: "Design Doc",
+            link2: "",
+            link2Name: "",
+          }}
+        />
+        <Project
+          projectData={{
             title: "Black Hole Renderer",
             imagePath: "Blackhole.jpg",
-            description: `A real-time WebGL 2 renderer that simulates light around a Schwarzschild black hole. Each pixel traces a curved path through spacetime, visualizing gravitational lensing, accretion-disk crossings, and the event horizon.`,
+            description: `A real-time WebGL 2 renderer that traces light through curved spacetime around a black hole. Built with TypeScript and GLSL, it visualizes gravitational lensing, a glowing accretion disk, and the event horizon, with interactive camera and rendering controls.`,
             tags: [Tags.TS, Tags.WEBGL, Tags.GLSL, Tags.GIT],
             link1: "https://ryanmaxin.github.io/Blackhole-Renderer/",
             link1Name: "Live",
@@ -24,39 +36,15 @@ const Projects = () => {
         />
         <Project
           projectData={{
-            title: "CloudPress",
-            imagePath: "CloudPress.png",
-            description: `A local-only macOS utility that creates lower-resolution copies of videos in an iCloud Photo Library to help reclaim storage. Its verified-copy workflow preserves key Photos metadata before offering a separate, deliberate original-deletion step.`,
-            tags: [Tags.SWIFT, Tags.GIT],
+            title: "Performant Transactional Memory",
+            imagePath: "TM.png",
+            description: `A software transactional memory library built to ensure correctness, opacity, and high performance in concurrent programming. Delivers a 6x speedup over traditional course-grained locking.`,
+            tags: [Tags.CPP, Tags.MT, Tags.GIT],
             link1: "",
             link1Name: "",
-            link2: "https://github.com/Ryanmaxin/CloudPress",
+            link2:
+              "https://github.com/Ryanmaxin/Performant-Transactional-Memory",
             link2Name: "Github",
-          }}
-        />
-        <Project
-          projectData={{
-            title: "Watopoly",
-            imagePath: "Watopoly.png",
-            imagePosition: "center bottom",
-            description: `A terminal-based, multiplayer University of Waterloo-themed Monopoly game built as a three-person CS246 final project. It supports two to six players, property trading and improvements, save/load state, and a testable MVC-inspired architecture.`,
-            tags: [Tags.CPP, Tags.CMD, Tags.GIT],
-            link1: "",
-            link1Name: "",
-            link2: "https://github.com/Ryanmaxin/Watopoly",
-            link2Name: "Github",
-          }}
-        />
-        <Project
-          projectData={{
-            title: "Joos Compiler",
-            imagePath: "joos.png",
-            description: `A shared course compiler for Joos, a subset of Java. It analyzes source programs and generates x86 assembly.`,
-            tags: [Tags.OCAML, Tags.ASM, Tags.GIT],
-            link1: "https://github.com/Ryanmaxin/joos-compiler",
-            link1Name: "Github",
-            link2: "",
-            link2Name: "",
           }}
         />
         <Project
@@ -80,31 +68,6 @@ const Projects = () => {
         />
         <Project
           projectData={{
-            title: "Realm Tunes",
-            imagePath: "RealmTunes.png",
-            description: `A vibrant and feature-rich Discord music bot, Realm Tunes enhances the music listening experience for over 350 users across 7 servers. I created Realm Tunes as a way to play music with my friends after most public bots got shut down.`,
-            tags: [Tags.PYTHON, Tags.ASYNC, Tags.GIT],
-            link1: "",
-            link1Name: "",
-            link2: "https://github.com/Ryanmaxin/Realm-Tunes-2.0",
-            link2Name: "Github",
-          }}
-        />
-        <Project
-          projectData={{
-            title: "Performant Transactional Memory",
-            imagePath: "TM.png",
-            description: `A software transactional memory library built to ensure correctness, opacity, and high performance in concurrent programming. Delivers a 6x speedup over traditional course-grained locking.`,
-            tags: [Tags.CPP, Tags.MT, Tags.GIT],
-            link1: "",
-            link1Name: "",
-            link2:
-              "https://github.com/Ryanmaxin/Performant-Transactional-Memory",
-            link2Name: "Github",
-          }}
-        />
-        <Project
-          projectData={{
             title: "AceInterviewer",
             imagePath: "Ace.png",
             description: `AceInterviewer provides a dedicated platform where students and professionals can practice interview questions, share responses, and gain constructive feedback from a knowledgable community, helping them better prepare for real-world interviews. Added to the wall of fame of outstanding projects for CS 346.`,
@@ -113,6 +76,31 @@ const Projects = () => {
             link1Name: "",
             link2: "https://github.com/Ryanmaxin/AceInterviewer",
             link2Name: "Github and Demo",
+          }}
+        />
+        <Project
+          projectData={{
+            title: "Watopoly",
+            imagePath: "Watopoly.png",
+            imagePosition: "center bottom",
+            description: `A C++ terminal game that brings the University of Waterloo Campus to Monopoly. Built with a three-person team, it supports up to six players, property trading, building improvements, and saved games.`,
+            tags: [Tags.CPP, Tags.CMD, Tags.GIT],
+            link1: "",
+            link1Name: "",
+            link2: "https://ryanmaxin.github.io/watopoly-public/",
+            link2Name: "Design Doc",
+          }}
+        />
+        <Project
+          projectData={{
+            title: "Realm Tunes",
+            imagePath: "RealmTunes.png",
+            description: `A vibrant and feature-rich Discord music bot, Realm Tunes enhances the music listening experience for over 350 users across 7 servers. I created Realm Tunes as a way to play music with my friends after most public bots got shut down.`,
+            tags: [Tags.PYTHON, Tags.ASYNC, Tags.GIT],
+            link1: "",
+            link1Name: "",
+            link2: "https://github.com/Ryanmaxin/Realm-Tunes-2.0",
+            link2Name: "Github",
           }}
         />
         <Project
@@ -129,8 +117,6 @@ const Projects = () => {
               Tags.CSS,
               Tags.GIT,
             ],
-            link1: "https://syde26.life/",
-            link1Name: "Live",
             link2: "https://github.com/SYDE-26/1A-Class-Profile-Website",
             link2Name: "Github",
           }}
@@ -144,6 +130,18 @@ const Projects = () => {
             link1: "",
             link1Name: "",
             link2: "https://github.com/Ryanmaxin/Dinosaur-Game",
+            link2Name: "Github",
+          }}
+        />
+        <Project
+          projectData={{
+            title: "CloudPress",
+            imagePath: "CloudPress.png",
+            description: `A local-only macOS utility that creates lower-resolution copies of videos in an iCloud Photo Library to help reclaim storage.`,
+            tags: [Tags.SWIFT, Tags.GIT],
+            link1: "",
+            link1Name: "",
+            link2: "https://github.com/Ryanmaxin/CloudPress",
             link2Name: "Github",
           }}
         />

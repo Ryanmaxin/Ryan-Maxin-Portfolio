@@ -1,8 +1,8 @@
 .researchGallery {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr);
-  gap: 1.5rem;
-  padding: 0.75rem;
+  grid-template-columns: minmax(0, 1.39fr) minmax(0, 2.34fr);
+  gap: 0.75rem;
+  padding: 0.25rem;
 }
 
 .researchFigure {
@@ -15,9 +15,9 @@
 
 #research .researchFigure img {
   width: 100%;
-  height: clamp(12rem, 25vw, 20rem);
+  height: auto;
+  display: block;
   padding: 0;
-  object-fit: contain;
 }
 
 .researchFigure figcaption {
@@ -33,9 +33,5 @@
 @media only screen and (max-width: 700px) {
   .researchGallery {
     grid-template-columns: 1fr;
-  }
-
-  #research .researchFigure img {
-    height: auto;
   }
 }

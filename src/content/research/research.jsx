@@ -22,9 +22,7 @@ const Research = () => {
               compiler. Designed to be smaller and more efficient, its mostly
               flow-insensitive analysis traces dependencies across global
               objects, reachable methods, and instantiated classes to flag
-              unsafe initialization cycles. I integrated it with Scala&apos;s
-              existing semantic checker and tested the combined pipeline against
-              the compiler&apos;s initialization test suites.
+              unsafe initialization cycles.
             </>
           ),
           tags: [Tags.SCALA, Tags.COMPILERS, Tags.STATIC_ANALYSIS],
