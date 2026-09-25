@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4e791efc.css",
-    "main.js": "/static/js/main.4c310811.js",
+    "main.js": "/static/js/main.342215bf.js",
     "static/media/CloudPress.png": "/static/media/CloudPress.81374346273ae77135c8.png",
     "static/media/RealmTunes.png": "/static/media/RealmTunes.8aafa460fe71fbb6ad86.png",
     "static/media/joos.png": "/static/media/joos.49cd9d998b6ff6ac209f.png",
@@ -20,20 +20,20 @@
     "static/media/Huawei.svg": "/static/media/Huawei.3b982595b4ad265f7a8e.svg",
     "static/media/NVIDIA.svg": "/static/media/NVIDIA.c0b75435a84aff243c07.svg",
     "static/media/WSIB.svg": "/static/media/WSIB.fff0b2dca40f54d812a1.svg",
+    "index.html": "/index.html",
     "static/media/close.svg": "/static/media/close.6f12cf81cfe6e688d57fa8a3fd835995.svg",
     "static/media/github.svg": "/static/media/github.b8a62b1bbf3ae3ff9026c5ec22121fd3.svg",
     "static/media/Qualcomm.svg": "/static/media/Qualcomm.be23c158ae2c7a3a184e.svg",
-    "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.7b377b8bc089c830a0b7cd03d0d1a807.svg",
     "static/media/arrow.svg": "/static/media/arrow.764f74e764a89134340c2545483e0604.svg",
     "static/media/open.svg": "/static/media/open.0fa96f04b905b49d33b4d18b8fc3b338.svg",
     "static/media/mail.svg": "/static/media/mail.1521a7a2fb63b513d75244f76d4caef8.svg",
     "static/media/AMD.svg": "/static/media/AMD.c7e3b2d36feeeb224994.svg",
     "main.4e791efc.css.map": "/static/css/main.4e791efc.css.map",
-    "main.4c310811.js.map": "/static/js/main.4c310811.js.map"
+    "main.342215bf.js.map": "/static/js/main.342215bf.js.map"
   },
   "entrypoints": [
     "static/css/main.4e791efc.css",
-    "static/js/main.4c310811.js"
+    "static/js/main.342215bf.js"
   ]
 }
