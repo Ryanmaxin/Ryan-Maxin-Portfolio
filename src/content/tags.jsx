@@ -33,7 +33,7 @@ export const Tags = Object.freeze({
   ASM: "Assembly",
   C: "C",
   TRANSFORMERS: "Transformers",
-  LLAMA: "LlamaLLM",
+  LLAMA: "LLaMA",
   PANDAS: "Pandas",
   MATPLOTLIB: "Matplotlib",
   Encoding: "Video Encoding",
