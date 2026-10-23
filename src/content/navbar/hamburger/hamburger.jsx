@@ -16,6 +16,10 @@ const Hamburger = () => {
     <div id="hamburgerMenu">
       <div className="navIcons" id="hamIcon">
         <button
+          type="button"
+          aria-label="Open menu"
+          aria-controls="mobile-navigation"
+          aria-expanded={isOpen}
           className={isOpen ? "navIcon closed" : "navIcon"}
           onClick={() => {
             setIsOpen(!isOpen);
@@ -24,6 +28,10 @@ const Hamburger = () => {
           <Open className="socialIcon noscale" />
         </button>
         <button
+          type="button"
+          aria-label="Close menu"
+          aria-controls="mobile-navigation"
+          aria-expanded={isOpen}
           className={isOpen ? "navIcon" : "navIcon closed"}
           onClick={() => {
             setIsOpen(!isOpen);
@@ -33,6 +41,7 @@ const Hamburger = () => {
         </button>
       </div>
       <div
+        id="mobile-navigation"
         className={isOpen ? "dropmenu hamburger" : "dropmenu hamburger closed"}
       >
         <div className="navList">
@@ -42,8 +51,8 @@ const Hamburger = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link navButton"
+            onClick={() => setIsOpen(false)}
             // id="right"
-            role="button"
           >
             Résumé
           </Link>
@@ -51,7 +60,7 @@ const Hamburger = () => {
             smooth
             to={`${ROUTES.CONTENT}#about`}
             className="nav-link navButton"
-            role="button"
+            onClick={() => setIsOpen(false)}
           >
             About Me
           </Link>
@@ -59,8 +68,8 @@ const Hamburger = () => {
             smooth
             to={`${ROUTES.CONTENT}#work-experience`}
             className="nav-link navButton"
+            onClick={() => setIsOpen(false)}
             // id="right"
-            role="button"
           >
             Work Experience
           </Link>
@@ -68,7 +77,7 @@ const Hamburger = () => {
             smooth
             to={`${ROUTES.CONTENT}#research`}
             className="nav-link navButton"
-            role="button"
+            onClick={() => setIsOpen(false)}
           >
             Research
           </Link>
@@ -76,8 +85,8 @@ const Hamburger = () => {
             smooth
             to={`${ROUTES.CONTENT}#projects`}
             className="nav-link navButton"
+            onClick={() => setIsOpen(false)}
             // id="right"
-            role="button"
           >
             Projects
           </Link>
@@ -88,6 +97,7 @@ const Hamburger = () => {
               href="https://github.com/Ryanmaxin"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="GitHub profile"
             >
               <GitHub className="socialIcon" />
             </a>
@@ -98,6 +108,7 @@ const Hamburger = () => {
               href="mailto:rymaxin@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Email Ryan"
             >
               <Mail className="socialIcon" />
             </a>
@@ -107,6 +118,7 @@ const Hamburger = () => {
               href="https://www.linkedin.com/in/ryan-maxin/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="LinkedIn profile"
             >
               <LinkedIn className="socialIcon" />
             </a>

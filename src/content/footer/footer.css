@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 
-#ScrollToTop a {
+#ScrollToTop button {
   background: linear-gradient(var(--black2), var(--black2)) padding-box,
     var(--gradient) border-box !important;
   display: inline-block;
@@ -45,9 +45,10 @@
   box-shadow: 0 0 0.5rem rgba(var(--emphasisrgb), 0.2) !important;
   /* box-sizing: border-box; */
   padding: 1rem;
+  cursor: pointer;
 }
 
-#ScrollToTop a:hover {
+#ScrollToTop button:hover {
   background: var(--gradient) padding-box, var(--gradient) border-box !important;
 }
 
@@ -58,7 +59,7 @@
   width: 1.6rem;
 } */
 
-#ScrollToTop a svg {
+#ScrollToTop button svg {
   height: 1.6rem;
   width: 1.6rem;
 }

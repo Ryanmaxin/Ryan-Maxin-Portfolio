@@ -63,6 +63,10 @@
   padding: 0.2rem;
 }
 
+#navbar .navIcon a .socialIcon {
+  fill: var(--white);
+}
+
 .socialIcon:hover {
   transform: scale(1.15); /* Adjust the scale factor as needed */
 }

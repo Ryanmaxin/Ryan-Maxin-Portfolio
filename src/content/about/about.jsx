@@ -47,9 +47,8 @@ const About = () => {
             </li>
             <li className="aboutPoints">
               <p>
-                <strong>What&apos;s Next:</strong> I&apos;m heading to NVIDIA in
-                Austin as a GPU Compiler Engineer, working on the CUDA compiler
-                backend.
+                <strong>Current Role:</strong> I work at NVIDIA in Austin as a
+                GPU Compiler Software Engineer on the CUDA compiler backend.
               </p>
             </li>
             <li className="aboutPoints">
@@ -62,7 +61,7 @@ const About = () => {
           </ul>
         </section>
         <div id="imageHolder">
-          <img src={require("./portraits/mainpic_edit.jpeg")} />
+          <img src={require("./portraits/mainpic_edit.jpeg")} alt="Ryan Maxin" />
         </div>
       </div>
     </div>

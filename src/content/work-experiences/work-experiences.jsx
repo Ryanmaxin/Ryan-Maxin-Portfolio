@@ -11,10 +11,10 @@ const WorkExperiences = () => {
         <h1>Work Experience</h1>
       </div>
       <div className="workExperiences">
-        <h4>My next role:</h4>
+        <h4>Current role:</h4>
         <WorkExperience
           workData={{
-            name: "Compiler Software Engineer at NVIDIA (starting 10/05/26)",
+            name: "GPU Compiler Software Engineer at NVIDIA",
             imagePath: "NVIDIA.svg",
             tags: [
               Tags.CPP,

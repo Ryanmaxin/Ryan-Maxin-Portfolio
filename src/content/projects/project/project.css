@@ -82,8 +82,9 @@
 
 .outlier {
   display: flex;
-  flex-flow: row-wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
+  gap: 0.75rem;
   padding: 1rem 0.25rem;
 }
 

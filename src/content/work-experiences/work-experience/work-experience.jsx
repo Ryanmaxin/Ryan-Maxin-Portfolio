@@ -5,7 +5,7 @@ const WorkExperience = ({ workData }) => {
   return (
     <div id="workExperience">
       <div id="workImgHolder">
-        <img src={require(`../work-experience-images/${workData.imagePath}`)} />
+        <img src={require(`../work-experience-images/${workData.imagePath}`)} alt="" />
       </div>
       <div id="experienceInfo">
         <h3>

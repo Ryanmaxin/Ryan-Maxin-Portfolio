@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div id="navbar">
       <div className="titleSide">
-        <Link smooth to={ROUTES.HOME} id="navName" role="button">
+        <Link smooth to={ROUTES.HOME} id="navName">
           <h1 id="namePlate">Ryan Maxin</h1>
         </Link>
       </div>
@@ -23,7 +23,6 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="nav-link navButton"
           // id="right"
-          role="button"
         >
           Résumé
         </Link>
@@ -32,7 +31,6 @@ const Navbar = () => {
           smooth
           to={`${ROUTES.CONTENT}#about`}
           className="nav-link navButton"
-          role="button"
         >
           About Me
         </Link>
@@ -42,7 +40,6 @@ const Navbar = () => {
           to={`${ROUTES.CONTENT}#work-experience`}
           className="nav-link navButton"
           // id="right"
-          role="button"
         >
           Work Experience
         </Link>
@@ -51,7 +48,6 @@ const Navbar = () => {
           smooth
           to={`${ROUTES.CONTENT}#research`}
           className="nav-link navButton"
-          role="button"
         >
           Research
         </Link>
@@ -61,7 +57,6 @@ const Navbar = () => {
           to={`${ROUTES.CONTENT}#projects`}
           className="nav-link navButton"
           // id="right"
-          role="button"
         >
           Projects
         </Link>
@@ -72,6 +67,7 @@ const Navbar = () => {
             href="https://github.com/Ryanmaxin"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="GitHub profile"
           >
             <GitHub className="socialIcon" />
           </a>
@@ -81,6 +77,7 @@ const Navbar = () => {
             href="mailto:rymaxin@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Email Ryan"
           >
             <Mail className="socialIcon" />
           </a>
@@ -90,6 +87,7 @@ const Navbar = () => {
             href="https://www.linkedin.com/in/ryan-maxin/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
           >
             <LinkedIn className="socialIcon" />
           </a>

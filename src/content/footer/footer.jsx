@@ -23,12 +23,12 @@ const Footer = () => {
   return (
     <div id="footer">
       <span className="footerText">Handmade by Ryan</span>
-      <span className="footerText">&copy; 2022-2026</span>
+      <span className="footerText">&copy; 2022-{new Date().getFullYear()}</span>
       {isVisible && (
         <div id="ScrollToTop">
-          <a onClick={topFunction}>
-            <Arrow />
-          </a>
+          <button type="button" onClick={topFunction} aria-label="Scroll to top">
+            <Arrow aria-hidden="true" focusable="false" />
+          </button>
         </div>
       )}
     </div>
