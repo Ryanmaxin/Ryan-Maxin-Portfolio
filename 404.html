@@ -1,6 +1,5 @@
-<!-- 404.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Page Not Found</title>
@@ -8,9 +7,11 @@
   <body>
     <script>
       (function () {
-        // To avoid the issue where subpaths show 404 upon manually routing to them or refreshing the page,
-        // We just redirect to the homepage.
-        window.location.replace("https://rmaxin.com");
+        var isContentPage = /^\/content\/?$/.test(window.location.pathname);
+        var destination = isContentPage
+          ? "/?route=content" + window.location.hash
+          : "/";
+        window.location.replace(destination);
       })();
     </script>
   </body>
